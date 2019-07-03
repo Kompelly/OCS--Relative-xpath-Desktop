@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+french,,,2019-06-28 22:41:26,2019-06-28 22:41:33,7.642s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - decrease qty-fr,,,2019-06-28 22:41:26,2019-06-28 22:41:28,2.294s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:26,2019-06-28 22:41:28,1.730s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart page - Decrease qty - fr,,,2019-06-28 22:41:28,2019-06-28 22:41:29,0.693s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:28,2019-06-28 22:41:29,0.446s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - accessories -fr,,,2019-06-28 22:41:29,2019-06-28 22:41:29,0.444s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:29,2019-06-28 22:41:29,0.340s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart - fr,,,2019-06-28 22:41:29,2019-06-28 22:41:30,0.742s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:29,2019-06-28 22:41:30,0.530s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - tooltips -fr,,,2019-06-28 22:41:30,2019-06-28 22:41:31,0.535s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:30,2019-06-28 22:41:31,0.428s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Customer info page - fr,,,2019-06-28 22:41:31,2019-06-28 22:41:31,0.494s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:31,2019-06-28 22:41:31,0.362s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout-Payment - fr,,,2019-06-28 22:41:31,2019-06-28 22:41:31,0.456s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:31,2019-06-28 22:41:31,0.321s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - increase qty -fr,,,2019-06-28 22:41:31,2019-06-28 22:41:32,0.502s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:32,2019-06-28 22:41:32,0.356s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - Price comparison-fr,,,2019-06-28 22:41:32,2019-06-28 22:41:33,0.630s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:32,2019-06-28 22:41:33,0.517s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Shipping-fr,,,2019-06-28 22:41:33,2019-06-28 22:41:33,0.494s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",,,2019-06-28 22:41:33,2019-06-28 22:41:33,0.386s,FAILED

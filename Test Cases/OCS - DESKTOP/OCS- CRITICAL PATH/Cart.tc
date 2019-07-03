@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart</name>
+   <tag></tag>
+   <comment> flag=&quot; + flag
+a
+a1 = &quot; + a1
+b
+a2 = &quot; + a2
+c
+a3 = &quot; + a3
+p2=&quot; + p2
+p3=&quot; + p3
+total=&quot; + total
+c23
+a4= &quot; + a4
+b25
+a25 = &quot; + a25</comment>
+   <testCaseGuid>eb55c892-3d92-4f95-8380-8e0898da5d72</testCaseGuid>
+</TestCaseEntity>

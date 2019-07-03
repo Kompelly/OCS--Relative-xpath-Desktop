@@ -1,0 +1,639 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+french,Safari 12,,2019-06-28 22:44:35,2019-06-28 23:02:34,17m - 58.446s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - decrease qty-fr,Safari 12,,2019-06-28 22:44:35,2019-06-28 22:45:57,1m - 21.092s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:44:36,2019-06-28 22:44:55,19.058s,PASSED
+delay(2),Safari 12,,2019-06-28 22:44:55,2019-06-28 22:44:57,2.006s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:44:57,2019-06-28 22:45:06,9.389s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:45:06,2019-06-28 22:45:06,0.060s,PASSED
+delay(2),Safari 12,,2019-06-28 22:45:06,2019-06-28 22:45:08,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:45:08,2019-06-28 22:45:08,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:45:08,2019-06-28 22:45:08,0.053s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:45:08,2019-06-28 22:45:08,0.003s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:45:08,2019-06-28 22:45:10,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:45:10,2019-06-28 22:45:11,0.140s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:45:11,2019-06-28 22:45:11,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:45:11,2019-06-28 22:45:12,1.002s,PASSED
+delay(3),Safari 12,,2019-06-28 22:45:12,2019-06-28 22:45:15,3.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:45:15,2019-06-28 22:45:15,0.083s,PASSED
+delay(2),Safari 12,,2019-06-28 22:45:15,2019-06-28 22:45:17,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""), OPTIONAL)",Safari 12,,2019-06-28 22:45:17,2019-06-28 22:45:17,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:45:17,2019-06-28 22:45:19,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:45:19,2019-06-28 22:45:19,0.071s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:19,2019-06-28 22:45:20,1.002s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:45:20,2019-06-28 22:45:20,0.062s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:20,2019-06-28 22:45:21,1.006s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:45:21,2019-06-28 22:45:21,0.061s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:21,2019-06-28 22:45:22,1.005s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:45:22,2019-06-28 22:45:22,0.048s,PASSED
+delay(2),Safari 12,,2019-06-28 22:45:22,2019-06-28 22:45:24,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:45:24,2019-06-28 22:45:24,0.122s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:24,2019-06-28 22:45:25,1.007s,PASSED
+delay(2),Safari 12,,2019-06-28 22:45:25,2019-06-28 22:45:27,2.007s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Unit price - Product""))",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.048s,PASSED
+comment(a),Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.005s,PASSED
+"b = a.substring(0, a.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.003s,PASSED
+comment(b),Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"a1 = b.substring(0, b.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"comment(""a1 = "" + a1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"x1 = a1.substring(0, a1.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"comment(""x1 = "" + x1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"x2 = x1.substring(0, x1.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.000s,PASSED
+"comment(""x2 = "" + x2)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"x3 = x2.substring(0, x2.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.000s,PASSED
+"comment(""x3 = "" + x3)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.002s,PASSED
+"x6 = x3.substring(0, x3.length() - 1)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.001s,PASSED
+"comment(""x6 = "" + x6)",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.002s,PASSED
+"click(findTestObject(""FRENCH/input_-_updates""))",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.067s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart flyout/input_-_updates""), Keys.chord(CLEAR))",Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:27,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:45:27,2019-06-28 22:45:28,1.002s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart flyout/input_-_updates""), ""10"")",Safari 12,,2019-06-28 22:45:28,2019-06-28 22:45:28,0.146s,PASSED
+delay(2),Safari 12,,2019-06-28 22:45:28,2019-06-28 22:45:30,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity decrease - Product""))",Safari 12,,2019-06-28 22:45:30,2019-06-28 22:45:30,0.068s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:30,2019-06-28 22:45:32,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity decrease - Product""))",Safari 12,,2019-06-28 22:45:32,2019-06-28 22:45:32,0.167s,PASSED
+delay(1),Safari 12,,2019-06-28 22:45:32,2019-06-28 22:45:33,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity decrease - Product""))",Safari 12,,2019-06-28 22:45:33,2019-06-28 22:45:33,0.095s,PASSED
+delay(5),Safari 12,,2019-06-28 22:45:33,2019-06-28 22:45:38,5.013s,PASSED
+"c = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Sub-total Price""))",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.037s,PASSED
+comment(c),Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"d = c.substring(0, c.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.000s,PASSED
+comment(d),Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"a2 = d.substring(0, d.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"comment(""a2 = "" + a2)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.002s,PASSED
+"y1 = a2.substring(0, a2.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.000s,PASSED
+"comment(""y1 = "" + y1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"y2 = y1.substring(0, y1.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"comment(""y2 = "" + y2)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"y3 = y2.substring(0, y2.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.000s,PASSED
+"comment(""y3 = "" + y3)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"y4 = y3.substring(0, y3.length() - 1)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.000s,PASSED
+"comment(""y4 = "" + y4)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"verifyNotEqual(""x6"", ""y4"")",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.006s,PASSED
+"comment("" Sub-total Price changed . Quantity selector is working"")",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:38,0.001s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:45:38,2019-06-28 22:45:57,18.701s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart page - Decrease qty - fr,Safari 12,,2019-06-28 22:45:57,2019-06-28 22:47:31,1m - 34.945s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:45:57,2019-06-28 22:46:11,14.634s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:11,2019-06-28 22:46:13,2.002s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:46:13,2019-06-28 22:46:23,9.191s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:46:23,2019-06-28 22:46:23,0.086s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:23,2019-06-28 22:46:25,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:46:25,2019-06-28 22:46:25,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:46:25,2019-06-28 22:46:27,1.899s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:46:27,2019-06-28 22:46:27,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:46:27,2019-06-28 22:46:29,2.011s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:46:29,2019-06-28 22:46:33,4.608s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:46:33,2019-06-28 22:46:33,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:46:33,2019-06-28 22:46:34,1.005s,PASSED
+delay(3),Safari 12,,2019-06-28 22:46:34,2019-06-28 22:46:37,3.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:46:37,2019-06-28 22:46:37,0.063s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:37,2019-06-28 22:46:39,2.002s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:39,2019-06-28 22:46:41,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:46:41,2019-06-28 22:46:41,0.085s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:41,2019-06-28 22:46:42,1.006s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:46:42,2019-06-28 22:46:42,0.044s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:42,2019-06-28 22:46:43,1.006s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:46:43,2019-06-28 22:46:43,0.044s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:43,2019-06-28 22:46:44,1.006s,PASSED
+"click(findTestObject(""FRENCH/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:46:44,2019-06-28 22:46:45,0.044s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:45,2019-06-28 22:46:47,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:46:47,2019-06-28 22:46:47,0.095s,PASSED
+delay(3),Safari 12,,2019-06-28 22:46:47,2019-06-28 22:46:50,3.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:46:50,2019-06-28 22:46:50,0.055s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:50,2019-06-28 22:46:51,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:46:51,2019-06-28 22:46:51,0.051s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:51,2019-06-28 22:46:52,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Safari 12,,2019-06-28 22:46:52,2019-06-28 22:46:52,0.043s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:46:52,2019-06-28 22:46:52,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:46:52,2019-06-28 22:46:54,2.004s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""), 1)",Safari 12,,2019-06-28 22:46:54,2019-06-28 22:46:54,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:46:54,2019-06-28 22:46:55,1.003s,PASSED
+delay(2),Safari 12,,2019-06-28 22:46:55,2019-06-28 22:46:57,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""))",Safari 12,,2019-06-28 22:46:57,2019-06-28 22:46:58,0.963s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:58,2019-06-28 22:46:59,1.004s,PASSED
+delay(1),Safari 12,,2019-06-28 22:46:59,2019-06-28 22:47:00,1.002s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.019s,PASSED
+comment(a),Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.001s,PASSED
+"a1 = a.substring(0, a.length() - 1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"comment(""a1 = "" + a1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.001s,PASSED
+"x1 = a1.substring(0, a1.length() - 1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"comment(""x1 = "" + x1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"x2 = x1.substring(0, x1.length() - 1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"comment(""x2 = "" + x2)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"x3 = x2.substring(0, x2.length() - 1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.001s,PASSED
+"comment(""x3 = "" + x3)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.001s,PASSED
+"x6 = x3.substring(0, x3.length() - 1)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,PASSED
+"comment(""x6 = "" + x6)",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""))",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.071s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""10"")",Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:00,0.071s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:00,2019-06-28 22:47:02,2.004s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Safari 12,,2019-06-28 22:47:02,2019-06-28 22:47:02,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Cart page/enter quantity""))",Safari 12,,2019-06-28 22:47:02,2019-06-28 22:47:02,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:47:02,2019-06-28 22:47:04,2.001s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""7"")",Safari 12,,2019-06-28 22:47:04,2019-06-28 22:47:04,0.081s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:04,2019-06-28 22:47:06,2.014s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product""))",Safari 12,,2019-06-28 22:47:06,2019-06-28 22:47:06,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:47:06,2019-06-28 22:47:08,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Safari 12,,2019-06-28 22:47:08,2019-06-28 22:47:08,0.071s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:08,2019-06-28 22:47:10,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Safari 12,,2019-06-28 22:47:10,2019-06-28 22:47:10,0.033s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:10,2019-06-28 22:47:12,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Safari 12,,2019-06-28 22:47:12,2019-06-28 22:47:12,0.032s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:12,2019-06-28 22:47:14,2.005s,PASSED
+"b = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.028s,PASSED
+comment(b),Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"a2 = b.substring(0, b.length() - 1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.001s,PASSED
+"comment(""a2 = "" + a2)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"y1 = a2.substring(0, a2.length() - 1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"comment(""y1 = "" + y1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.001s,PASSED
+"y2 = y1.substring(0, y1.length() - 1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"comment(""y2 = "" + y2)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.001s,PASSED
+"y3 = y2.substring(0, y2.length() - 1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"comment(""y3 = "" + y3)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.001s,PASSED
+"y4 = y3.substring(0, y3.length() - 1)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"comment(""y4 = "" + y4)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"verifyNotEqual(""x6"", ""y4"")",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"comment("" price changed . Quantity selector is working"")",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:14,0.000s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - CART PAGE - SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:47:14,2019-06-28 22:47:31,17.261s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - accessories -fr,Safari 12,,2019-06-28 22:47:31,2019-06-28 22:48:17,45.872s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:47:32,2019-06-28 22:47:47,15.376s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:47,2019-06-28 22:47:49,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:47:49,2019-06-28 22:47:58,9.205s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:47:58,2019-06-28 22:47:58,0.051s,PASSED
+delay(2),Safari 12,,2019-06-28 22:47:58,2019-06-28 22:48:00,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:48:00,2019-06-28 22:48:00,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:48:00,2019-06-28 22:48:01,0.557s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:48:01,2019-06-28 22:48:01,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:48:01,2019-06-28 22:48:03,2.003s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:48:03,2019-06-28 22:48:05,2.425s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:48:05,2019-06-28 22:48:05,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:48:05,2019-06-28 22:48:06,1.014s,PASSED
+delay(3),Safari 12,,2019-06-28 22:48:06,2019-06-28 22:48:09,3.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:48:09,2019-06-28 22:48:09,0.087s,PASSED
+delay(2),Safari 12,,2019-06-28 22:48:09,2019-06-28 22:48:11,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:48:11,2019-06-28 22:48:11,0.090s,PASSED
+delay(1),Safari 12,,2019-06-28 22:48:11,2019-06-28 22:48:12,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Up Chevron - Accessories you might need""))",Safari 12,,2019-06-28 22:48:12,2019-06-28 22:48:13,0.599s,PASSED
+takeScreenshot(),Safari 12,,2019-06-28 22:48:13,2019-06-28 22:48:13,0.275s,PASSED
+delay(4),Safari 12,,2019-06-28 22:48:13,2019-06-28 22:48:17,4.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Down Chevron - Accessories you might need""))",Safari 12,,2019-06-28 22:48:17,2019-06-28 22:48:17,0.063s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart - fr,Safari 12,,2019-06-28 22:48:17,2019-06-28 22:50:33,2m - 15.503s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:48:18,2019-06-28 22:49:42,1m - 24.848s,PASSED
+delay(2),Safari 12,,2019-06-28 22:49:42,2019-06-28 22:49:44,2.004s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:49:44,2019-06-28 22:49:54,9.160s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:49:54,2019-06-28 22:49:54,0.068s,PASSED
+delay(2),Safari 12,,2019-06-28 22:49:54,2019-06-28 22:49:56,2.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:49:56,2019-06-28 22:49:56,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:49:56,2019-06-28 22:49:57,1.887s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:49:57,2019-06-28 22:49:57,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:49:57,2019-06-28 22:49:59,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:49:59,2019-06-28 22:50:06,6.298s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:50:06,2019-06-28 22:50:06,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:50:06,2019-06-28 22:50:07,1.012s,PASSED
+delay(3),Safari 12,,2019-06-28 22:50:07,2019-06-28 22:50:10,3.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:50:10,2019-06-28 22:50:10,0.093s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:10,2019-06-28 22:50:12,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:50:12,2019-06-28 22:50:12,0.130s,PASSED
+delay(1),Safari 12,,2019-06-28 22:50:12,2019-06-28 22:50:13,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Back icon""), CONTINUE_ON_FAILURE)",Safari 12,,2019-06-28 22:50:13,2019-06-28 22:50:13,0.085s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:13,2019-06-28 22:50:15,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""), OPTIONAL)",Safari 12,,2019-06-28 22:50:15,2019-06-28 22:50:15,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:50:15,2019-06-28 22:50:17,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), CONTINUE_ON_FAILURE)",Safari 12,,2019-06-28 22:50:17,2019-06-28 22:50:17,0.062s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:17,2019-06-28 22:50:19,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:50:19,2019-06-28 22:50:19,0.072s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:19,2019-06-28 22:50:21,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:50:21,2019-06-28 22:50:21,0.053s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:21,2019-06-28 22:50:23,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:50:23,2019-06-28 22:50:23,0.045s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:23,2019-06-28 22:50:25,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Safari 12,,2019-06-28 22:50:25,2019-06-28 22:50:25,0.048s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:25,2019-06-28 22:50:27,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Safari 12,,2019-06-28 22:50:27,2019-06-28 22:50:29,1.274s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:29,2019-06-28 22:50:31,2.005s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - 1st product""))",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.021s,PASSED
+comment(a),Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"a1 = a.substring(0, a.length() - 1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"comment(""a1 = "" + a1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"x1 = a1.substring(0, a1.length() - 1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"comment(""x1 = "" + x1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.001s,PASSED
+"x2 = x1.substring(0, x1.length() - 1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"comment(""x2 = "" + x2)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+"x3 = x2.substring(0, x2.length() - 1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.001s,PASSED
+"comment(""x3 = "" + x3)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.001s,PASSED
+"x6 = x3.substring(0, x3.length() - 1)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.001s,PASSED
+"comment(""x6 = "" + x6)",Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:31,0.000s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:31,2019-06-28 22:50:33,2.002s,PASSED
+"b = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - 2nd product""))",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.039s,PASSED
+comment(b),Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"a2 = b.substring(0, b.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"comment(""a2 = "" + a2)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"y1 = a2.substring(0, a2.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"comment(""y1 = "" + y1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"y2 = y1.substring(0, y1.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"comment(""y2 = "" + y2)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"y3 = y2.substring(0, y2.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"comment(""y3 = "" + y3)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"y4 = y3.substring(0, y3.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"comment(""y4 = "" + y4)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"c = getText(findTestObject(""OCS-DESKTOP/Cart page/Sub-total""))",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.057s,PASSED
+comment(c),Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"a3 = c.substring(0, c.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"comment(""a3 = "" + a3)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"z1 = a3.substring(0, a3.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"comment(""z1 = "" + z1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"z2 = z1.substring(0, z1.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"comment(""z2 = "" + z2)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"z3 = z2.substring(0, z2.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"comment(""z3 = "" + z3)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"z4 = z3.substring(0, z3.length() - 1)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+"comment(""z4 = "" + z4)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+p3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+try,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.005s,PASSED
+try,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.005s,PASSED
+"comment(""p2="" + p2)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.002s,PASSED
+"comment(""p3="" + p3)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.001s,PASSED
+total = p2 + p3,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.004s,PASSED
+"comment(""total="" + total)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.000s,PASSED
+"verifyEqual(total, z4)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:33,0.014s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - tooltips -fr,Safari 12,,2019-06-28 22:50:33,2019-06-28 22:51:18,45.541s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:50:33,2019-06-28 22:50:46,13.165s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:46,2019-06-28 22:50:48,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:50:48,2019-06-28 22:50:57,9.188s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:50:57,2019-06-28 22:50:57,0.049s,PASSED
+delay(2),Safari 12,,2019-06-28 22:50:57,2019-06-28 22:50:59,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:50:59,2019-06-28 22:50:59,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:50:59,2019-06-28 22:51:00,0.904s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:51:00,2019-06-28 22:51:00,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:51:00,2019-06-28 22:51:02,2.009s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:51:02,2019-06-28 22:51:05,2.520s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:51:05,2019-06-28 22:51:05,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:51:05,2019-06-28 22:51:06,1.002s,PASSED
+delay(3),Safari 12,,2019-06-28 22:51:06,2019-06-28 22:51:09,3.014s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:51:09,2019-06-28 22:51:09,0.084s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:09,2019-06-28 22:51:11,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:51:11,2019-06-28 22:51:11,0.099s,PASSED
+delay(1),Safari 12,,2019-06-28 22:51:11,2019-06-28 22:51:12,1.007s,PASSED
+delay(1),Safari 12,,2019-06-28 22:51:12,2019-06-28 22:51:13,1.005s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Cart flyout/tool tip - TOP""))",Safari 12,,2019-06-28 22:51:13,2019-06-28 22:51:13,0.240s,PASSED
+delay(3),Safari 12,,2019-06-28 22:51:13,2019-06-28 22:51:16,3.006s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:16,2019-06-28 22:51:18,2.004s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Cart flyout/tool tip -DOWN""))",Safari 12,,2019-06-28 22:51:18,2019-06-28 22:51:18,0.139s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Customer info page - fr,Safari 12,,2019-06-28 22:51:18,2019-06-28 22:54:23,3m - 4.618s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:51:19,2019-06-28 22:51:31,11.981s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:31,2019-06-28 22:51:33,2.001s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:51:33,2019-06-28 22:51:42,9.216s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:51:42,2019-06-28 22:51:42,0.060s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:42,2019-06-28 22:51:44,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:51:44,2019-06-28 22:51:44,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:51:44,2019-06-28 22:51:46,2.532s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:51:46,2019-06-28 22:51:46,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:51:46,2019-06-28 22:51:48,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:51:48,2019-06-28 22:51:52,3.406s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:51:52,2019-06-28 22:51:52,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:51:52,2019-06-28 22:51:53,1.005s,PASSED
+delay(3),Safari 12,,2019-06-28 22:51:53,2019-06-28 22:51:56,3.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:51:56,2019-06-28 22:51:56,0.085s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:56,2019-06-28 22:51:58,2.003s,PASSED
+delay(2),Safari 12,,2019-06-28 22:51:58,2019-06-28 22:52:00,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:52:00,2019-06-28 22:52:00,0.138s,PASSED
+delay(1),Safari 12,,2019-06-28 22:52:00,2019-06-28 22:52:01,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""))",Safari 12,,2019-06-28 22:52:01,2019-06-28 22:52:01,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:52:01,2019-06-28 22:52:02,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:52:02,2019-06-28 22:52:02,0.057s,PASSED
+delay(2),Safari 12,,2019-06-28 22:52:02,2019-06-28 22:52:04,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:52:04,2019-06-28 22:52:04,0.080s,PASSED
+delay(1),Safari 12,,2019-06-28 22:52:04,2019-06-28 22:52:05,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Safari 12,,2019-06-28 22:52:05,2019-06-28 22:53:27,1m - 22.344s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:27,2019-06-28 22:53:29,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:53:29,2019-06-28 22:53:29,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:53:29,2019-06-28 22:53:31,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse e-mail_checkoute""), ""suman@gmail.com"")",Safari 12,,2019-06-28 22:53:31,2019-06-28 22:53:32,0.321s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Prnom_checkoutshipping_a""), ""suman"")",Safari 12,,2019-06-28 22:53:32,2019-06-28 22:53:32,0.145s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Nom_checkoutshipping_add""), ""kompelly"")",Safari 12,,2019-06-28 22:53:32,2019-06-28 22:53:32,0.182s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse_checkoutshipping""), ""123 test"")",Safari 12,,2019-06-28 22:53:32,2019-06-28 22:53:32,0.193s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Appartement suite etc. (""), ""123"")",Safari 12,,2019-06-28 22:53:32,2019-06-28 22:53:32,0.124s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Ville_checkoutshipping_a""), ""montreal"")",Safari 12,,2019-06-28 22:53:32,2019-06-28 22:53:33,0.176s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Code postal_checkoutship""), ""n0r1k0"")",Safari 12,,2019-06-28 22:53:33,2019-06-28 22:53:33,0.157s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Tlphone_checkoutshipping""), ""514-449-3883"")",Safari 12,,2019-06-28 22:53:33,2019-06-28 22:53:33,0.311s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:33,2019-06-28 22:53:35,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""))",Safari 12,,2019-06-28 22:53:35,2019-06-28 22:53:35,0.080s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:35,2019-06-28 22:53:37,2.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:53:37,2019-06-28 22:53:37,0.048s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:37,2019-06-28 22:53:39,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:53:39,2019-06-28 22:53:39,0.082s,PASSED
+delay(1),Safari 12,,2019-06-28 22:53:39,2019-06-28 22:53:40,1.005s,PASSED
+"click(findTestObject(""FRENCH/Cart page -checkout button""))",Safari 12,,2019-06-28 22:53:40,2019-06-28 22:53:42,2.001s,PASSED
+delay(1),Safari 12,,2019-06-28 22:53:42,2019-06-28 22:53:43,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Safari 12,,2019-06-28 22:53:43,2019-06-28 22:53:44,0.394s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:44,2019-06-28 22:53:46,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:53:46,2019-06-28 22:53:46,0.054s,PASSED
+delay(2),Safari 12,,2019-06-28 22:53:46,2019-06-28 22:53:48,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:53:48,2019-06-28 22:53:48,0.048s,PASSED
+delay(1),Safari 12,,2019-06-28 22:53:48,2019-06-28 22:53:49,1.003s,PASSED
+"click(findTestObject(""FRENCH/Cart page -checkout button""))",Safari 12,,2019-06-28 22:53:49,2019-06-28 22:53:50,1.397s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:53:50,2019-06-28 22:53:50,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:53:50,2019-06-28 22:53:52,2.006s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Safari 12,,2019-06-28 22:53:52,2019-06-28 22:54:23,30.807s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout-Payment - fr,Safari 12,,2019-06-28 22:54:23,2019-06-28 22:58:42,4m - 19.094s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:54:23,2019-06-28 22:54:37,13.502s,PASSED
+delay(2),Safari 12,,2019-06-28 22:54:37,2019-06-28 22:54:39,2.001s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:54:39,2019-06-28 22:54:48,9.197s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:54:48,2019-06-28 22:54:48,0.055s,PASSED
+delay(2),Safari 12,,2019-06-28 22:54:48,2019-06-28 22:54:50,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:54:50,2019-06-28 22:54:50,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:54:50,2019-06-28 22:54:52,1.747s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:54:52,2019-06-28 22:54:52,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:54:52,2019-06-28 22:54:54,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:54:54,2019-06-28 22:54:58,4.683s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:54:58,2019-06-28 22:54:58,0.001s,NOT_RUN
+delay(3),Safari 12,,2019-06-28 22:54:58,2019-06-28 22:55:01,3.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:55:01,2019-06-28 22:55:01,0.062s,PASSED
+delay(2),Safari 12,,2019-06-28 22:55:01,2019-06-28 22:55:03,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""), OPTIONAL)",Safari 12,,2019-06-28 22:55:03,2019-06-28 22:55:03,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:55:03,2019-06-28 22:55:05,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:55:05,2019-06-28 22:55:06,0.106s,PASSED
+delay(2),Safari 12,,2019-06-28 22:55:06,2019-06-28 22:55:08,2.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:55:08,2019-06-28 22:55:08,0.114s,PASSED
+delay(2),Safari 12,,2019-06-28 22:55:08,2019-06-28 22:55:10,2.005s,PASSED
+delay(1),Safari 12,,2019-06-28 22:55:10,2019-06-28 22:55:11,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:55:11,2019-06-28 22:55:11,0.052s,PASSED
+delay(1),Safari 12,,2019-06-28 22:55:11,2019-06-28 22:55:12,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:55:12,2019-06-28 22:55:12,0.051s,PASSED
+delay(1),Safari 12,,2019-06-28 22:55:12,2019-06-28 22:55:13,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Safari 12,,2019-06-28 22:55:13,2019-06-28 22:55:13,0.044s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:13,2019-06-28 22:55:13,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:55:13,2019-06-28 22:55:15,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse e-mail_checkoute""), ""suman@gmail.com"")",Safari 12,,2019-06-28 22:55:15,2019-06-28 22:55:16,1.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Prnom_checkoutshipping_a""), ""suman"")",Safari 12,,2019-06-28 22:55:16,2019-06-28 22:55:16,0.136s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Nom_checkoutshipping_add""), ""kompelly"")",Safari 12,,2019-06-28 22:55:16,2019-06-28 22:55:16,0.214s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse_checkoutshipping""), ""123 test"")",Safari 12,,2019-06-28 22:55:16,2019-06-28 22:55:17,0.230s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Appartement suite etc. (""), ""123"")",Safari 12,,2019-06-28 22:55:17,2019-06-28 22:55:17,0.124s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Ville_checkoutshipping_a""), ""montreal"")",Safari 12,,2019-06-28 22:55:17,2019-06-28 22:55:17,0.198s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Code postal_checkoutship""), ""n0r1k0"")",Safari 12,,2019-06-28 22:55:17,2019-06-28 22:55:17,0.189s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Tlphone_checkoutshipping""), ""514-449-3883"")",Safari 12,,2019-06-28 22:55:17,2019-06-28 22:55:17,0.309s,PASSED
+delay(2),Safari 12,,2019-06-28 22:55:17,2019-06-28 22:55:19,2.005s,PASSED
+"click(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 22:55:19,2019-06-28 22:55:21,2.083s,PASSED
+delay(4),Safari 12,,2019-06-28 22:55:21,2019-06-28 22:55:25,4.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:25,2019-06-28 22:55:25,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:55:25,2019-06-28 22:55:27,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Livra/button_Continuer vers le moyen""))",Safari 12,,2019-06-28 22:55:27,2019-06-28 22:55:28,0.060s,PASSED
+delay(1),Safari 12,,2019-06-28 22:55:28,2019-06-28 22:55:29,1.005s,PASSED
+"click(findTestObject(""FRENCH/Change link span 1""))",Safari 12,,2019-06-28 22:55:29,2019-06-28 22:55:29,0.049s,PASSED
+delay(2),Safari 12,,2019-06-28 22:55:29,2019-06-28 22:55:31,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:31,2019-06-28 22:55:31,0.000s,NOT_RUN
+delay(3),Safari 12,,2019-06-28 22:55:31,2019-06-28 22:55:34,3.002s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 22:55:34,2019-06-28 22:55:35,1.666s,PASSED
+delay(3),Safari 12,,2019-06-28 22:55:35,2019-06-28 22:55:38,3.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:38,2019-06-28 22:55:38,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:55:38,2019-06-28 22:55:39,1.006s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Livra/button_Continuer vers le moyen""))",Safari 12,,2019-06-28 22:55:39,2019-06-28 22:55:41,2.062s,PASSED
+delay(3),Safari 12,,2019-06-28 22:55:41,2019-06-28 22:55:44,3.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:44,2019-06-28 22:55:44,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:55:44,2019-06-28 22:55:45,1.003s,PASSED
+"click(findTestObject(""FRENCH/Change link span 2""))",Safari 12,,2019-06-28 22:55:45,2019-06-28 22:55:47,1.319s,PASSED
+delay(3),Safari 12,,2019-06-28 22:55:47,2019-06-28 22:55:50,3.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:50,2019-06-28 22:55:50,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:55:50,2019-06-28 22:55:51,1.002s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 22:55:51,2019-06-28 22:55:51,0.092s,PASSED
+delay(3),Safari 12,,2019-06-28 22:55:51,2019-06-28 22:55:54,3.000s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:55:54,2019-06-28 22:55:54,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:55:54,2019-06-28 22:55:55,1.005s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 22:55:55,2019-06-28 22:58:19,2m - 23.764s,PASSED
+delay(3),Safari 12,,2019-06-28 22:58:19,2019-06-28 22:58:22,3.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:58:22,2019-06-28 22:58:22,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Safari 12,,2019-06-28 22:58:22,2019-06-28 22:58:23,0.973s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:58:23,2019-06-28 22:58:23,0.001s,NOT_RUN
+delay(3),Safari 12,,2019-06-28 22:58:23,2019-06-28 22:58:26,3.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Safari 12,,2019-06-28 22:58:26,2019-06-28 22:58:26,0.095s,PASSED
+delay(3),Safari 12,,2019-06-28 22:58:26,2019-06-28 22:58:29,3.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 22:58:29,2019-06-28 22:58:29,0.051s,PASSED
+delay(1),Safari 12,,2019-06-28 22:58:29,2019-06-28 22:58:30,1.005s,PASSED
+"click(findTestObject(""FRENCH/Cart page -checkout button""))",Safari 12,,2019-06-28 22:58:30,2019-06-28 22:58:32,2.438s,PASSED
+delay(1),Safari 12,,2019-06-28 22:58:32,2019-06-28 22:58:33,1.000s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Payment -page/Information - Breadcrumb link""))",Safari 12,,2019-06-28 22:58:33,2019-06-28 22:58:34,1.173s,PASSED
+delay(1),Safari 12,,2019-06-28 22:58:34,2019-06-28 22:58:35,1.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:58:35,2019-06-28 22:58:35,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:58:35,2019-06-28 22:58:36,1.012s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 22:58:36,2019-06-28 22:58:36,0.065s,PASSED
+delay(1),Safari 12,,2019-06-28 22:58:36,2019-06-28 22:58:37,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Shipping - Breadcrumb link""))",Safari 12,,2019-06-28 22:58:37,2019-06-28 22:58:38,0.690s,PASSED
+delay(3),Safari 12,,2019-06-28 22:58:38,2019-06-28 22:58:41,3.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:58:41,2019-06-28 22:58:41,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 22:58:41,2019-06-28 22:58:42,1.001s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Livra/button_Continuer vers le moyen""))",Safari 12,,2019-06-28 22:58:42,2019-06-28 22:58:42,0.062s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - increase qty -fr,Safari 12,,2019-06-28 22:58:42,2019-06-28 22:59:55,1m - 13.088s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:58:42,2019-06-28 22:58:55,13.089s,PASSED
+delay(2),Safari 12,,2019-06-28 22:58:55,2019-06-28 22:58:57,2.007s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:58:57,2019-06-28 22:59:07,9.192s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 22:59:07,2019-06-28 22:59:07,0.080s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:07,2019-06-28 22:59:09,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:59:09,2019-06-28 22:59:09,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 22:59:09,2019-06-28 22:59:11,2.109s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:59:11,2019-06-28 22:59:11,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:59:11,2019-06-28 22:59:13,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 22:59:13,2019-06-28 22:59:17,3.775s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 22:59:17,2019-06-28 22:59:17,0.000s,NOT_RUN
+delay(3),Safari 12,,2019-06-28 22:59:17,2019-06-28 22:59:20,3.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 22:59:20,2019-06-28 22:59:20,0.069s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:20,2019-06-28 22:59:22,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""), OPTIONAL)",Safari 12,,2019-06-28 22:59:22,2019-06-28 22:59:22,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 22:59:22,2019-06-28 22:59:24,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Safari 12,,2019-06-28 22:59:24,2019-06-28 22:59:24,0.062s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:24,2019-06-28 22:59:26,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 22:59:26,2019-06-28 22:59:26,0.143s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:26,2019-06-28 22:59:28,2.006s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Unit price - Product""))",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.534s,PASSED
+comment(a),Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.001s,PASSED
+b = a.substring(1),Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.001s,PASSED
+comment(b),Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.000s,PASSED
+"la = b.substring(0, b.length() - 1)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.000s,PASSED
+"comment(""la="" + la)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.001s,PASSED
+"la1 = la.substring(0, la.length() - 1)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.000s,PASSED
+"comment("" la1 ="" + la1)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.001s,PASSED
+"la2 = la1.substring(0, la1.length() - 1)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.000s,PASSED
+"comment(""la2 ="" + la2)",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.000s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/input_-_updates""))",Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:28,0.055s,PASSED
+delay(1),Safari 12,,2019-06-28 22:59:28,2019-06-28 22:59:29,1.004s,PASSED
+"doubleClick(findTestObject(""OCS-DESKTOP/Cart flyout/input_-_updates""))",Safari 12,,2019-06-28 22:59:29,2019-06-28 22:59:30,0.536s,PASSED
+delay(1),Safari 12,,2019-06-28 22:59:30,2019-06-28 22:59:31,1.003s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart flyout/input_-_updates""), ""3"")",Safari 12,,2019-06-28 22:59:31,2019-06-28 22:59:31,0.092s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:31,2019-06-28 22:59:33,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity increase - Product""))",Safari 12,,2019-06-28 22:59:33,2019-06-28 22:59:33,0.060s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:33,2019-06-28 22:59:35,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity increase - Product""))",Safari 12,,2019-06-28 22:59:35,2019-06-28 22:59:35,0.056s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:35,2019-06-28 22:59:37,2.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity increase - Product""))",Safari 12,,2019-06-28 22:59:37,2019-06-28 22:59:37,0.030s,PASSED
+delay(2),Safari 12,,2019-06-28 22:59:37,2019-06-28 22:59:39,2.001s,PASSED
+"c = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Sub-total Price""))",Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.023s,PASSED
+comment(c),Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.000s,PASSED
+d = c.substring(1),Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.000s,PASSED
+comment(d),Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.000s,PASSED
+"verifyNotEqual(""c"", ""d"")",Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.001s,PASSED
+"comment("" price changed . Quantity selector is working"")",Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:39,0.000s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- SHIPPING TO PAYMENT""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:59:39,2019-06-28 22:59:55,16.019s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - Price comparison-fr,Safari 12,,2019-06-28 22:59:55,2019-06-28 23:00:48,52.453s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 22:59:55,2019-06-28 23:00:10,14.440s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:10,2019-06-28 23:00:12,2.001s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 23:00:12,2019-06-28 23:00:21,9.185s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 23:00:21,2019-06-28 23:00:21,0.087s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:21,2019-06-28 23:00:23,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:00:23,2019-06-28 23:00:23,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 23:00:23,2019-06-28 23:00:24,0.740s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:00:24,2019-06-28 23:00:24,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 23:00:24,2019-06-28 23:00:26,2.005s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 23:00:26,2019-06-28 23:00:30,4.385s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:00:30,2019-06-28 23:00:30,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:00:30,2019-06-28 23:00:31,1.002s,PASSED
+delay(3),Safari 12,,2019-06-28 23:00:31,2019-06-28 23:00:34,3.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 23:00:34,2019-06-28 23:00:34,0.064s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:34,2019-06-28 23:00:36,2.014s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 23:00:36,2019-06-28 23:00:36,0.129s,PASSED
+delay(1),Safari 12,,2019-06-28 23:00:36,2019-06-28 23:00:37,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Back icon""), CONTINUE_ON_FAILURE)",Safari 12,,2019-06-28 23:00:37,2019-06-28 23:00:37,0.054s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:37,2019-06-28 23:00:39,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""), OPTIONAL)",Safari 12,,2019-06-28 23:00:39,2019-06-28 23:00:39,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 23:00:39,2019-06-28 23:00:41,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), CONTINUE_ON_FAILURE)",Safari 12,,2019-06-28 23:00:41,2019-06-28 23:00:42,0.086s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:42,2019-06-28 23:00:44,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 23:00:44,2019-06-28 23:00:44,0.048s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:44,2019-06-28 23:00:46,2.004s,PASSED
+"a = getText(findTestObject(""FRENCH/Unit price - 1st Product""))",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.013s,PASSED
+comment(a),Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"a1 = a.substring(0, a.length() - 1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"comment(""a1 = "" + a1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"x1 = a1.substring(0, a1.length() - 1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.001s,PASSED
+"comment(""x1 = "" + x1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"x2 = x1.substring(0, x1.length() - 1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"comment(""x2 = "" + x2)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"x3 = x2.substring(0, x2.length() - 1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"comment(""x3 = "" + x3)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.001s,PASSED
+"x6 = x3.substring(0, x3.length() - 1)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+"comment(""x6 = "" + x6)",Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:46,0.000s,PASSED
+delay(2),Safari 12,,2019-06-28 23:00:46,2019-06-28 23:00:48,2.011s,PASSED
+"b = getText(findTestObject(""FRENCH/Unit price - 2nd Product""))",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.024s,PASSED
+comment(b),Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"a2 = b.substring(0, b.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""a2 = "" + a2)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+"y1 = a2.substring(0, a2.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""y1 = "" + y1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"y2 = y1.substring(0, y1.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""y2 = "" + y2)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+"y3 = y2.substring(0, y2.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""y3 = "" + y3)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"y4 = y3.substring(0, y3.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""y4 = "" + y4)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+"c = getText(findTestObject(""FRENCH/Sub-total""))",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.010s,PASSED
+comment(c),Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"a3 = c.substring(0, c.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""a3 = "" + a3)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"z1 = a3.substring(0, a3.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""z1 = "" + z1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"z2 = z1.substring(0, z1.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""z2 = "" + z2)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+"z3 = z2.substring(0, z2.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""z3 = "" + z3)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"z4 = z3.substring(0, z3.length() - 1)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""z4 = "" + z4)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+p3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+try,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+try,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,PASSED
+"comment(""p2="" + p2)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""p3="" + p3)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+total = p2 + p3,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"comment(""total="" + total)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.000s,PASSED
+"verifyEqual(total, z4)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:00:48,0.001s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Shipping-fr,Safari 12,,2019-06-28 23:00:48,2019-06-28 23:02:34,1m - 45.833s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 23:00:48,2019-06-28 23:01:03,14.966s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:03,2019-06-28 23:01:05,2.004s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Safari 12,,2019-06-28 23:01:05,2019-06-28 23:01:14,9.351s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Safari 12,,2019-06-28 23:01:14,2019-06-28 23:01:14,0.060s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:14,2019-06-28 23:01:16,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:16,2019-06-28 23:01:16,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Safari 12,,2019-06-28 23:01:16,2019-06-28 23:01:18,1.930s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:18,2019-06-28 23:01:18,0.000s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 23:01:18,2019-06-28 23:01:20,2.005s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Safari 12,,2019-06-28 23:01:20,2019-06-28 23:01:24,3.640s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:24,2019-06-28 23:01:24,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:01:24,2019-06-28 23:01:25,1.006s,PASSED
+delay(3),Safari 12,,2019-06-28 23:01:25,2019-06-28 23:01:28,3.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Safari 12,,2019-06-28 23:01:28,2019-06-28 23:01:28,0.094s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:28,2019-06-28 23:01:30,2.001s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:30,2019-06-28 23:01:32,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Safari 12,,2019-06-28 23:01:32,2019-06-28 23:01:32,0.096s,PASSED
+delay(1),Safari 12,,2019-06-28 23:01:32,2019-06-28 23:01:33,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Cart icon -bag""))",Safari 12,,2019-06-28 23:01:33,2019-06-28 23:01:33,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:01:33,2019-06-28 23:01:34,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Safari 12,,2019-06-28 23:01:34,2019-06-28 23:01:34,0.061s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:34,2019-06-28 23:01:36,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 23:01:36,2019-06-28 23:01:36,0.085s,PASSED
+delay(1),Safari 12,,2019-06-28 23:01:36,2019-06-28 23:01:37,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Safari 12,,2019-06-28 23:01:37,2019-06-28 23:01:37,0.049s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:37,2019-06-28 23:01:39,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:39,2019-06-28 23:01:39,0.001s,NOT_RUN
+delay(2),Safari 12,,2019-06-28 23:01:39,2019-06-28 23:01:41,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse e-mail_checkoute""), ""suman@gmail.com"")",Safari 12,,2019-06-28 23:01:41,2019-06-28 23:01:42,0.336s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Prnom_checkoutshipping_a""), ""suman"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:42,0.192s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Nom_checkoutshipping_add""), ""kompelly"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:42,0.200s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse_checkoutshipping""), ""123 test"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:42,0.201s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Appartement suite etc. (""), ""123"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:42,0.151s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Ville_checkoutshipping_a""), ""montreal"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:42,0.210s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Code postal_checkoutship""), ""n0r1k0"")",Safari 12,,2019-06-28 23:01:42,2019-06-28 23:01:43,0.189s,PASSED
+"setText(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/input_Tlphone_checkoutshipping""), ""514-449-3883"")",Safari 12,,2019-06-28 23:01:43,2019-06-28 23:01:43,0.362s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:43,2019-06-28 23:01:45,2.006s,PASSED
+"click(findTestObject(""Object Repository/Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 23:01:45,2019-06-28 23:01:47,1.942s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:47,2019-06-28 23:01:49,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:49,2019-06-28 23:01:49,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:01:49,2019-06-28 23:01:50,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Change link""))",Safari 12,,2019-06-28 23:01:50,2019-06-28 23:01:51,1.127s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:51,2019-06-28 23:01:53,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:53,2019-06-28 23:01:53,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:01:53,2019-06-28 23:01:54,1.004s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 23:01:54,2019-06-28 23:01:56,1.406s,PASSED
+delay(2),Safari 12,,2019-06-28 23:01:56,2019-06-28 23:01:58,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:01:58,2019-06-28 23:01:58,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:01:58,2019-06-28 23:01:59,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Change link 2""))",Safari 12,,2019-06-28 23:01:59,2019-06-28 23:02:00,1.016s,PASSED
+delay(2),Safari 12,,2019-06-28 23:02:00,2019-06-28 23:02:02,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:02,2019-06-28 23:02:02,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:02:02,2019-06-28 23:02:03,1.005s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""), CONTINUE_ON_FAILURE)",Safari 12,,2019-06-28 23:02:03,2019-06-28 23:02:03,0.058s,PASSED
+delay(2),Safari 12,,2019-06-28 23:02:03,2019-06-28 23:02:05,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:05,2019-06-28 23:02:05,0.000s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:02:05,2019-06-28 23:02:06,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Return to customer info""))",Safari 12,,2019-06-28 23:02:06,2019-06-28 23:02:07,1.103s,PASSED
+delay(2),Safari 12,,2019-06-28 23:02:07,2019-06-28 23:02:09,2.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:09,2019-06-28 23:02:09,0.001s,NOT_RUN
+delay(1),Safari 12,,2019-06-28 23:02:09,2019-06-28 23:02:10,1.004s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 23:02:10,2019-06-28 23:02:10,0.081s,PASSED
+delay(2),Safari 12,,2019-06-28 23:02:10,2019-06-28 23:02:12,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:12,2019-06-28 23:02:12,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Safari 12,,2019-06-28 23:02:12,2019-06-28 23:02:13,1.249s,PASSED
+delay(2),Safari 12,,2019-06-28 23:02:13,2019-06-28 23:02:15,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:15,2019-06-28 23:02:15,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Safari 12,,2019-06-28 23:02:15,2019-06-28 23:02:15,0.092s,PASSED
+delay(1),Safari 12,,2019-06-28 23:02:15,2019-06-28 23:02:16,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Safari 12,,2019-06-28 23:02:16,2019-06-28 23:02:16,0.062s,PASSED
+delay(3),Safari 12,,2019-06-28 23:02:16,2019-06-28 23:02:19,3.002s,PASSED
+"click(findTestObject(""FRENCH/Cart page -checkout button""))",Safari 12,,2019-06-28 23:02:19,2019-06-28 23:02:21,1.784s,PASSED
+delay(1),Safari 12,,2019-06-28 23:02:21,2019-06-28 23:02:22,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Payment -page/Information - Breadcrumb link""))",Safari 12,,2019-06-28 23:02:22,2019-06-28 23:02:23,1.103s,PASSED
+delay(3),Safari 12,,2019-06-28 23:02:23,2019-06-28 23:02:26,3.003s,PASSED
+delay(1),Safari 12,,2019-06-28 23:02:26,2019-06-28 23:02:27,1.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Safari 12,,2019-06-28 23:02:27,2019-06-28 23:02:27,0.000s,NOT_RUN
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 23:02:27,2019-06-28 23:02:27,0.090s,PASSED
+delay(3),Safari 12,,2019-06-28 23:02:27,2019-06-28 23:02:30,3.001s,PASSED
+delay(1),Safari 12,,2019-06-28 23:02:30,2019-06-28 23:02:31,1.002s,PASSED
+"click(findTestObject(""Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode""))",Safari 12,,2019-06-28 23:02:31,2019-06-28 23:02:34,2.293s,PASSED

@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REmaining" time="503" tests="2" failures="1" errors="0">
+   <testsuite name="REmaining" tests="2" failures="1" errors="0" time="503" timestamp="2019-06-19 14:53:26" hostname="sumankompelly - 10.0.126.233" id="Test Suites/REmaining">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/Relative xpath-Desktop/Reports/REmaining/20190619_145324"/>
+         <property name="logFiles" value="/Users/sumankompelly/Relative xpath-Desktop/Reports/REmaining/20190619_145324/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/Relative xpath-Desktop/Reports/REmaining/20190619_145324/1560970832390.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 76.0.3809.25"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="a18ed37a3e2ad8c14373a778e12ee1f4dde4455b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP- Burger menu- Learn" classname="Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP- Burger menu- Learn" status="PASSED">
+         <system-out><![CDATA[2019-06-19 14:53:26 - [TEST_CASE][PASSED] - Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP- Burger menu- Learn: Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP- Burger menu- Learn
+
+2019-06-19 14:53:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - DESKTOP/CALL- Age gate' successfully
+
+2019-06-19 14:53:27 - [TEST_CASE][PASSED] - Test Cases/OCS - DESKTOP/CALL- Age gate: Test Cases/OCS - DESKTOP/CALL- Age gate
+
+2019-06-19 14:53:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['os_version', 'High Sierra']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['browser_version', '76.0 beta']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x960']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - User set preference: ['browserstack.local', '']
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-06-19 14:53:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-19 14:53:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 14:53:34 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=72920106828"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 14:53:39 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 14:53:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 14:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 14:53:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:53:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:53:42 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:53:42 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:53:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 14:53:48 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 14:53:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 14:53:50 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 14:53:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:53:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:53:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 14:54:08 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 14:54:08 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 14:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 14:54:09 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 14:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 14:54:09 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 14:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 14:54:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 14:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 14:54:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:12 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-06-19 14:54:12 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-19 14:54:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - DESKTOP/CALL- Age gate' successfully
+
+2019-06-19 14:54:12 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:54:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:14 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/How cannabis works")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/How cannabis works' is clicked on
+
+2019-06-19 14:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/How cannabis works' is clicked on
+
+2019-06-19 14:54:21 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:23 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:23 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:54:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/The Effects of Cannabis")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/The Effects of Cannabis' is clicked on
+
+2019-06-19 14:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/The Effects of Cannabis' is clicked on
+
+2019-06-19 14:54:28 - [TEST_STEP][PASSED] - verifyTextPresent("The Effects of Cannabis", true): Text 'The Effects of Cannabis' is present on page  using regular expression
+
+2019-06-19 14:54:29 - [MESSAGE][PASSED] - Text 'The Effects of Cannabis' is present on page  using regular expression
+
+2019-06-19 14:54:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:31 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:54:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:33 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Endocannabinoids chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Endocannabinoids chevron' is clicked on
+
+2019-06-19 14:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Endocannabinoids chevron' is clicked on
+
+2019-06-19 14:54:36 - [TEST_STEP][PASSED] - verifyTextPresent("The Endocannabinoid System", true): Text 'The Endocannabinoid System' is present on page  using regular expression
+
+2019-06-19 14:54:37 - [MESSAGE][PASSED] - Text 'The Endocannabinoid System' is present on page  using regular expression
+
+2019-06-19 14:54:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:39 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:39 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:54:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:41 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -1")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -1' is clicked on
+
+2019-06-19 14:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -1' is clicked on
+
+2019-06-19 14:54:44 - [TEST_STEP][PASSED] - verifyTextPresent("The human reaction to cannabis.", false): Text 'The human reaction to cannabis.' is present on page 
+
+2019-06-19 14:54:45 - [MESSAGE][PASSED] - Text 'The human reaction to cannabis.' is present on page 
+
+2019-06-19 14:54:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:49 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Cannabis anatomy")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cannabis anatomy' is clicked on
+
+2019-06-19 14:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cannabis anatomy' is clicked on
+
+2019-06-19 14:54:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:54 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:54:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:54:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:54:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/CBD")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/CBD' is clicked on
+
+2019-06-19 14:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/CBD' is clicked on
+
+2019-06-19 14:54:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:01 - [TEST_STEP][PASSED] - verifyTextPresent("CANNABIS ANATOMY", false, CONTINUE_ON_FAILURE): Text 'CANNABIS ANATOMY' is present on page 
+
+2019-06-19 14:55:02 - [MESSAGE][PASSED] - Text 'CANNABIS ANATOMY' is present on page 
+
+2019-06-19 14:55:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:04 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:04 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:55:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Terpenes")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Terpenes' is clicked on
+
+2019-06-19 14:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Terpenes' is clicked on
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn")): NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Learn_OR/Page_The Effects of Cannabis  Ontar/a_Read More")): NOT_RUN: click(findTestObject("Object Repository/Learn_OR/Page_The Effects of Cannabis  Ontar/a_Read More"))
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Learn_OR/Page_The Effects of Cannabis  Ontar/a_Read More"))
+
+2019-06-19 14:55:10 - [TEST_STEP][PASSED] - verifyTextPresent("Terpenes give cannabis strains their unique aromas.", true): Text 'Terpenes give cannabis strains their unique aromas.' is present on page  using regular expression
+
+2019-06-19 14:55:10 - [MESSAGE][PASSED] - Text 'Terpenes give cannabis strains their unique aromas.' is present on page  using regular expression
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn")): NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Cannabis Anatomy")): NOT_RUN: click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Cannabis Anatomy"))
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Cannabis Anatomy"))
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn")): NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn"))
+
+2019-06-19 14:55:10 - [TEST_STEP][NOT_RUN] - verifyTextPresent("Terpenes give cannabis strains their unique aromas.", true): NOT_RUN: verifyTextPresent("Terpenes give cannabis strains their unique aromas.", true)
+
+2019-06-19 14:55:10 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent("Terpenes give cannabis strains their unique aromas.", true)
+
+2019-06-19 14:55:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:12 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:55:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:55:13 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/THC")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/THC' is clicked on
+
+2019-06-19 14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/THC' is clicked on
+
+2019-06-19 14:55:18 - [TEST_STEP][PASSED] - verifyTextPresent("THC is the component in cannabis that is primarily responsible for its intoxicating, psychoactive effects.", true): Text 'THC is the component in cannabis that is primarily responsible for its intoxicating, psychoactive effects.' is present on page  using regular expression
+
+2019-06-19 14:55:18 - [MESSAGE][PASSED] - Text 'THC is the component in cannabis that is primarily responsible for its intoxicating, psychoactive effects.' is present on page  using regular expression
+
+2019-06-19 14:55:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:55:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:55:21 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -2"), STOP_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -2' is clicked on
+
+2019-06-19 14:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -2' is clicked on
+
+2019-06-19 14:55:25 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:55:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:27 - [TEST_STEP][PASSED] - verifyTextPresent("The components of a complex plant.", true): Text 'The components of a complex plant.' is present on page  using regular expression
+
+2019-06-19 14:55:27 - [MESSAGE][PASSED] - Text 'The components of a complex plant.' is present on page  using regular expression
+
+2019-06-19 14:55:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Cannabis Consumption")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cannabis Consumption' is clicked on
+
+2019-06-19 14:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cannabis Consumption' is clicked on
+
+2019-06-19 14:55:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:55:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:55:35 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:55:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:55:37 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Cooking with cannabis")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cooking with cannabis' is clicked on
+
+2019-06-19 14:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Cooking with cannabis' is clicked on
+
+2019-06-19 14:55:40 - [TEST_STEP][PASSED] - verifyTextPresent("Cannabis-infused foods are becoming more common, and careful preparation is required to avoid overconsumption.", true): Text 'Cannabis-infused foods are becoming more common, and careful preparation is required to avoid overconsumption.' is present on page  using regular expression
+
+2019-06-19 14:55:41 - [MESSAGE][PASSED] - Text 'Cannabis-infused foods are becoming more common, and careful preparation is required to avoid overconsumption.' is present on page  using regular expression
+
+2019-06-19 14:55:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:43 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:55:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/storing cannabis - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/storing cannabis - chevron' is clicked on
+
+2019-06-19 14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/storing cannabis - chevron' is clicked on
+
+2019-06-19 14:55:48 - [TEST_STEP][PASSED] - verifyTextPresent("How to keep your family safe and your cannabis from spoiling.", true): Text 'How to keep your family safe and your cannabis from spoiling.' is present on page  using regular expression
+
+2019-06-19 14:55:49 - [MESSAGE][PASSED] - Text 'How to keep your family safe and your cannabis from spoiling.' is present on page  using regular expression
+
+2019-06-19 14:55:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:51 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:51 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:55:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:53 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Growing cannabis - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Growing cannabis - chevron' is clicked on
+
+2019-06-19 14:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Growing cannabis - chevron' is clicked on
+
+2019-06-19 14:55:56 - [TEST_STEP][PASSED] - verifyTextPresent("It is legal in Ontario to own and grow up to 4 cannabis plants in your own residential dwelling. Get beginner growing tips here.", true): Text 'It is legal in Ontario to own and grow up to 4 cannabis plants in your own residential dwelling. Get beginner growing tips here.' is present on page  using regular expression
+
+2019-06-19 14:55:57 - [MESSAGE][PASSED] - Text 'It is legal in Ontario to own and grow up to 4 cannabis plants in your own residential dwelling. Get beginner growing tips here.' is present on page  using regular expression
+
+2019-06-19 14:55:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:55:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:55:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:55:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:01 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -3")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -3' is clicked on
+
+2019-06-19 14:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -3' is clicked on
+
+2019-06-19 14:56:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:07 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:56:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:09 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/How to Choose Cannabis Products")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/How to Choose Cannabis Products' is clicked on
+
+2019-06-19 14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/How to Choose Cannabis Products' is clicked on
+
+2019-06-19 14:56:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:56:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:56:13 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:56:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:56:14 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Reading a product label - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Reading a product label - chevron' is clicked on
+
+2019-06-19 14:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Reading a product label - chevron' is clicked on
+
+2019-06-19 14:56:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:56:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:56:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/cannabinoid content - chveron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/cannabinoid content - chveron' is clicked on
+
+2019-06-19 14:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/cannabinoid content - chveron' is clicked on
+
+2019-06-19 14:56:24 - [TEST_STEP][PASSED] - verifyTextPresent("Understanding Cannabinoid Content on Product Labels", true): Text 'Understanding Cannabinoid Content on Product Labels' is present on page  using regular expression
+
+2019-06-19 14:56:24 - [MESSAGE][PASSED] - Text 'Understanding Cannabinoid Content on Product Labels' is present on page  using regular expression
+
+2019-06-19 14:56:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:26 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:27 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:56:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Factors in Choosing Canna - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Factors in Choosing Canna - chevron' is clicked on
+
+2019-06-19 14:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Factors in Choosing Canna - chevron' is clicked on
+
+2019-06-19 14:56:32 - [TEST_STEP][PASSED] - verifyTextPresent("Six things to know before deciding to consume cannabis.", true): Text 'Six things to know before deciding to consume cannabis.' is present on page  using regular expression
+
+2019-06-19 14:56:32 - [MESSAGE][PASSED] - Text 'Six things to know before deciding to consume cannabis.' is present on page  using regular expression
+
+2019-06-19 14:56:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:34 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:36 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -4"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -4' is clicked on
+
+2019-06-19 14:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -4' is clicked on
+
+2019-06-19 14:56:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:42 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:44 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian' is clicked on
+
+2019-06-19 14:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian' is clicked on
+
+2019-06-19 14:56:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:56:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:56:49 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:56:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:56:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Why Legal Cannabis Costs more - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Why Legal Cannabis Costs more - chevron' is clicked on
+
+2019-06-19 14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Why Legal Cannabis Costs more - chevron' is clicked on
+
+2019-06-19 14:56:53 - [TEST_STEP][PASSED] - verifyTextPresent("Four Reasons Why Legal Cannabis Costs More", true): Text 'Four Reasons Why Legal Cannabis Costs More' is present on page  using regular expression
+
+2019-06-19 14:56:54 - [MESSAGE][PASSED] - Text 'Four Reasons Why Legal Cannabis Costs More' is present on page  using regular expression
+
+2019-06-19 14:56:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:56:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:56:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:56:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian' is clicked on
+
+2019-06-19 14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Buying Cannabis at OCS plus accordian' is clicked on
+
+2019-06-19 14:56:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:00 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:01 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/why trust us - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/why trust us - chevron' is clicked on
+
+2019-06-19 14:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/why trust us - chevron' is clicked on
+
+2019-06-19 14:57:04 - [TEST_STEP][PASSED] - verifyTextPresent("Legal products and reliable information.", true): Text 'Legal products and reliable information.' is present on page  using regular expression
+
+2019-06-19 14:57:05 - [MESSAGE][PASSED] - Text 'Legal products and reliable information.' is present on page  using regular expression
+
+2019-06-19 14:57:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:07 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:07 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:57:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/about buying cannabis - chveron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/about buying cannabis - chveron' is clicked on
+
+2019-06-19 14:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/about buying cannabis - chveron' is clicked on
+
+2019-06-19 14:57:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:15 - [TEST_STEP][PASSED] - verifyTextPresent("These facts are good to know before making a cannabis purchase.", true): Text 'These facts are good to know before making a cannabis purchase.' is present on page  using regular expression
+
+2019-06-19 14:57:16 - [MESSAGE][PASSED] - Text 'These facts are good to know before making a cannabis purchase.' is present on page  using regular expression
+
+2019-06-19 14:57:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:18 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:57:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -5")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -5' is clicked on
+
+2019-06-19 14:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -5' is clicked on
+
+2019-06-19 14:57:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:21 - [TEST_STEP][PASSED] - verifyTextPresent("Buying Cannabis at OCS", true): Text 'Buying Cannabis at OCS' is present on page  using regular expression
+
+2019-06-19 14:57:22 - [MESSAGE][PASSED] - Text 'Buying Cannabis at OCS' is present on page  using regular expression
+
+2019-06-19 14:57:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:26 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Whats Legal plus accordian")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Whats Legal plus accordian' is clicked on
+
+2019-06-19 14:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Whats Legal plus accordian' is clicked on
+
+2019-06-19 14:57:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:30 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/History -part 1 - chveron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/History -part 1 - chveron' is clicked on
+
+2019-06-19 14:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/History -part 1 - chveron' is clicked on
+
+2019-06-19 14:57:34 - [TEST_STEP][PASSED] - verifyTextPresent("A Brief History of Cannabis - Part 1", true): Text 'A Brief History of Cannabis - Part 1' is present on page  using regular expression
+
+2019-06-19 14:57:35 - [MESSAGE][PASSED] - Text 'A Brief History of Cannabis - Part 1' is present on page  using regular expression
+
+2019-06-19 14:57:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:37 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:37 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2019-06-19 14:57:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:39 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/History -part 2 - chveron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/History -part 2 - chveron' is clicked on
+
+2019-06-19 14:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/History -part 2 - chveron' is clicked on
+
+2019-06-19 14:57:42 - [TEST_STEP][PASSED] - verifyTextPresent("A Brief History of Cannabis - Part 2", true): Text 'A Brief History of Cannabis - Part 2' is present on page  using regular expression
+
+2019-06-19 14:57:43 - [MESSAGE][PASSED] - Text 'A Brief History of Cannabis - Part 2' is present on page  using regular expression
+
+2019-06-19 14:57:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:45 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-06-19 14:57:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:57:46 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Legal Use of Cannabis in ontario - chevron")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Legal Use of Cannabis in ontario - chevron' is clicked on
+
+2019-06-19 14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Legal Use of Cannabis in ontario - chevron' is clicked on
+
+2019-06-19 14:57:49 - [TEST_STEP][PASSED] - verifyTextPresent("What you need to know before your start shopping.", true): Text 'What you need to know before your start shopping.' is present on page  using regular expression
+
+2019-06-19 14:57:50 - [MESSAGE][PASSED] - Text 'What you need to know before your start shopping.' is present on page  using regular expression
+
+2019-06-19 14:57:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:52 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:57:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:57:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:57:54 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/Read More -6")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -6' is clicked on
+
+2019-06-19 14:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/Read More -6' is clicked on
+
+2019-06-19 14:57:58 - [TEST_STEP][PASSED] - verifyTextPresent("Learn about cannabis laws.", true): Text 'Learn about cannabis laws.' is present on page  using regular expression
+
+2019-06-19 14:57:58 - [MESSAGE][PASSED] - Text 'Learn about cannabis laws.' is present on page  using regular expression
+
+2019-06-19 14:57:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:00 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("OCS-MOBILE /LEARN page/see the learn section button")): NOT_RUN: click(findTestObject("OCS-MOBILE /LEARN page/see the learn section button"))
+
+2019-06-19 14:58:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OCS-MOBILE /LEARN page/see the learn section button"))
+
+2019-06-19 14:58:03 - [TEST_STEP][NOT_RUN] - verifyTextPresent("Learn about cannabis laws.", true): NOT_RUN: verifyTextPresent("Learn about cannabis laws.", true)
+
+2019-06-19 14:58:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent("Learn about cannabis laws.", true)
+
+2019-06-19 14:58:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): NOT_RUN: click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE)
+
+2019-06-19 14:58:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE)
+
+2019-06-19 14:58:05 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/a brief history of cannabis")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/a brief history of cannabis' is clicked on
+
+2019-06-19 14:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/a brief history of cannabis' is clicked on
+
+2019-06-19 14:58:08 - [TEST_STEP][PASSED] - verifyTextPresent("How to Recycle Cannabis Packaging", true): Text 'How to Recycle Cannabis Packaging' is present on page  using regular expression
+
+2019-06-19 14:58:08 - [MESSAGE][PASSED] - Text 'How to Recycle Cannabis Packaging' is present on page  using regular expression
+
+2019-06-19 14:58:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:10 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-06-19 14:58:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:58:11 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:12 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:12 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/see our FAQ")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/see our FAQ' is clicked on
+
+2019-06-19 14:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/see our FAQ' is clicked on
+
+2019-06-19 14:58:16 - [TEST_STEP][PASSED] - verifyTextPresent("Legal Use of Cannabis in Ontario", true, OPTIONAL): Text 'Legal Use of Cannabis in Ontario' is not present on page  using regular expression
+
+2019-06-19 14:58:16 - [MESSAGE][WARNING] - Text 'Legal Use of Cannabis in Ontario' is not present on page  using regular expression
+
+2019-06-19 14:58:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En' is clicked on
+
+2019-06-19 14:58:19 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-06-19 14:58:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 14:58:20 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:20 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/LEARN page/SEE OUR GLOSSARY")): Object: 'Object Repository/OCS-DESKTOP/LEARN page/SEE OUR GLOSSARY' is clicked on
+
+2019-06-19 14:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/LEARN page/SEE OUR GLOSSARY' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer" classname="Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-19 14:58:23 - [TEST_CASE][FAILED] - Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer: Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)
+
+
+2019-06-19 14:58:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - DESKTOP/CALL- Age gate' successfully
+
+2019-06-19 14:58:23 - [TEST_CASE][PASSED] - Test Cases/OCS - DESKTOP/CALL- Age gate: Test Cases/OCS - DESKTOP/CALL- Age gate
+
+2019-06-19 14:58:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 14:58:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['os_version', 'High Sierra']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['browser_version', '76.0 beta']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x960']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - User set preference: ['browserstack.local', '']
+
+2019-06-19 14:58:24 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-06-19 14:58:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 14:58:29 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=72920106828"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 14:58:34 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 14:58:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 14:58:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 14:58:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:37 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:37 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:58:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 14:58:41 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 14:58:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 14:58:43 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 14:58:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:58:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:58:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 14:58:59 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 14:58:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 14:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 14:58:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 14:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 14:58:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 14:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 14:59:00 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 14:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 14:59:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:02 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-06-19 14:59:02 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-19 14:59:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - DESKTOP/CALL- Age gate' successfully
+
+2019-06-19 14:59:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:04 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:06 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Return Policy")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Return Policy' is clicked on
+
+2019-06-19 14:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Return Policy' is clicked on
+
+2019-06-19 14:59:09 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:09 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:09 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Glossary of terms")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Glossary of terms' is clicked on
+
+2019-06-19 14:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Glossary of terms' is clicked on
+
+2019-06-19 14:59:12 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-06-19 14:59:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:14 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:14 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:14 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Product Recall")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Product Recall' is clicked on
+
+2019-06-19 14:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Product Recall' is clicked on
+
+2019-06-19 14:59:17 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-06-19 14:59:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:19 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:19 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Government of Canada - Canna")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Government of Canada - Canna' is clicked on
+
+2019-06-19 14:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Government of Canada - Canna' is clicked on
+
+2019-06-19 14:59:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:22 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-06-19 14:59:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:24 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:24 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Government of Ontario - Cann")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Government of Ontario - Cann' is clicked on
+
+2019-06-19 14:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Government of Ontario - Cann' is clicked on
+
+2019-06-19 14:59:29 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:29 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/About the OCS")): Object: 'Object Repository/OCS-DESKTOP/Home - page/About the OCS' is clicked on
+
+2019-06-19 14:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/About the OCS' is clicked on
+
+2019-06-19 14:59:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:39 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:39 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:39 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Careers")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Careers' is clicked on
+
+2019-06-19 14:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Careers' is clicked on
+
+2019-06-19 14:59:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:48 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-06-19 14:59:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:50 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:50 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/News"), OPTIONAL): Object: 'Object Repository/OCS-DESKTOP/Home - page/News' is clicked on
+
+2019-06-19 14:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/News' is clicked on
+
+2019-06-19 14:59:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 14:59:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 14:59:58 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:58 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 14:59:58 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Doing Business With OCS")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Doing Business With OCS' is clicked on
+
+2019-06-19 15:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Doing Business With OCS' is clicked on
+
+2019-06-19 15:00:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:00:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:00:06 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:06 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Help us improve OCS.ca"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-DESKTOP/Home - page/Help us improve OCS.ca' is clicked on
+
+2019-06-19 15:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Help us improve OCS.ca' is clicked on
+
+2019-06-19 15:00:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:00:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:00:14 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:14 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:14 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Terms and Conditions")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Terms and Conditions' is clicked on
+
+2019-06-19 15:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Terms and Conditions' is clicked on
+
+2019-06-19 15:00:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:00:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:00:25 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:25 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Home - page/Privacy")): Object: 'Object Repository/OCS-DESKTOP/Home - page/Privacy' is clicked on
+
+2019-06-19 15:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Home - page/Privacy' is clicked on
+
+2019-06-19 15:00:32 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:32 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:32 - [TEST_STEP][FAILED] - click(findTestObject("OCS-DESKTOP/Home - page/Accessibility")): click(findTestObject("OCS-DESKTOP/Home - page/Accessibility")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)
+
+
+2019-06-19 15:00:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/Relative xpath-Desktop/Reports/REmaining/20190619_145324/1560970832390.png]]
+
+2019-06-19 15:00:33 - [MESSAGE][FAILED] - click(findTestObject("OCS-DESKTOP/Home - page/Accessibility")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-06-19 14:58:23 - [TEST_CASE][FAILED] - Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer: Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Price" classname="Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Price" status="PASSED">
+         <system-out><![CDATA[2019-06-19 15:00:33 - [TEST_CASE][PASSED] - Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Price: Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Price
+
+2019-06-19 15:00:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - DESKTOP/CALL - PDP' successfully
+
+2019-06-19 15:00:33 - [TEST_CASE][PASSED] - Test Cases/OCS - DESKTOP/CALL - PDP: Test Cases/OCS - DESKTOP/CALL - PDP
+
+2019-06-19 15:00:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-19 15:00:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['os', 'OS X']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['os_version', 'High Sierra']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['browser_version', '76.0 beta']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x960']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - User set preference: ['browserstack.local', '']
+
+2019-06-19 15:00:34 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-06-19 15:00:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-19 15:00:40 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=72920106828"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 15:00:45 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=72920106828' successfully
+
+2019-06-19 15:00:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-06-19 15:00:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-06-19 15:00:46 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:46 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:00:46 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-06-19 15:00:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-06-19 15:00:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 15:00:56 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date'  using regular expression
+
+2019-06-19 15:00:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 15:00:59 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/month'  using regular expression
+
+2019-06-19 15:00:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 15:01:17 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown'  using regular expression
+
+2019-06-19 15:01:17 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 15:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify' is clicked on
+
+2019-06-19 15:01:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 15:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-06-19 15:01:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 15:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM' is clicked on
+
+2019-06-19 15:01:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 15:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing' is clicked on
+
+2019-06-19 15:01:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-06-19 15:01:19 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-19 15:01:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:21 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English' is hovered
+
+2019-06-19 15:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English' is hovered
+
+2019-06-19 15:01:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item' is clicked on
+
+2019-06-19 15:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item' is clicked on
+
+2019-06-19 15:01:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0): Scroll to object 'Object Repository/OCS-DESKTOP/Collection page/Product image - 1st one' successfully
+
+2019-06-19 15:01:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-19 15:01:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-DESKTOP/Collection page/Product image - 1st one' successfully
+
+2019-06-19 15:01:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-DESKTOP/Collection page/Product image - 1st one' is clicked on
+
+2019-06-19 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Collection page/Product image - 1st one' is clicked on
+
+2019-06-19 15:01:36 - [TEST_STEP][PASSED] - executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", []): Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:01:36 - [MESSAGE][PASSED] - Execute JavaScript 'var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";' successfully
+
+2019-06-19 15:01:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - DESKTOP/CALL - PDP' successfully
+
+2019-06-19 15:01:39 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): NOT_RUN: navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756")
+
+2019-06-19 15:01:39 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756")
+
+2019-06-19 15:01:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-DESKTOP/Product page/Product image' successfully
+
+2019-06-19 15:01:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-DESKTOP/Product page/Product image' successfully
+
+2019-06-19 15:01:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:43 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g")): Object: 'Object Repository/OCS-DESKTOP/Product page/Swatch_1g' is clicked on
+
+2019-06-19 15:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Product page/Swatch_1g' is clicked on
+
+2019-06-19 15:01:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:45 - [TEST_STEP][NOT_RUN] - scrollToElement(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"), 0): NOT_RUN: scrollToElement(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"), 0)
+
+2019-06-19 15:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"), 0)
+
+2019-06-19 15:01:45 - [TEST_STEP][NOT_RUN] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): NOT_RUN: scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1)
+
+2019-06-19 15:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1)
+
+2019-06-19 15:01:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-06-19 15:01:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-19 15:01:47 - [TEST_STEP][PASSED] - a = getText(findTestObject("OCS-DESKTOP/Product page/Price/1g Price - Swatch")): Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/1g Price - Swatch' is: '$10.25'
+
+2019-06-19 15:01:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/1g Price - Swatch' is: '$10.25'
+
+2019-06-19 15:01:47 - [TEST_STEP][PASSED] - comment("a =" + a): a =$10.25
+
+2019-06-19 15:01:47 - [MESSAGE][INFO] - a =$10.25
+
+2019-06-19 15:01:47 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-06-19 15:01:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-19 15:01:48 - [TEST_STEP][PASSED] - flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Product page/Price/Price - Add to cart button"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is present
+
+2019-06-19 15:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is present
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("flag =" + flag): flag =true
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - flag =true
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - if (flag == true): Actual object '34.10' and expected object '34.10' are equal
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - b = getText(findTestObject("OCS-DESKTOP/Product page/Price/Price - Add to cart button")): Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is: '$10.25'
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is: '$10.25'
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("a =" + a): a =$10.25
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - a =$10.25
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - a1 = a.substring(1): null
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("a1=" + a1): a1=10.25
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - a1=10.25
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("b =" + b): b =$10.25
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - b =$10.25
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - b1 = a.substring(1): null
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("b1 =" + b1): b1 =10.25
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - b1 =10.25
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - verifyEqual(a1, b1): Actual object '10.25' and expected object '10.25' are equal
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Actual object '10.25' and expected object '10.25' are equal
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g")): Object: 'Object Repository/OCS-DESKTOP/Product page/Swatch_3.5g' is clicked on
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-DESKTOP/Product page/Swatch_3.5g' is clicked on
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - c = getText(findTestObject("OCS-DESKTOP/Product page/Price/3.5g Price - Swatch"), STOP_ON_FAILURE): Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/3.5g Price - Swatch' is: '$34.10'
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/3.5g Price - Swatch' is: '$34.10'
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("c =" + c): c =$34.10
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - c =$34.10
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - c1 = c.substring(1): null
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("c1 =" + c1): c1 =34.10
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - c1 =34.10
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - d = getText(findTestObject("OCS-DESKTOP/Product page/Price/Price - Add to cart button")): Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is: '$34.10'
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-DESKTOP/Product page/Price/Price - Add to cart button' is: '$34.10'
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("d =" + d): d =$34.10
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - d =$34.10
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - d1 = d.substring(1): null
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - comment("d1 =" + d1): d1 =34.10
+
+2019-06-19 15:01:49 - [MESSAGE][INFO] - d1 =34.10
+
+2019-06-19 15:01:49 - [TEST_STEP][PASSED] - verifyEqual(c1, d1): Actual object '34.10' and expected object '34.10' are equal
+
+2019-06-19 15:01:49 - [MESSAGE][PASSED] - Actual object '34.10' and expected object '34.10' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-19 14:53:26 - [TEST_SUITE][FAILED] - REmaining: Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-06-19 14:53:26 - [TEST_SUITE][FAILED] - REmaining: Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-DESKTOP/Home - page/Accessibility' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=76.0.3809.25)
+  (Driver info: chromedriver=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'mac-207-254-12-219.browserstack.com', ip: '207.254.12.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52929}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.25 (a0c95f440512e06df1c9c206f2d79cc20be18bb1-refs/branch-heads/3809@{#271}), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.com.google.Chrome.iCpSbH}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.25, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 03e289dbda615348b75315ad8ecc3f22
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at footer.run(footer:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560970404653.run(TempTestSuite1560970404653.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

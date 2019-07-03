@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Apollo- Desktop,Chrome 75.0.3770.100,,2019-06-18 15:52:40,2019-06-18 16:23:46,31m - 5.678s,FAILED
+,,,,,,
+Test Cases/COLLECTION PAGE/colour variants,Chrome 75.0.3770.100,,2019-06-18 15:52:40,2019-06-18 15:53:15,34.949s,PASSED
+,,,,,,
+Test Cases/COLLECTION PAGE/Sort,Chrome 75.0.3770.100,,2019-06-18 15:53:15,2019-06-18 15:55:00,1m - 44.593s,PASSED
+,,,,,,
+Test Cases/COLLECTION PAGE/Prouducts layout style,Chrome 75.0.3770.100,,2019-06-18 15:55:00,2019-06-18 15:55:29,29.733s,PASSED
+,,,,,,
+Test Cases/COLLECTION PAGE/Filter,Chrome 75.0.3770.100,,2019-06-18 15:55:29,2019-06-18 15:57:01,1m - 31.260s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Store locator,Chrome 75.0.3770.100,,2019-06-18 15:57:01,2019-06-18 15:57:08,7.623s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/New letter and video CTA,Chrome 75.0.3770.100,,2019-06-18 15:57:08,2019-06-18 15:57:32,23.882s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/Hero banner - CTA,Chrome 75.0.3770.100,,2019-06-18 15:57:32,2019-06-18 15:57:42,9.585s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Burger menu - navigation links,Chrome 75.0.3770.100,,2019-06-18 15:57:42,2019-06-18 15:59:44,2m - 2.364s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/Featured collection,Chrome 75.0.3770.100,,2019-06-18 15:59:44,2019-06-18 16:00:33,48.548s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/Footer,Chrome 75.0.3770.100,,2019-06-18 16:00:33,2019-06-18 16:01:17,44.264s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Cart flyout opening,Chrome 75.0.3770.100,,2019-06-18 16:01:17,2019-06-18 16:01:31,14.409s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/Popular products,Chrome 75.0.3770.100,,2019-06-18 16:01:31,2019-06-18 16:02:55,1m - 23.893s,FAILED
+,,,,,,
+Test Cases/HOME PAGE/Our latest blog posts,Chrome 75.0.3770.100,,2019-06-18 16:02:55,2019-06-18 16:03:35,39.252s,PASSED
+,,,,,,
+Test Cases/HOME PAGE/Follow us,Chrome 75.0.3770.100,,2019-06-18 16:03:35,2019-06-18 16:04:19,44.365s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/Social media icons,Chrome 75.0.3770.100,,2019-06-18 16:04:19,2019-06-18 16:05:12,53.460s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/More payment link and buy with google pay,Chrome 75.0.3770.100,,2019-06-18 16:05:12,2019-06-18 16:06:18,1m - 5.833s,PASSED
+,,,,,,
+Test Cases/PRODUCT PAGE/Product chevron dropdowns,Chrome 75.0.3770.100,,2019-06-18 16:06:18,2019-06-18 16:09:28,3m - 9.374s,FAILED
+,,,,,,
+Test Cases/PRODUCT PAGE/You might also like,Chrome 75.0.3770.100,,2019-06-18 16:09:28,2019-06-18 16:10:33,1m - 5.537s,PASSED
+,,,,,,
+Test Cases/PRODUCT PAGE/Shop all products CTA,Chrome 75.0.3770.100,,2019-06-18 16:10:33,2019-06-18 16:10:59,25.949s,PASSED
+,,,,,,
+Test Cases/PRODUCT PAGE/Image sliders and chevrons,Chrome 75.0.3770.100,,2019-06-18 16:10:59,2019-06-18 16:12:18,1m - 18.862s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Home page - add to bag CTA,Chrome 75.0.3770.100,,2019-06-18 16:12:18,2019-06-18 16:13:09,51.345s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - cart page,Chrome 75.0.3770.100,,2019-06-18 16:13:09,2019-06-18 16:14:45,1m - 35.950s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Increase quantity - Cart flyout,Chrome 75.0.3770.100,,2019-06-18 16:14:45,2019-06-18 16:15:47,1m - 1.635s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding diff prods to cart,Chrome 75.0.3770.100,,2019-06-18 16:15:47,2019-06-18 16:17:17,1m - 29.707s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - cart page,Chrome 75.0.3770.100,,2019-06-18 16:17:17,2019-06-18 16:18:23,1m - 6.325s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - cart page,Chrome 75.0.3770.100,,2019-06-18 16:18:23,2019-06-18 16:19:53,1m - 29.721s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding product - Search flyout,Chrome 75.0.3770.100,,2019-06-18 16:19:53,2019-06-18 16:20:31,38.372s,FAILED
+,,,,,,
+Test Cases/CRITICAL PATH/Adding product - home page,Chrome 75.0.3770.100,,2019-06-18 16:20:31,2019-06-18 16:21:15,44.257s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Login and logout,Chrome 75.0.3770.100,,2019-06-18 16:21:15,2019-06-18 16:21:37,21.728s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Decrease quantity - Cart flyout,Chrome 75.0.3770.100,,2019-06-18 16:21:37,2019-06-18 16:22:47,1m - 9.749s,PASSED
+,,,,,,
+Test Cases/CRITICAL PATH/Price comparison - Cart flyout,Chrome 75.0.3770.100,,2019-06-18 16:22:47,2019-06-18 16:23:45,58.572s,PASSED
