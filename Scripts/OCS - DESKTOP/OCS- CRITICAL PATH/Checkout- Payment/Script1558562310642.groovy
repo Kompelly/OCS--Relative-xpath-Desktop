@@ -131,12 +131,16 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Payment -page/Change link span 2'))
 
+WebUI.delay(3)
+
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Shipping page/Continue to payment method - Button'))
+
+WebUI.delay(3)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -151,6 +155,8 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
     [])
 
 WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Cart - Breadcrumb link'))
+
+WebUI.delay(3)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -173,6 +179,8 @@ WebUI.click(findTestObject('OCS-DESKTOP/Payment -page/Information - Breadcrumb l
 
 WebUI.delay(1)
 
+WebUI.delay(3)
+
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
@@ -183,6 +191,8 @@ WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Shipping page/Shipping - Breadcrumb link'))
+
+WebUI.delay(3)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

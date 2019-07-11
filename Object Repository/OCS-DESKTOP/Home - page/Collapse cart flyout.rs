@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class='icon icon--back js-close-flyout']</value>
+         <value>//i[@class='icon icon--close js-close-flyout']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//i[@class='icon icon--back js-close-flyout']</value>
+      <value>//i[@class='icon icon--close js-close-flyout']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

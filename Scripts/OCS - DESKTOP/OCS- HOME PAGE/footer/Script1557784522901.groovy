@@ -25,6 +25,29 @@ WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Return Policy'))
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/AGCO Cannabis retail stores'))
+
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+    [])
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Payment - Delivery info'))
+
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+    [])
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Legal use of cannbis in ontario'))
+
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+    [])
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Glossary of terms'))
 
 WebUI.delay(2, FailureHandling.OPTIONAL)
@@ -83,7 +106,7 @@ WebUI.delay(2)
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
-WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Help us improve OCS.ca'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Help us improve OCS.ca'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 

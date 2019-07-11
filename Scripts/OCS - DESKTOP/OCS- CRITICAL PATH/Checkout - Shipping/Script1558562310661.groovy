@@ -52,15 +52,15 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkbox_I confirm that'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkout - Button'))
 
@@ -89,10 +89,10 @@ WebUI.setText(findTestObject('OCS-DESKTOP/Customer info page/input_Phone'), '(51
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping method - Button'))
-
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
+
+WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping method - Button'))
 
 WebUI.delay(1)
 
@@ -104,6 +104,8 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping method - Button'))
+
+WebUI.delay(1)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -135,10 +137,14 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping method - Button'))
 
+WebUI.delay(1)
+
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
 WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Cart - Breadcrumb link'))
+
+WebUI.delay(1)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -167,6 +173,9 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
 WebUI.click(findTestObject('OCS-DESKTOP/Customer info page/Continue to shipping method - Button'))
 
 WebUI.delay(1)
+
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+    [])
 
 WebUI.click(findTestObject('OCS-DESKTOP/Shipping page/Continue to payment method - Button'))
 

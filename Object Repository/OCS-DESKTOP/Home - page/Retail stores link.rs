@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(text(),'Click here for locations')][count(. | //a[@href = 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html']) = count(//a[@href = 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html'])]</value>
+         <value>//a[@class='text-cta'][count(. | //a[@href = 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html']) = count(//a[@href = 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Click here for locations')]</value>
+      <value>//a[@class='text-cta']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

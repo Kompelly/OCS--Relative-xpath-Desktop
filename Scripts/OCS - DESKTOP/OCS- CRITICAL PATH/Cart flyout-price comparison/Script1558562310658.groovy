@@ -220,6 +220,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Shipping page/Continue to payment method - Button'))
 
+WebUI.delay(2)
+
 WebUI.verifyTextPresent('Payment', false // Dollar removal code... product 2
     // code to convert string to int
     )

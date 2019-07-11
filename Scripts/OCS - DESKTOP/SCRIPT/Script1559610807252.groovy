@@ -37,7 +37,7 @@ String baseUrl = "https://www.katalon.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 
-selenium.open("https://ocs.ca/?fts=0&preview_theme_id=72920106828")
+selenium.open("https://ocs.ca/?fts=0&preview_theme_id=74206119756")
 
 // AGE GATE CONFIRMATION
 
@@ -79,7 +79,7 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
 
 // PRODUCT PAGE 
 
-selenium.click("xpath=//article[@id='product_1314092451660']//a//img")
+selenium.click("xpath=//article[@id='product_2108928657228']//a//img")
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";',[])
 

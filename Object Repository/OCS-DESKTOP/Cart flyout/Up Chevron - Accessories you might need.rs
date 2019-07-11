@@ -6,12 +6,12 @@
    <elementGuidId>63cc1ad7-874b-445a-83c5-6458cb5d05e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='flyout--cart']/form/div[3]/div/button/i</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//i[@class='icon icon--chevron-right icon--desktop']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='flyout--cart']/form/div[3]/div/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

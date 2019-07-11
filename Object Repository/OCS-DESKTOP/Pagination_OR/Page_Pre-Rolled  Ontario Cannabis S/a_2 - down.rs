@@ -6,12 +6,12 @@
    <elementGuidId>65269580-8bcc-4108-b339-daf077f038af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'2')])[2]</value>
+         <key>BASIC</key>
+         <value>/html/body/div/div[3]/section/div[1]/div[3]/div[2]/nav/ul/li[4]/a</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class='pagination--top']//a[@class='js-page-link'][contains(text(),'2')]</value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'2')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='pagination--top']//a[@class='js-page-link'][contains(text(),'2')]</value>
+      <value>/html/body/div/div[3]/section/div[1]/div[3]/div[2]/nav/ul/li[4]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

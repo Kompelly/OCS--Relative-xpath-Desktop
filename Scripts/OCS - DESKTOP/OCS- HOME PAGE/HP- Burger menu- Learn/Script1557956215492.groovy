@@ -200,7 +200,7 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('OCS-DESKTOP/LEARN page/Factors in Choosing Canna - chevron'))
 
-WebUI.verifyTextPresent('Six things to know before deciding to consume cannabis.', true)
+WebUI.verifyTextPresent('Factors in Choosing Cannabis Products', true)
 
 WebUI.delay(2)
 
@@ -334,7 +334,7 @@ not_run: WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/L
 
 WebUI.click(findTestObject('OCS-DESKTOP/LEARN page/a brief history of cannabis'))
 
-WebUI.verifyTextPresent('How to Recycle Cannabis Packaging', true)
+WebUI.verifyTextPresent('How to Grow Cannabis Outdoors', true)
 
 WebUI.delay(2)
 
@@ -342,7 +342,7 @@ WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu
 
 WebUI.delay(1, FailureHandling.OPTIONAL)
 
-not_run: WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
 WebUI.click(findTestObject('OCS-DESKTOP/LEARN page/see our FAQ'))
@@ -355,7 +355,7 @@ WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu
 
 WebUI.delay(1, FailureHandling.OPTIONAL)
 
-not_run: WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
 WebUI.click(findTestObject('OCS-DESKTOP/LEARN page/SEE OUR GLOSSARY'))
