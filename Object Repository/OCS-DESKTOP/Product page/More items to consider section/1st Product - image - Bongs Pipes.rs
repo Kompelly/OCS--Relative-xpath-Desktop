@@ -6,12 +6,12 @@
    <elementGuidId>02192c63-55fc-4602-bf5e-6c1c97b1bc7b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/div[1]/div[3]/section[1]/div[4]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/article[1]/div[1]/div[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='product_1314098120524']/div/a/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;product_1314103527244&quot;]/div[1]/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[1]/div[3]/section[1]/div[4]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/article[1]/div[1]/div[1]</value>
+      <value>//*[@id=&quot;product_1314103527244&quot;]/div[1]/a/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

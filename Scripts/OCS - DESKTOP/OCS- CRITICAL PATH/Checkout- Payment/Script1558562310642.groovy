@@ -95,9 +95,9 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
 
 WebUI.delay(1)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OCS-DESKTOP/Shipping page/Continue to payment method - Button'))
+
+WebUI.delay(1)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

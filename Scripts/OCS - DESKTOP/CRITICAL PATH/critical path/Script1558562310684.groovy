@@ -139,3 +139,5 @@ WebUI.click(findTestObject('OCS-MOBILE/Shipping page/Continue to payment method 
 
 WebUI.verifyTextPresent('Payment', false)
 
+WebUI.acceptAlert()
+

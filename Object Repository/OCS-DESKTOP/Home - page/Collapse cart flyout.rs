@@ -6,12 +6,12 @@
    <elementGuidId>c28a9c8c-371b-4575-a550-095768df2239</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//i[@class='icon icon--close js-close-flyout']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='flyout--cart']/form/div/div/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class='icon icon--back js-close-flyout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//i[@class='icon icon--close js-close-flyout']</value>
+      <value>//i[@class='icon icon--back js-close-flyout']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

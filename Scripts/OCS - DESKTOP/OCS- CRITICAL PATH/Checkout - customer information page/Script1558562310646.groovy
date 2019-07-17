@@ -52,7 +52,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkbox_I confirm that'))
 

@@ -229,8 +229,6 @@ not_run: WebUI.click(findTestObject('OCS-DESKTOP/Cannabis page/Collections - plu
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
