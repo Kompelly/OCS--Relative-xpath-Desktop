@@ -58,7 +58,7 @@ if (flag == true) {
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'), FailureHandling.OPTIONAL)
+    WebUI.click(findTestObject('OCS-DESKTOP/Home - page/view my bag - cart dropdown'), FailureHandling.OPTIONAL)
 
     not_run: WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Quantity decrease - Product'))
 

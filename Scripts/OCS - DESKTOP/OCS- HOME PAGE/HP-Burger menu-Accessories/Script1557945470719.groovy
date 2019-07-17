@@ -27,7 +27,7 @@ WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/ACCESSORIES menu - En'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Accessories page/Vaporizers'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -31,3 +31,9 @@ WebUI.setViewPortSize(360, 800)
 
 WebUI.delay(1)
 
+WebUI.openBrowser('')
+
+WebUI.click(findTestObject('Object Repository/OCS-DESKTOP/Wrong page/Page_Argyle  Ontario Cannabis Store/button_Add to Bag10.55'))
+
+WebUI.click(findTestObject('Object Repository/OCS-DESKTOP/Wrong page/Page_Argyle  Ontario Cannabis Store/a_View My Bag'))
+

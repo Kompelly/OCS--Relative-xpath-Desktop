@@ -17,7 +17,7 @@ WebUI.callTestCase(findTestCase('OCS - DESKTOP/CALL- Age gate'), [:], FailureHan
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'))
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/cart icon - bag'))
 
 WebUI.delay(3)
 

@@ -52,7 +52,7 @@ WebUI.click(findTestObject('OCS-DESKTOP/Product page/Quantity Increase - Button'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/view my bag - cart dropdown'), FailureHandling.OPTIONAL)
 
 WebUI.delay(2)
 

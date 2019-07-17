@@ -76,7 +76,7 @@ WebUI.click(findTestObject('OCS-DESKTOP/Product page/Add to Bag-button'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Cart icon -bag'))
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/view my bag - cart dropdown'))
 
 WebUI.delay(2)
 
