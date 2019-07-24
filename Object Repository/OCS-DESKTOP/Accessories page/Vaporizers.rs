@@ -6,12 +6,12 @@
    <elementGuidId>13c63443-1582-41e5-aca1-e0991c0737b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@id='grams-tooltip--bottom-flyout']/i</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[contains(text(),'Vaporizers')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='grams-tooltip--bottom-flyout']/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

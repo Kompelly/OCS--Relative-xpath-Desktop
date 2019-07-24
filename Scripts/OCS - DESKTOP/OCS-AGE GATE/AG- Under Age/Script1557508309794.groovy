@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74205529932')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

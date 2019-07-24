@@ -322,4 +322,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/Filter</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>880472c9-f432-4c4c-bb87-cb2411e634fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Max limit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32baf356-974c-49f1-afa5-426afa24e06b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Max limit - fr</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

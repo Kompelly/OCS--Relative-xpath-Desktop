@@ -19,7 +19,7 @@ a = WebUI.getWindowTitle()
 
 WebUI.comment('WINDOW TITLE: ' + a)
 
-not_run: WebUI.scrollToElement(findTestObject('OCS-MOBILE /Product page/How to choose cannabis product - Button'), 2)
+WebUI.scrollToElement(findTestObject('OCS-DESKTOP/Product page/How to choose cannabis product - Section'), 2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Product page/Recently Viewed/1st Product - Image'))
 

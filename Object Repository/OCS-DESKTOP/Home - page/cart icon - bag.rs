@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/div[@class='gram-widget__pricing']</value>
+         <value>//div[@class='gram-widget__pricing']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/div[@class='gram-widget__pricing']</value>
+      <value>//div[@class='gram-widget__pricing']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>02192c63-55fc-4602-bf5e-6c1c97b1bc7b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//article[@id='product_1314098120524']/div/a/img</value>
+         <key>BASIC</key>
+         <value>//article[@id='product_1314102708044']//div[@class='product-tile__image-wrapper']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;product_1314103527244&quot;]/div[1]/a/img</value>
+         <key>XPATH</key>
+         <value>//article[@id='product_1314098120524']/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;product_1314103527244&quot;]/div[1]/a/img</value>
+      <value>//article[@id='product_1314102708044']//div[@class='product-tile__image-wrapper']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

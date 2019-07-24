@@ -60,7 +60,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Checkout - Button'))
 

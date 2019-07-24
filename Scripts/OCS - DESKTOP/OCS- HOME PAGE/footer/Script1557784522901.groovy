@@ -27,7 +27,7 @@ WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-i
 
 WebUI.delay(2, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Home - page/AGCO Cannabis retail stores'))
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/AGCO Cannabis retail stores'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

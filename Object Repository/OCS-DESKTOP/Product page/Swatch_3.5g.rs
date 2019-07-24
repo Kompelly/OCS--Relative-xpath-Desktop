@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'3.5g')]</value>
+         <value>//div[@class='variant-selector__option-selectors']//span[@class='swatch__title'][contains(text(),'3.5g')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'3.5g')]</value>
+      <value>//div[@class='variant-selector__option-selectors']//span[@class='swatch__title'][contains(text(),'3.5g')]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

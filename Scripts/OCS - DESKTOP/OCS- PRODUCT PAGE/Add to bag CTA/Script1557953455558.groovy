@@ -37,7 +37,7 @@ WebUI.verifyElementPresent(findTestObject('OCS-DESKTOP/Cart flyout/Cart - 1st it
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Back icon'))
+WebUI.click(findTestObject('OCS-DESKTOP/Home - page/Collapse cart flyout'))
 
 WebUI.closeBrowser()
 

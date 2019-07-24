@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74208053068')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
