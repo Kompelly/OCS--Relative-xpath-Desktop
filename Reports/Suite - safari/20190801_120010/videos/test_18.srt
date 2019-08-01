@@ -1,0 +1,176 @@
+1
+00:00:00,309 --> 00:00:00,311
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,397 --> 00:00:00,397
+1. openBrowser("")
+
+3
+00:00:03,949 --> 00:00:03,949
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:06,658 --> 00:00:06,659
+9. maximizeWindow()
+
+5
+00:00:07,367 --> 00:00:07,368
+13. refresh()
+
+6
+00:00:07,912 --> 00:00:07,913
+17. delay(2)
+
+7
+00:00:09,917 --> 00:00:09,917
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:10,053 --> 00:00:10,053
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:13,197 --> 00:00:13,197
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:14,949 --> 00:00:14,950
+33. delay(2)
+
+11
+00:00:16,957 --> 00:00:16,957
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:22,149 --> 00:00:22,150
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:22,440 --> 00:00:22,441
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:22,493 --> 00:00:22,494
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:22,650 --> 00:00:22,651
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:22,756 --> 00:00:22,756
+57. delay(2)
+
+17
+00:00:24,761 --> 00:00:24,762
+61. refresh()
+
+18
+00:00:28,790 --> 00:00:28,790
+5. delay(2)
+
+19
+00:00:30,795 --> 00:00:30,796
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+20
+00:00:30,858 --> 00:00:30,858
+1. delay(2)
+
+21
+00:00:32,862 --> 00:00:32,862
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+22
+00:00:32,943 --> 00:00:32,943
+9. delay(2)
+
+23
+00:00:34,945 --> 00:00:34,945
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+24
+00:00:35,043 --> 00:00:35,044
+17. delay(5)
+
+25
+00:00:40,050 --> 00:00:40,050
+21. e = getWindowTitle()
+
+26
+00:00:40,056 --> 00:00:40,057
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+27
+00:00:40,242 --> 00:00:40,243
+17. delay(2)
+
+28
+00:00:42,244 --> 00:00:42,244
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+29
+00:00:42,291 --> 00:00:42,291
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+30
+00:00:44,804 --> 00:00:44,804
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+31
+00:00:44,911 --> 00:00:44,912
+33. delay(2)
+
+32
+00:00:46,921 --> 00:00:46,921
+37. click(findTestObject("FRENCH/Product image - 1st one"))
+
+33
+00:00:51,344 --> 00:00:51,344
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+34
+00:00:51,402 --> 00:00:51,403
+45. delay(3)
+
+35
+00:00:54,415 --> 00:00:54,416
+49. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+36
+00:00:54,642 --> 00:00:54,642
+53. delay(2)
+
+37
+00:00:56,644 --> 00:00:56,645
+57. delay(2)
+
+38
+00:00:58,650 --> 00:00:58,650
+61. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+39
+00:00:58,791 --> 00:00:58,792
+65. delay(2)
+
+40
+00:01:00,795 --> 00:01:00,795
+69. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+41
+00:01:01,850 --> 00:01:01,851
+73. delay(2)
+
+42
+00:01:03,854 --> 00:01:03,854
+77. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"), OPTIONAL)
+
+43
+00:01:04,093 --> 00:01:04,094
+81. delay(1)
+
+44
+00:01:05,096 --> 00:01:05,096
+85. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+

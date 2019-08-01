@@ -1,0 +1,228 @@
+1
+00:00:00,111 --> 00:00:00,112
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,174 --> 00:00:00,175
+1. openBrowser("")
+
+3
+00:00:01,214 --> 00:00:01,215
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:03,765 --> 00:00:03,766
+9. maximizeWindow()
+
+5
+00:00:03,879 --> 00:00:03,879
+13. refresh()
+
+6
+00:00:09,575 --> 00:00:09,578
+17. delay(2)
+
+7
+00:00:11,581 --> 00:00:11,582
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:11,615 --> 00:00:11,616
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:12,466 --> 00:00:12,467
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:12,928 --> 00:00:12,928
+33. delay(2)
+
+11
+00:00:14,935 --> 00:00:14,935
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:17,370 --> 00:00:17,371
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:17,463 --> 00:00:17,463
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:17,615 --> 00:00:17,615
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:17,763 --> 00:00:17,763
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:17,863 --> 00:00:17,864
+57. delay(2)
+
+17
+00:00:19,870 --> 00:00:19,870
+61. refresh()
+
+18
+00:00:23,140 --> 00:00:23,141
+5. click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English"))
+
+19
+00:00:23,142 --> 00:00:23,143
+9. delay(2)
+
+20
+00:00:25,150 --> 00:00:25,150
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Chevron_Cannabis"))
+
+21
+00:00:25,208 --> 00:00:25,210
+17. delay(1)
+
+22
+00:00:26,212 --> 00:00:26,213
+21. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower"))
+
+23
+00:00:28,413 --> 00:00:28,413
+25. delay(1)
+
+24
+00:00:29,418 --> 00:00:29,418
+29. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant"))
+
+25
+00:00:29,419 --> 00:00:29,419
+33. delay(1)
+
+26
+00:00:30,429 --> 00:00:30,429
+37. click(findTestObject("OCS-DESKTOP/Filter flyout/Filter option"))
+
+27
+00:00:30,520 --> 00:00:30,520
+41. delay(2)
+
+28
+00:00:32,527 --> 00:00:32,527
+45. mouseOver(findTestObject("OCS-DESKTOP/Filter flyout/THC - CBD Tool tip"))
+
+29
+00:00:32,771 --> 00:00:32,772
+49. click(findTestObject("OCS-DESKTOP/Filter flyout/Click element outside"))
+
+30
+00:00:32,864 --> 00:00:32,864
+53. delay(2)
+
+31
+00:00:34,865 --> 00:00:34,866
+57. click(findTestObject("OCS-DESKTOP/Filter flyout/THC CBD plus accordian"))
+
+32
+00:00:34,963 --> 00:00:34,964
+61. delay(2)
+
+33
+00:00:36,965 --> 00:00:36,965
+65. click(findTestObject("OCS-DESKTOP/Filter flyout/THC - CBD Subtract accordian"))
+
+34
+00:00:37,029 --> 00:00:37,029
+69. delay(2)
+
+35
+00:00:39,030 --> 00:00:39,031
+73. click(findTestObject("OCS-DESKTOP/Filter flyout/THC CBD plus accordian"))
+
+36
+00:00:39,271 --> 00:00:39,272
+77. click(findTestObject("OCS-MOBILE /Filter flyout/div_18.00"))
+
+37
+00:00:39,272 --> 00:00:39,272
+81. delay(2)
+
+38
+00:00:39,273 --> 00:00:39,287
+85. click(findTestObject("OCS-MOBILE /Filter flyout/div_25.00"))
+
+39
+00:00:39,288 --> 00:00:39,288
+89. delay(2)
+
+40
+00:00:39,288 --> 00:00:39,289
+93. click(findTestObject("OCS-MOBILE /Filter flyout/div_14.00"))
+
+41
+00:00:39,289 --> 00:00:39,289
+97. delay(2)
+
+42
+00:00:39,290 --> 00:00:39,290
+101. click(findTestObject("OCS-MOBILE /Filter flyout/div_19.00"))
+
+43
+00:00:39,290 --> 00:00:39,290
+105. delay(2)
+
+44
+00:00:41,292 --> 00:00:41,293
+109. click(findTestObject("OCS-MOBILE /Filter flyout/Learn More About THC CBD"))
+
+45
+00:00:41,293 --> 00:00:41,293
+113. delay(4)
+
+46
+00:00:45,303 --> 00:00:45,303
+117. callTestCase(findTestCase("OCS - MOBILE/OCS-COLLECTION PAGE/calling test case"), [:], STOP_ON_FAILURE)
+
+47
+00:00:45,304 --> 00:00:45,304
+121. click(findTestObject("OCS-MOBILE /Filter flyout/Filter option"))
+
+48
+00:00:45,305 --> 00:00:45,305
+125. click(findTestObject("OCS-DESKTOP/Filter flyout/Plant type tooltip"))
+
+49
+00:00:45,364 --> 00:00:45,364
+129. delay(2)
+
+50
+00:00:47,366 --> 00:00:47,366
+133. click(findTestObject("OCS-DESKTOP/Filter flyout/Click element outside"))
+
+51
+00:00:47,414 --> 00:00:47,414
+137. click(findTestObject("OCS-DESKTOP/Filter flyout/Plant type plus accordian"))
+
+52
+00:00:47,464 --> 00:00:47,464
+141. delay(1)
+
+53
+00:00:48,472 --> 00:00:48,473
+145. click(findTestObject("OCS-DESKTOP/Filter flyout/Plant type subtract accordian"))
+
+54
+00:00:48,564 --> 00:00:48,564
+149. delay(1)
+
+55
+00:00:49,565 --> 00:00:49,565
+153. click(findTestObject("OCS-DESKTOP/Filter flyout/Plant type plus accordian"))
+
+56
+00:00:49,614 --> 00:00:49,614
+157. delay(2)
+
+57
+00:00:51,619 --> 00:00:51,619
+161. click(findTestObject("OCS-DESKTOP/Filter flyout/Indica Dominant"))
+

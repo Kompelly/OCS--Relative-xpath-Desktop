@@ -1,0 +1,188 @@
+1
+00:00:01,061 --> 00:00:01,062
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,227 --> 00:00:01,227
+1. openBrowser("")
+
+3
+00:00:16,653 --> 00:00:16,653
+5. maximizeWindow()
+
+4
+00:00:16,826 --> 00:00:16,827
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:22,709 --> 00:00:22,709
+13. refresh()
+
+6
+00:00:29,150 --> 00:00:29,151
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:33,985 --> 00:00:33,986
+21. delay(4)
+
+8
+00:00:38,001 --> 00:00:38,002
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:02:06,762 --> 00:02:06,765
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:02:35,840 --> 00:02:35,841
+33. delay(2)
+
+11
+00:02:37,848 --> 00:02:37,849
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:05:08,847 --> 00:05:08,854
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:05:13,076 --> 00:05:13,077
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:05:18,985 --> 00:05:18,985
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:05:20,536 --> 00:05:20,537
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:05:21,282 --> 00:05:21,282
+57. delay(2)
+
+17
+00:05:23,341 --> 00:05:23,342
+61. navigateToUrl("https://ocs.ca/products/city-lights")
+
+18
+00:05:49,272 --> 00:05:49,285
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:05:52,299 --> 00:05:52,314
+5. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+20
+00:05:52,317 --> 00:05:52,318
+9. delay(2)
+
+21
+00:05:54,330 --> 00:05:54,332
+13. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:05:55,140 --> 00:05:55,142
+17. flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"), 0)
+
+23
+00:05:57,133 --> 00:05:57,134
+21. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+24
+00:05:57,582 --> 00:05:57,599
+25. takeScreenshot()
+
+25
+00:05:59,056 --> 00:05:59,058
+29. comment(" flag =" + flag)
+
+26
+00:05:59,064 --> 00:05:59,083
+33. if (flag == true)
+
+27
+00:05:59,083 --> 00:05:59,084
+1. delay(2)
+
+28
+00:06:01,097 --> 00:06:01,099
+5. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+29
+00:06:01,102 --> 00:06:01,103
+9. delay(1)
+
+30
+00:06:02,114 --> 00:06:02,116
+13. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+31
+00:06:04,452 --> 00:06:04,454
+17. delay(1)
+
+32
+00:06:05,463 --> 00:06:05,464
+21. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+33
+00:06:06,135 --> 00:06:06,136
+25. delay(1)
+
+34
+00:06:07,144 --> 00:06:07,147
+29. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+35
+00:06:08,985 --> 00:06:08,986
+33. delay(1)
+
+36
+00:06:09,993 --> 00:06:09,993
+37. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+37
+00:06:12,189 --> 00:06:12,190
+41. delay(2)
+
+38
+00:06:14,209 --> 00:06:14,211
+45. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+39
+00:06:18,792 --> 00:06:18,793
+49. delay(1)
+
+40
+00:06:19,809 --> 00:06:19,810
+53. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"), OPTIONAL)
+
+41
+00:06:32,894 --> 00:06:32,895
+57. click(findTestObject("OCS-DESKTOP/Cart flyout/Quantity decrease - Product"))
+
+42
+00:06:32,897 --> 00:06:32,899
+61. delay(2)
+
+43
+00:06:34,912 --> 00:06:34,915
+65. a = getText(findTestObject("OCS-DESKTOP/Cart flyout/Unit price - Product"))
+
+44
+00:06:35,133 --> 00:06:35,133
+69. comment(a)
+
+45
+00:06:35,134 --> 00:06:35,135
+73. b = a.substring(1)
+
+46
+00:06:35,137 --> 00:06:35,137
+77. comment(b)
+
+47
+00:06:35,138 --> 00:06:35,139
+81. click(findTestObject("OCS-DESKTOP/Cart flyout/input_-_updates"))
+

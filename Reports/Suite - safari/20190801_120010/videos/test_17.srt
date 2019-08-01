@@ -1,0 +1,188 @@
+1
+00:00:00,834 --> 00:00:00,838
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,917 --> 00:00:00,918
+1. openBrowser("")
+
+3
+00:00:24,465 --> 00:00:24,466
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:28,075 --> 00:00:28,075
+9. maximizeWindow()
+
+5
+00:00:28,375 --> 00:00:28,376
+13. refresh()
+
+6
+00:00:29,113 --> 00:00:29,114
+17. delay(2)
+
+7
+00:00:31,118 --> 00:00:31,119
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:31,742 --> 00:00:31,743
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:02:40,806 --> 00:02:40,810
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:02:53,507 --> 00:02:53,507
+33. delay(2)
+
+11
+00:02:55,519 --> 00:02:55,519
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:03:13,492 --> 00:03:13,494
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:03:14,177 --> 00:03:14,178
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:03:14,905 --> 00:03:14,906
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:03:15,726 --> 00:03:15,726
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:03:16,392 --> 00:03:16,394
+57. delay(2)
+
+17
+00:03:18,396 --> 00:03:18,396
+61. refresh()
+
+18
+00:03:24,696 --> 00:03:24,701
+5. delay(2)
+
+19
+00:03:26,708 --> 00:03:26,715
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+20
+00:03:26,878 --> 00:03:26,878
+1. delay(2)
+
+21
+00:03:28,881 --> 00:03:28,881
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+22
+00:03:29,150 --> 00:03:29,150
+9. delay(2)
+
+23
+00:03:31,159 --> 00:03:31,160
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+24
+00:03:31,443 --> 00:03:31,444
+17. delay(5)
+
+25
+00:03:36,445 --> 00:03:36,446
+21. e = getWindowTitle()
+
+26
+00:03:36,858 --> 00:03:36,858
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+27
+00:03:38,954 --> 00:03:38,955
+17. delay(2)
+
+28
+00:03:40,959 --> 00:03:40,960
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+29
+00:03:41,194 --> 00:03:41,194
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+30
+00:03:45,478 --> 00:03:45,479
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+31
+00:03:46,404 --> 00:03:46,404
+33. delay(2)
+
+32
+00:03:48,416 --> 00:03:48,416
+37. click(findTestObject("FRENCH/Product image - 1st one"))
+
+33
+00:03:49,263 --> 00:03:49,264
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+34
+00:03:49,541 --> 00:03:49,541
+45. delay(1)
+
+35
+00:03:50,543 --> 00:03:50,544
+49. delay(3)
+
+36
+00:03:53,546 --> 00:03:53,547
+53. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+37
+00:03:54,538 --> 00:03:54,539
+57. delay(2)
+
+38
+00:03:56,542 --> 00:03:56,543
+61. delay(2)
+
+39
+00:03:58,545 --> 00:03:58,546
+65. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+40
+00:04:00,853 --> 00:04:00,869
+69. delay(1)
+
+41
+00:04:01,874 --> 00:04:01,875
+73. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"))
+
+42
+00:04:02,196 --> 00:04:02,197
+77. delay(3)
+
+43
+00:04:05,198 --> 00:04:05,199
+81. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+
+44
+00:04:05,704 --> 00:04:05,704
+85. delay(2)
+
+45
+00:04:07,707 --> 00:04:07,708
+89. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition"))
+
+46
+00:04:08,000 --> 00:04:08,001
+93. delay(1)
+
+47
+00:04:09,006 --> 00:04:09,006
+97. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkout - Button"))
+

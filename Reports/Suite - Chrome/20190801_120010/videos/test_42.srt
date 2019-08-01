@@ -1,0 +1,200 @@
+1
+00:00:00,166 --> 00:00:00,167
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,571 --> 00:00:00,572
+1. openBrowser("")
+
+3
+00:00:02,604 --> 00:00:02,605
+5. maximizeWindow()
+
+4
+00:00:02,820 --> 00:00:02,820
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:08,819 --> 00:00:08,819
+13. refresh()
+
+6
+00:00:08,825 --> 00:00:08,825
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:12,547 --> 00:00:12,547
+21. delay(4)
+
+8
+00:00:16,557 --> 00:00:16,558
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:16,955 --> 00:00:16,955
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:17,259 --> 00:00:17,259
+33. delay(2)
+
+11
+00:00:19,264 --> 00:00:19,264
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:20,226 --> 00:00:20,226
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:20,344 --> 00:00:20,345
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:20,417 --> 00:00:20,417
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:20,496 --> 00:00:20,497
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:20,626 --> 00:00:20,627
+57. delay(2)
+
+17
+00:00:22,628 --> 00:00:22,628
+61. navigateToUrl("https://ocs.ca/products/city-lights")
+
+18
+00:00:26,962 --> 00:00:26,963
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:00:26,975 --> 00:00:26,975
+5. delay(2)
+
+20
+00:00:28,979 --> 00:00:28,979
+9. click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"))
+
+21
+00:00:29,111 --> 00:00:29,111
+13. delay(2)
+
+22
+00:00:31,116 --> 00:00:31,117
+17. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+23
+00:00:31,237 --> 00:00:31,237
+21. delay(2)
+
+24
+00:00:33,241 --> 00:00:33,241
+25. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+25
+00:00:33,293 --> 00:00:33,294
+29. delay(2)
+
+26
+00:00:35,298 --> 00:00:35,298
+33. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+27
+00:00:35,346 --> 00:00:35,347
+37. delay(2)
+
+28
+00:00:37,352 --> 00:00:37,352
+41. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+29
+00:00:37,399 --> 00:00:37,399
+45. delay(2)
+
+30
+00:00:39,402 --> 00:00:39,403
+49. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+31
+00:00:39,453 --> 00:00:39,453
+53. delay(2)
+
+32
+00:00:41,458 --> 00:00:41,458
+57. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+33
+00:00:41,516 --> 00:00:41,516
+61. delay(2)
+
+34
+00:00:43,520 --> 00:00:43,520
+65. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+35
+00:00:43,583 --> 00:00:43,583
+69. delay(2)
+
+36
+00:00:45,587 --> 00:00:45,587
+73. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+37
+00:00:45,644 --> 00:00:45,645
+77. delay(2)
+
+38
+00:00:47,652 --> 00:00:47,652
+81. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+39
+00:00:47,706 --> 00:00:47,706
+85. delay(2)
+
+40
+00:00:49,709 --> 00:00:49,709
+89. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+41
+00:00:49,813 --> 00:00:49,814
+93. delay(2)
+
+42
+00:00:51,818 --> 00:00:51,819
+97. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"))
+
+43
+00:00:51,920 --> 00:00:51,920
+101. delay(2)
+
+44
+00:00:53,926 --> 00:00:53,927
+105. click(findTestObject("OCS-DESKTOP/Cart flyout/Quantity increase - Product"))
+
+45
+00:00:54,027 --> 00:00:54,027
+109. delay(2)
+
+46
+00:00:56,033 --> 00:00:56,033
+113. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+
+47
+00:00:56,135 --> 00:00:56,135
+117. delay(2)
+
+48
+00:00:58,146 --> 00:00:58,146
+121. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition"))
+
+49
+00:00:58,218 --> 00:00:58,218
+125. delay(2)
+
+50
+00:01:00,224 --> 00:01:00,225
+129. verifyElementClickable(findTestObject("OCS-DESKTOP/Cart flyout/Checkout - Button"))
+

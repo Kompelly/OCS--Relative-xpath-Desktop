@@ -1,0 +1,48 @@
+1
+00:00:00,678 --> 00:00:00,680
+1. openBrowser("")
+
+2
+00:00:10,673 --> 00:00:10,673
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+3
+00:00:16,994 --> 00:00:16,996
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+4
+00:00:17,040 --> 00:00:17,041
+13. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+5
+00:00:18,181 --> 00:00:18,182
+17. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+6
+00:00:18,913 --> 00:00:18,914
+21. delay(2)
+
+7
+00:00:20,916 --> 00:00:20,916
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "2017", true)
+
+8
+00:00:23,046 --> 00:00:23,046
+29. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+9
+00:00:23,310 --> 00:00:23,311
+33. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+10
+00:00:23,930 --> 00:00:23,931
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+11
+00:00:24,216 --> 00:00:24,228
+41. delay(3)
+
+12
+00:00:27,230 --> 00:00:27,231
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Oops Im actually 19 or older - Link"))
+

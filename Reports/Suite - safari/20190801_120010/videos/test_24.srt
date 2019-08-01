@@ -1,0 +1,88 @@
+1
+00:00:00,349 --> 00:00:00,350
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,411 --> 00:00:00,411
+1. openBrowser("")
+
+3
+00:00:05,504 --> 00:00:05,504
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:08,728 --> 00:00:08,729
+9. maximizeWindow()
+
+5
+00:00:09,406 --> 00:00:09,406
+13. refresh()
+
+6
+00:00:16,279 --> 00:00:16,283
+17. delay(2)
+
+7
+00:00:18,292 --> 00:00:18,292
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:18,506 --> 00:00:18,506
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:24,649 --> 00:00:24,650
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:27,402 --> 00:00:27,403
+33. delay(2)
+
+11
+00:00:29,409 --> 00:00:29,410
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:51,313 --> 00:00:51,316
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:51,688 --> 00:00:51,688
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:52,542 --> 00:00:52,543
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:52,890 --> 00:00:52,891
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:53,240 --> 00:00:53,240
+57. delay(2)
+
+17
+00:00:55,273 --> 00:00:55,274
+61. refresh()
+
+18
+00:00:59,657 --> 00:00:59,658
+5. flag = verifyTextPresent("Due to holiday closures within the Canada Post network for Victoria Day, please expect some order delivery delays.", false, CONTINUE_ON_FAILURE)
+
+19
+00:01:00,416 --> 00:01:00,417
+9. delay(2)
+
+20
+00:01:02,420 --> 00:01:02,421
+13. comment("flag =" + flag)
+
+21
+00:01:02,423 --> 00:01:02,424
+17. if (flag == false)
+
+22
+00:01:02,424 --> 00:01:02,424
+1. comment(" there is no  announcment ")
+

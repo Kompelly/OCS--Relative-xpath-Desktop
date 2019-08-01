@@ -1,0 +1,8 @@
+1
+00:00:00,504 --> 00:00:00,505
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,574 --> 00:00:00,575
+1. openBrowser("")
+

@@ -1,0 +1,292 @@
+1
+00:00:00,759 --> 00:00:00,762
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,237 --> 00:00:01,239
+1. openBrowser("")
+
+3
+00:00:13,789 --> 00:00:13,791
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:18,669 --> 00:00:18,671
+9. maximizeWindow()
+
+5
+00:00:19,445 --> 00:00:19,445
+13. refresh()
+
+6
+00:00:25,406 --> 00:00:25,407
+17. delay(2)
+
+7
+00:00:27,421 --> 00:00:27,422
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:28,118 --> 00:00:28,119
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:51,030 --> 00:00:51,031
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:53,882 --> 00:00:53,883
+33. delay(2)
+
+11
+00:00:55,888 --> 00:00:55,889
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:02:04,783 --> 00:02:04,784
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:02:05,488 --> 00:02:05,489
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:02:06,219 --> 00:02:06,219
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:02:06,932 --> 00:02:06,933
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:02:07,334 --> 00:02:07,335
+57. delay(2)
+
+17
+00:02:09,341 --> 00:02:09,342
+61. refresh()
+
+18
+00:02:18,864 --> 00:02:18,865
+5. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:02:19,321 --> 00:02:19,321
+9. delay(2)
+
+20
+00:02:21,327 --> 00:02:21,328
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:02:25,225 --> 00:02:25,226
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:02:25,661 --> 00:02:25,662
+21. delay(2)
+
+23
+00:02:27,669 --> 00:02:27,670
+25. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+
+24
+00:02:35,417 --> 00:02:35,418
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+25
+00:02:36,226 --> 00:02:36,236
+33. delay(1)
+
+26
+00:02:37,246 --> 00:02:37,247
+37. delay(3)
+
+27
+00:02:40,252 --> 00:02:40,253
+41. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+28
+00:02:40,254 --> 00:02:40,254
+45. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+29
+00:02:40,770 --> 00:02:40,771
+49. delay(2)
+
+30
+00:02:42,783 --> 00:02:42,783
+53. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+31
+00:02:43,270 --> 00:02:43,271
+57. delay(1)
+
+32
+00:02:44,272 --> 00:02:44,274
+61. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"))
+
+33
+00:02:44,530 --> 00:02:44,531
+65. delay(3)
+
+34
+00:02:47,535 --> 00:02:47,536
+69. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+
+35
+00:02:49,773 --> 00:02:49,774
+73. delay(1)
+
+36
+00:02:50,784 --> 00:02:50,785
+77. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition"))
+
+37
+00:02:51,129 --> 00:02:51,129
+81. delay(1)
+
+38
+00:02:52,140 --> 00:02:52,140
+85. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkout - Button"))
+
+39
+00:02:58,504 --> 00:02:58,505
+89. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+40
+00:02:59,374 --> 00:02:59,374
+93. delay(1)
+
+41
+00:03:00,385 --> 00:03:00,391
+97. delay(2)
+
+42
+00:03:02,401 --> 00:03:02,401
+101. scrollToElement(findTestObject("OCS-DESKTOP/Customer info page/input_Email"), 0)
+
+43
+00:03:02,579 --> 00:03:02,579
+105. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Email"), "suman.kompelly@diffagency.com")
+
+44
+00:03:04,971 --> 00:03:04,972
+109. setText(findTestObject("OCS-DESKTOP/Customer info page/input_First name"), "suman")
+
+45
+00:03:06,370 --> 00:03:06,370
+113. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Last name"), "kompelly")
+
+46
+00:03:09,830 --> 00:03:09,831
+117. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Address"), "300 saint alxendre")
+
+47
+00:03:11,587 --> 00:03:11,588
+121. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Apartment suite etc. (op"), "199")
+
+48
+00:03:12,228 --> 00:03:12,230
+125. setText(findTestObject("OCS-DESKTOP/Customer info page/input_City"), "montreal")
+
+49
+00:03:12,820 --> 00:03:12,820
+129. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Postal code"), "n0R1K0")
+
+50
+00:03:13,520 --> 00:03:13,520
+133. setText(findTestObject("OCS-DESKTOP/Customer info page/input_Phone"), "(514) 449-3882")
+
+51
+00:03:14,633 --> 00:03:14,634
+137. delay(3)
+
+52
+00:03:17,635 --> 00:03:17,635
+141. click(findTestObject("OCS-DESKTOP/Customer info page/Continue to shipping method - Button"))
+
+53
+00:03:23,386 --> 00:03:23,387
+145. delay(3)
+
+54
+00:03:26,396 --> 00:03:26,397
+149. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+55
+00:03:26,972 --> 00:03:26,975
+153. delay(1)
+
+56
+00:03:27,985 --> 00:03:27,986
+157. click(findTestObject("OCS-DESKTOP/Shipping page/Continue to payment method - Button"))
+
+57
+00:03:29,472 --> 00:03:29,472
+161. delay(1)
+
+58
+00:03:30,474 --> 00:03:30,477
+165. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+59
+00:03:41,338 --> 00:03:41,340
+169. delay(1)
+
+60
+00:03:42,344 --> 00:03:42,345
+173. click(findTestObject("OCS-DESKTOP/Payment -page/Change link span 1"))
+
+61
+00:03:45,970 --> 00:03:45,971
+177. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+62
+00:03:45,978 --> 00:03:45,979
+181. delay(3)
+
+63
+00:03:48,994 --> 00:03:48,995
+185. click(findTestObject("OCS-DESKTOP/Shipping page/Continue to payment method - Button"))
+
+64
+00:03:59,273 --> 00:03:59,274
+189. delay(3)
+
+65
+00:04:02,290 --> 00:04:02,293
+193. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+66
+00:04:03,737 --> 00:04:03,739
+197. delay(1)
+
+67
+00:04:04,751 --> 00:04:04,751
+201. click(findTestObject("OCS-DESKTOP/Shipping page/Continue to payment method - Button"))
+
+68
+00:04:04,942 --> 00:04:04,942
+205. delay(3)
+
+69
+00:04:07,950 --> 00:04:07,951
+209. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+70
+00:08:56,949 --> 00:08:56,953
+213. delay(1)
+
+71
+00:08:57,961 --> 00:08:57,962
+217. click(findTestObject("OCS-DESKTOP/Payment -page/Change link span 2"))
+
+72
+00:21:24,323 --> 00:21:24,325
+221. delay(3)
+
+73
+00:21:27,350 --> 00:21:27,356
+225. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+

@@ -1,0 +1,296 @@
+1
+00:00:00,294 --> 00:00:00,296
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,376 --> 00:00:00,379
+1. openBrowser("")
+
+3
+00:00:03,629 --> 00:00:03,629
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:06,427 --> 00:00:06,428
+9. maximizeWindow()
+
+5
+00:00:06,792 --> 00:00:06,792
+13. refresh()
+
+6
+00:00:11,969 --> 00:00:11,970
+17. delay(2)
+
+7
+00:00:13,975 --> 00:00:13,975
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:14,030 --> 00:00:14,030
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:15,769 --> 00:00:15,769
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:16,317 --> 00:00:16,317
+33. delay(2)
+
+11
+00:00:18,325 --> 00:00:18,325
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:22,473 --> 00:00:22,473
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:22,877 --> 00:00:22,877
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:23,164 --> 00:00:23,165
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:23,323 --> 00:00:23,324
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:23,678 --> 00:00:23,678
+57. delay(2)
+
+17
+00:00:25,683 --> 00:00:25,684
+61. refresh()
+
+18
+00:00:29,971 --> 00:00:29,972
+5. delay(2)
+
+19
+00:00:31,980 --> 00:00:31,980
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+20
+00:00:32,016 --> 00:00:32,017
+13. click(findTestObject("OCS-DESKTOP/Home - page/Return Policy"))
+
+21
+00:00:32,157 --> 00:00:32,161
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:32,178 --> 00:00:32,178
+21. delay(2, OPTIONAL)
+
+23
+00:00:34,183 --> 00:00:34,184
+25. click(findTestObject("OCS-DESKTOP/Home - page/AGCO Cannabis retail stores"), CONTINUE_ON_FAILURE)
+
+24
+00:01:05,992 --> 00:01:05,993
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+25
+00:01:06,017 --> 00:01:06,017
+33. delay(2, OPTIONAL)
+
+26
+00:01:08,021 --> 00:01:08,021
+37. click(findTestObject("OCS-DESKTOP/Home - page/Payment - Delivery info"))
+
+27
+00:01:10,874 --> 00:01:10,874
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+28
+00:01:10,924 --> 00:01:10,925
+45. delay(2, OPTIONAL)
+
+29
+00:01:12,930 --> 00:01:12,930
+49. click(findTestObject("OCS-DESKTOP/Home - page/Legal use of cannbis in ontario"))
+
+30
+00:01:16,012 --> 00:01:16,012
+53. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+31
+00:01:16,027 --> 00:01:16,028
+57. delay(2, OPTIONAL)
+
+32
+00:01:18,030 --> 00:01:18,030
+61. click(findTestObject("OCS-DESKTOP/Home - page/Glossary of terms"))
+
+33
+00:01:20,715 --> 00:01:20,715
+65. delay(2, OPTIONAL)
+
+34
+00:01:22,718 --> 00:01:22,718
+69. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+35
+00:01:22,766 --> 00:01:22,766
+73. click(findTestObject("OCS-DESKTOP/Home - page/Product Recall"))
+
+36
+00:01:25,473 --> 00:01:25,473
+77. delay(2, OPTIONAL)
+
+37
+00:01:27,479 --> 00:01:27,479
+81. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+38
+00:01:27,517 --> 00:01:27,517
+85. click(findTestObject("OCS-DESKTOP/Home - page/Government of Canada - Canna"))
+
+39
+00:01:28,164 --> 00:01:28,166
+89. delay(2)
+
+40
+00:01:30,167 --> 00:01:30,167
+93. delay(2, OPTIONAL)
+
+41
+00:01:32,169 --> 00:01:32,169
+97. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+42
+00:01:32,214 --> 00:01:32,215
+101. click(findTestObject("OCS-DESKTOP/Home - page/Government of Ontario - Cann"))
+
+43
+00:01:32,265 --> 00:01:32,265
+105. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+44
+00:01:32,270 --> 00:01:32,270
+109. click(findTestObject("OCS-DESKTOP/Home - page/About the OCS"))
+
+45
+00:01:32,319 --> 00:01:32,320
+113. delay(2)
+
+46
+00:01:34,325 --> 00:01:34,326
+117. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+47
+00:01:34,367 --> 00:01:34,367
+121. click(findTestObject("OCS-DESKTOP/Home - page/Careers"))
+
+48
+00:01:34,415 --> 00:01:34,415
+125. delay(2)
+
+49
+00:01:36,419 --> 00:01:36,420
+129. delay(2, OPTIONAL)
+
+50
+00:01:38,423 --> 00:01:38,423
+133. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+51
+00:01:38,430 --> 00:01:38,430
+137. click(findTestObject("OCS-DESKTOP/Home - page/News"), OPTIONAL)
+
+52
+00:01:38,474 --> 00:01:38,474
+141. delay(2)
+
+53
+00:01:40,479 --> 00:01:40,479
+145. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+54
+00:01:40,516 --> 00:01:40,517
+149. click(findTestObject("OCS-DESKTOP/Home - page/Doing Business With OCS"))
+
+55
+00:01:40,567 --> 00:01:40,567
+153. delay(2)
+
+56
+00:01:42,568 --> 00:01:42,569
+157. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+57
+00:01:42,575 --> 00:01:42,575
+161. click(findTestObject("OCS-DESKTOP/Home - page/Help us improve OCS.ca"), CONTINUE_ON_FAILURE)
+
+58
+00:01:42,577 --> 00:01:42,577
+165. delay(2)
+
+59
+00:01:44,582 --> 00:01:44,582
+169. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+60
+00:01:44,616 --> 00:01:44,617
+173. click(findTestObject("OCS-DESKTOP/Home - page/Terms and Conditions"))
+
+61
+00:01:44,629 --> 00:01:44,630
+177. delay(2)
+
+62
+00:01:46,631 --> 00:01:46,632
+181. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+63
+00:01:46,667 --> 00:01:46,668
+185. click(findTestObject("OCS-DESKTOP/Home - page/Privacy"))
+
+64
+00:01:46,715 --> 00:01:46,716
+189. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+65
+00:01:46,720 --> 00:01:46,720
+193. delay(2)
+
+66
+00:01:48,721 --> 00:01:48,722
+197. click(findTestObject("OCS-DESKTOP/Home - page/Accessibility"))
+
+67
+00:01:48,775 --> 00:01:48,775
+201. delay(2)
+
+68
+00:01:50,780 --> 00:01:50,780
+205. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+69
+00:01:50,816 --> 00:01:50,817
+209. click(findTestObject("OCS-DESKTOP/Home - page/Delivery to First Nations"))
+
+70
+00:01:50,830 --> 00:01:50,830
+213. delay(2)
+
+71
+00:01:52,835 --> 00:01:52,835
+217. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+72
+00:01:52,866 --> 00:01:52,868
+221. click(findTestObject("OCS-DESKTOP/Home - page/Hello OCS image"))
+
+73
+00:01:52,915 --> 00:01:52,916
+225. delay(2)
+
+74
+00:01:54,918 --> 00:01:54,918
+229. click(findTestObject("OCS-DESKTOP/Home - page/twitter"))
+

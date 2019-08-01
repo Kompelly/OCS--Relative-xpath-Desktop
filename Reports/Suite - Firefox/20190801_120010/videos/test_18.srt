@@ -1,0 +1,368 @@
+1
+00:00:00,349 --> 00:00:00,350
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,424 --> 00:00:00,425
+1. openBrowser("")
+
+3
+00:00:07,187 --> 00:00:07,187
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:11,994 --> 00:00:11,994
+9. maximizeWindow()
+
+5
+00:00:12,571 --> 00:00:12,571
+13. refresh()
+
+6
+00:00:16,876 --> 00:00:16,877
+17. delay(2)
+
+7
+00:00:18,884 --> 00:00:18,884
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:18,895 --> 00:00:18,895
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:19,751 --> 00:00:19,751
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:20,319 --> 00:00:20,320
+33. delay(2)
+
+11
+00:00:22,325 --> 00:00:22,325
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:24,586 --> 00:00:24,588
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:24,845 --> 00:00:24,845
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:25,166 --> 00:00:25,167
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:25,441 --> 00:00:25,441
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:25,742 --> 00:00:25,742
+57. delay(2)
+
+17
+00:00:27,743 --> 00:00:27,743
+61. refresh()
+
+18
+00:00:31,832 --> 00:00:31,832
+5. delay(2)
+
+19
+00:00:33,838 --> 00:00:33,838
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+20
+00:00:33,908 --> 00:00:33,909
+1. delay(2)
+
+21
+00:00:35,909 --> 00:00:35,910
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+22
+00:00:36,204 --> 00:00:36,205
+9. delay(2)
+
+23
+00:00:38,209 --> 00:00:38,209
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+24
+00:00:38,468 --> 00:00:38,469
+17. delay(5)
+
+25
+00:00:43,479 --> 00:00:43,479
+21. e = getWindowTitle()
+
+26
+00:00:43,492 --> 00:00:43,493
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+27
+00:00:44,114 --> 00:00:44,115
+17. delay(2)
+
+28
+00:00:46,119 --> 00:00:46,120
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+29
+00:00:46,138 --> 00:00:46,138
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+30
+00:00:49,087 --> 00:00:49,087
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+31
+00:00:49,139 --> 00:00:49,140
+33. delay(2)
+
+32
+00:00:51,141 --> 00:00:51,142
+37. click(findTestObject("FRENCH/Product image - 1st one"))
+
+33
+00:00:54,583 --> 00:00:54,584
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+34
+00:00:54,625 --> 00:00:54,625
+45. delay(3)
+
+35
+00:00:57,627 --> 00:00:57,628
+49. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+36
+00:00:57,967 --> 00:00:57,967
+53. delay(2)
+
+37
+00:00:59,973 --> 00:00:59,973
+57. delay(2)
+
+38
+00:01:01,974 --> 00:01:01,975
+61. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+39
+00:01:02,233 --> 00:01:02,234
+65. delay(2)
+
+40
+00:01:04,240 --> 00:01:04,240
+69. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+41
+00:01:04,498 --> 00:01:04,498
+73. delay(2)
+
+42
+00:01:06,502 --> 00:01:06,503
+77. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"), OPTIONAL)
+
+43
+00:01:06,782 --> 00:01:06,783
+81. delay(1)
+
+44
+00:01:07,788 --> 00:01:07,788
+85. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+
+45
+00:01:08,377 --> 00:01:08,378
+89. delay(1)
+
+46
+00:01:09,383 --> 00:01:09,383
+93. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition"))
+
+47
+00:01:09,626 --> 00:01:09,627
+97. delay(1)
+
+48
+00:01:10,630 --> 00:01:10,630
+101. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkout - Button"))
+
+49
+00:01:16,560 --> 00:01:16,561
+105. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+50
+00:01:16,725 --> 00:01:16,726
+109. delay(2)
+
+51
+00:01:18,731 --> 00:01:18,731
+113. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse e-mail_checkoute"), "suman@gmail.com")
+
+52
+00:01:18,915 --> 00:01:18,916
+117. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Prnom_checkoutshipping_a"), "suman")
+
+53
+00:01:19,197 --> 00:01:19,197
+121. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Nom_checkoutshipping_add"), "kompelly")
+
+54
+00:01:19,446 --> 00:01:19,447
+125. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Adresse_checkoutshipping"), "123 test")
+
+55
+00:01:19,609 --> 00:01:19,610
+129. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Appartement suite etc. ("), "123")
+
+56
+00:01:19,843 --> 00:01:19,847
+133. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Ville_checkoutshipping_a"), "montreal")
+
+57
+00:01:20,017 --> 00:01:20,018
+137. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Code postal_checkoutship"), "n0r1k0")
+
+58
+00:01:20,221 --> 00:01:20,222
+141. setText(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/input_Tlphone_checkoutshipping"), "514-449-3883")
+
+59
+00:01:20,393 --> 00:01:20,393
+145. delay(2)
+
+60
+00:01:22,396 --> 00:01:22,397
+149. click(findTestObject("Object Repository/Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode"))
+
+61
+00:01:28,433 --> 00:01:28,434
+153. delay(4)
+
+62
+00:01:32,436 --> 00:01:32,437
+157. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+63
+00:01:32,448 --> 00:01:32,448
+161. delay(2)
+
+64
+00:01:34,455 --> 00:01:34,456
+165. click(findTestObject("Object Repository/Page_Ontario Cannabis Store - Livra/button_Continuer vers le moyen"))
+
+65
+00:01:38,174 --> 00:01:38,175
+169. delay(1)
+
+66
+00:01:39,180 --> 00:01:39,180
+173. click(findTestObject("FRENCH/Change link span 1"))
+
+67
+00:01:41,795 --> 00:01:41,796
+177. delay(2)
+
+68
+00:01:43,800 --> 00:01:43,801
+181. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+69
+00:01:43,811 --> 00:01:43,812
+185. delay(3)
+
+70
+00:01:46,816 --> 00:01:46,816
+189. click(findTestObject("Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode"))
+
+71
+00:01:49,019 --> 00:01:49,020
+193. delay(3)
+
+72
+00:01:52,025 --> 00:01:52,026
+197. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+73
+00:01:52,036 --> 00:01:52,036
+201. delay(1)
+
+74
+00:01:53,037 --> 00:01:53,038
+205. click(findTestObject("Page_Ontario Cannabis Store - Livra/button_Continuer vers le moyen"))
+
+75
+00:02:01,817 --> 00:02:01,818
+209. delay(3)
+
+76
+00:02:04,820 --> 00:02:04,820
+213. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+77
+00:02:04,833 --> 00:02:04,833
+217. delay(1)
+
+78
+00:02:05,839 --> 00:02:05,840
+221. click(findTestObject("FRENCH/Change link span 2"))
+
+79
+00:02:07,326 --> 00:02:07,330
+225. delay(3)
+
+80
+00:02:10,333 --> 00:02:10,334
+229. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+81
+00:02:10,349 --> 00:02:10,350
+233. delay(1)
+
+82
+00:02:11,353 --> 00:02:11,354
+237. click(findTestObject("Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode"))
+
+83
+00:02:13,301 --> 00:02:13,302
+241. delay(3)
+
+84
+00:02:16,307 --> 00:02:16,307
+245. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+85
+00:02:16,318 --> 00:02:16,318
+249. delay(1)
+
+86
+00:02:17,321 --> 00:02:17,322
+253. click(findTestObject("Page_Ontario Cannabis Store - Infor/button_Continuer vers le mode"))
+
+87
+00:02:19,532 --> 00:02:19,532
+257. delay(3)
+
+88
+00:02:22,534 --> 00:02:22,534
+261. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+89
+00:02:22,545 --> 00:02:22,545
+265. click(findTestObject("OCS-DESKTOP/Customer info page/Cart - Breadcrumb link"))
+
+90
+00:02:24,391 --> 00:02:24,392
+269. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+91
+00:02:24,403 --> 00:02:24,404
+273. delay(3)
+
+92
+00:02:27,405 --> 00:02:27,406
+277. click(findTestObject("OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that"))
+

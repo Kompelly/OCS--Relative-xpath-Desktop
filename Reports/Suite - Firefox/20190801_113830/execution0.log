@@ -1,0 +1,4916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-01T11:38:34</date>
+  <millis>1564673914786</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Suite - Firefox</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Suite - Firefox</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Suite - Firefox</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:34</date>
+  <millis>1564673914812</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sumankompelly - 10.0.126.233</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sumankompelly - 10.0.126.233</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:34</date>
+  <millis>1564673914814</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:34</date>
+  <millis>1564673914815</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.0.126.233</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.126.233</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:34</date>
+  <millis>1564673914836</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:35</date>
+  <millis>1564673915433</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\OCS- CRITICAL PATH\\Cart flyout- increase qty.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:37</date>
+  <millis>1564673917500</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL - Navigate to PDP\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:37</date>
+  <millis>1564673917878</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\CALL - Navigate to PDP.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:38</date>
+  <millis>1564673918512</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:39</date>
+  <millis>1564673919183</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:39</date>
+  <millis>1564673919331</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923497</millis>
+  <sequence>16</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can&amp;apos;t kill an exited process\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;sumans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:41b:1667:288b:e2fa%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.13.6&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CGeckoDriver\nremote stacktrace: )</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923515</millis>
+  <sequence>18</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>openBrowser(\&amp;quot;\&amp;quot;) FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can&amp;apos;t kill an exited process\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;sumans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:41b:1667:288b:e2fa%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.13.6&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CGeckoDriver\nremote stacktrace: )\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\n\tat CALL - Navigate to PDP.run(CALL - Navigate to PDP:16)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\n\tat Cart flyout- increase qty.run(Cart flyout- increase qty:17)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1564673910882.run(TempTestSuite1564673910882.groovy:36)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:41b:1667:288b:e2fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CALL - Navigate to PDP</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>80</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Cart flyout- increase qty</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564673910882</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923576</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923609</millis>
+  <sequence>21</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/OCS - DESKTOP/CALL - Navigate to PDP FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can&amp;apos;t kill an exited process\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;sumans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:41b:1667:288b:e2fa%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.13.6&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CGeckoDriver\nremote stacktrace: )\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\n\tat CALL - Navigate to PDP.run(CALL - Navigate to PDP:16)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\n\tat Cart flyout- increase qty.run(Cart flyout- increase qty:17)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1564673910882.run(TempTestSuite1564673910882.groovy:36)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:41b:1667:288b:e2fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CALL - Navigate to PDP</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>80</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Cart flyout- increase qty</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564673910882</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923621</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923625</millis>
+  <sequence>23</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to call Test Case &amp;apos;Test Cases/OCS - DESKTOP/CALL - Navigate to PDP&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case &amp;apos;Test Cases/OCS - DESKTOP/CALL - Navigate to PDP&amp;apos; failed)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923626</millis>
+  <sequence>25</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL - Navigate to PDP\&amp;quot;), [:], STOP_ON_FAILURE) FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can&amp;apos;t kill an exited process\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;sumans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:41b:1667:288b:e2fa%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.13.6&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CGeckoDriver\nremote stacktrace: )\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\n\tat CALL - Navigate to PDP.run(CALL - Navigate to PDP:16)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\n\tat Cart flyout- increase qty.run(Cart flyout- increase qty:17)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1564673910882.run(TempTestSuite1564673910882.groovy:36)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:41b:1667:288b:e2fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CALL - Navigate to PDP</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>80</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Cart flyout- increase qty</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564673910882</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923630</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL - Navigate to PDP\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:43</date>
+  <millis>1564673923631</millis>
+  <sequence>28</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can&amp;apos;t kill an exited process\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;sumans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:41b:1667:288b:e2fa%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.13.6&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: CGeckoDriver\nremote stacktrace: )\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)\n\tat com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)\n\tat CALL - Navigate to PDP.run(CALL - Navigate to PDP:16)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\n\tat Cart flyout- increase qty.run(Cart flyout- increase qty:17)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1564673910882.run(TempTestSuite1564673910882.groovy:36)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:41b:1667:288b:e2fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CALL - Navigate to PDP</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>80</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Cart flyout- increase qty</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564673910882</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:45</date>
+  <millis>1564673925753</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:45</date>
+  <millis>1564673925761</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\OCS- CRITICAL PATH\\Cart flyout- decrease qty.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:46</date>
+  <millis>1564673926493</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL - Navigate to PDP\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:46</date>
+  <millis>1564673926568</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\CALL - Navigate to PDP.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:46</date>
+  <millis>1564673926583</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:46</date>
+  <millis>1564673926590</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934624</millis>
+  <sequence>41</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = fd45ca09-55bb-a548-a78c-19f92687d1da</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">fd45ca09-55bb-a548-a78c-19f92687d1da</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934651</millis>
+  <sequence>42</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 68.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 68.0</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934651</millis>
+  <sequence>43</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934660</millis>
+  <sequence>44</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934722</millis>
+  <sequence>45</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934724</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934729</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:54</date>
+  <millis>1564673934729</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T11:38:55</date>
+  <millis>1564673935434</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:55</date>
+  <millis>1564673935435</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:38:55</date>
+  <millis>1564673935435</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:03</date>
+  <millis>1564673943435</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:03</date>
+  <millis>1564673943436</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:03</date>
+  <millis>1564673943436</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948442</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948443</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948443</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948555</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948556</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:08</date>
+  <millis>1564673948557</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(4)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:12</date>
+  <millis>1564673952592</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:12</date>
+  <millis>1564673952595</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(4)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:12</date>
+  <millis>1564673952595</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Date\&amp;quot;), \&amp;quot;12\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:14</date>
+  <millis>1564673954095</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;12&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:14</date>
+  <millis>1564673954096</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Date\&amp;quot;), \&amp;quot;12\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:14</date>
+  <millis>1564673954097</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/month\&amp;quot;), \&amp;quot;6\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:15</date>
+  <millis>1564673955548</millis>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;6&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/month&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:15</date>
+  <millis>1564673955549</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/month\&amp;quot;), \&amp;quot;6\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:15</date>
+  <millis>1564673955549</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:17</date>
+  <millis>1564673957552</millis>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:17</date>
+  <millis>1564673957554</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:17</date>
+  <millis>1564673957555</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Year Dropdown\&amp;quot;), \&amp;quot;1990\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960292</millis>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;1990&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960293</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Year Dropdown\&amp;quot;), \&amp;quot;1990\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960294</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Verify\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960666</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960667</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Verify\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960667</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960934</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960938</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:20</date>
+  <millis>1564673960938</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961192</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961194</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961194</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961566</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961569</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:21</date>
+  <millis>1564673961569</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:23</date>
+  <millis>1564673963571</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:23</date>
+  <millis>1564673963572</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:23</date>
+  <millis>1564673963572</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://ocs.ca/products/city-lights\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966359</millis>
+  <sequence>148</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://ocs.ca/products/city-lights&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966360</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://ocs.ca/products/city-lights\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966360</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966400</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966401</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966402</millis>
+  <sequence>153</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966402</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/OCS - DESKTOP/CALL - Navigate to PDP</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966403</millis>
+  <sequence>155</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/OCS - DESKTOP/CALL - Navigate to PDP&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966403</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL - Navigate to PDP\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966404</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966405</millis>
+  <sequence>158</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966406</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:26</date>
+  <millis>1564673966407</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968412</millis>
+  <sequence>162</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968413</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968413</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968421</millis>
+  <sequence>165</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968422</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968422</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : flag = verifyElementPresent(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968442</millis>
+  <sequence>171</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968449</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/OCS-DESKTOP/Product page/Swatch_1g&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968450</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : flag = verifyElementPresent(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968451</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968788</millis>
+  <sequence>183</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Swatch_1g&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968789</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:28</date>
+  <millis>1564673968789</millis>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969282</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/sumankompelly/git/OCS--Relative-xpath-Desktop/Reports/Suite - Firefox/20190801_113830/1564673968814.png</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969284</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969284</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot; flag =\&amp;quot; + flag)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969294</millis>
+  <sequence>189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message> flag =true</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969295</millis>
+  <sequence>190</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot; flag =\&amp;quot; + flag)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969295</millis>
+  <sequence>191</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (flag == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:29</date>
+  <millis>1564673969296</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971298</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971298</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971299</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971299</millis>
+  <sequence>197</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971300</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:31</date>
+  <millis>1564673971300</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972302</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972303</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972304</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972578</millis>
+  <sequence>210</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Quantity Increase - Button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972579</millis>
+  <sequence>211</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:32</date>
+  <millis>1564673972579</millis>
+  <sequence>212</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973587</millis>
+  <sequence>214</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973589</millis>
+  <sequence>215</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973590</millis>
+  <sequence>216</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973834</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Quantity Increase - Button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973834</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:33</date>
+  <millis>1564673973835</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:34</date>
+  <millis>1564673974837</millis>
+  <sequence>227</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:34</date>
+  <millis>1564673974839</millis>
+  <sequence>228</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:34</date>
+  <millis>1564673974839</millis>
+  <sequence>229</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:35</date>
+  <millis>1564673975087</millis>
+  <sequence>236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Quantity Increase - Button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:35</date>
+  <millis>1564673975088</millis>
+  <sequence>237</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:35</date>
+  <millis>1564673975088</millis>
+  <sequence>238</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976092</millis>
+  <sequence>240</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976094</millis>
+  <sequence>241</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976094</millis>
+  <sequence>242</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976345</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Quantity Increase - Button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976346</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Quantity Increase - Button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:36</date>
+  <millis>1564673976346</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">55</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978352</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978353</millis>
+  <sequence>254</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978353</millis>
+  <sequence>255</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Add to Bag-button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978603</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Add to Bag-button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978604</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Add to Bag-button\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:38</date>
+  <millis>1564673978604</millis>
+  <sequence>264</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979608</millis>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979609</millis>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979609</millis>
+  <sequence>268</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Home - page/view my bag - cart dropdown\&amp;quot;), OPTIONAL)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979877</millis>
+  <sequence>275</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Home - page/view my bag - cart dropdown&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979879</millis>
+  <sequence>276</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Home - page/view my bag - cart dropdown\&amp;quot;), OPTIONAL)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979879</millis>
+  <sequence>277</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979880</millis>
+  <sequence>278</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979880</millis>
+  <sequence>279</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:39</date>
+  <millis>1564673979880</millis>
+  <sequence>280</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981882</millis>
+  <sequence>282</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981892</millis>
+  <sequence>283</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981893</millis>
+  <sequence>284</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = getText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Unit price - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981953</millis>
+  <sequence>291</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Unit price - Product&amp;apos; is: &amp;apos;$52.50&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981954</millis>
+  <sequence>292</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = getText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Unit price - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981954</millis>
+  <sequence>293</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(a)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981955</millis>
+  <sequence>294</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>$52.50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981955</millis>
+  <sequence>295</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(a)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981955</millis>
+  <sequence>296</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : b = a.substring(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981957</millis>
+  <sequence>297</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : b = a.substring(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981957</millis>
+  <sequence>298</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(b)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981958</millis>
+  <sequence>299</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>52.50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981959</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(b)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:41</date>
+  <millis>1564673981959</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982244</millis>
+  <sequence>308</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/input_-_updates&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982245</millis>
+  <sequence>309</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982245</millis>
+  <sequence>310</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;), Keys.chord(CLEAR))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982378</millis>
+  <sequence>322</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;CLEAR + &amp;apos; is set on object &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/input_-_updates&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982379</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;), Keys.chord(CLEAR))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:42</date>
+  <millis>1564673982379</millis>
+  <sequence>324</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983381</millis>
+  <sequence>326</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983382</millis>
+  <sequence>327</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983382</millis>
+  <sequence>328</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;), \&amp;quot;10\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983474</millis>
+  <sequence>340</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;10&amp;apos; is set on object &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/input_-_updates&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983475</millis>
+  <sequence>341</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/input_-_updates\&amp;quot;), \&amp;quot;10\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:43</date>
+  <millis>1564673983476</millis>
+  <sequence>342</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985480</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985480</millis>
+  <sequence>345</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985480</millis>
+  <sequence>346</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985769</millis>
+  <sequence>353</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Quantity decrease - Product&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985769</millis>
+  <sequence>354</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:45</date>
+  <millis>1564673985769</millis>
+  <sequence>355</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:46</date>
+  <millis>1564673986774</millis>
+  <sequence>357</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:46</date>
+  <millis>1564673986774</millis>
+  <sequence>358</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:46</date>
+  <millis>1564673986775</millis>
+  <sequence>359</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:47</date>
+  <millis>1564673987054</millis>
+  <sequence>366</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Quantity decrease - Product&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:47</date>
+  <millis>1564673987055</millis>
+  <sequence>367</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:47</date>
+  <millis>1564673987055</millis>
+  <sequence>368</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988059</millis>
+  <sequence>370</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988059</millis>
+  <sequence>371</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988060</millis>
+  <sequence>372</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988327</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Quantity decrease - Product&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988328</millis>
+  <sequence>380</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Quantity decrease - Product\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:48</date>
+  <millis>1564673988328</millis>
+  <sequence>381</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993332</millis>
+  <sequence>383</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993335</millis>
+  <sequence>384</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993337</millis>
+  <sequence>385</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : c = getText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Sub-total Price\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993384</millis>
+  <sequence>392</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Sub-total Price&amp;apos; is: &amp;apos;$10.50&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993384</millis>
+  <sequence>393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : c = getText(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Sub-total Price\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993384</millis>
+  <sequence>394</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(c)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993385</millis>
+  <sequence>395</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>$10.50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993386</millis>
+  <sequence>396</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(c)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993386</millis>
+  <sequence>397</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : d = c.substring(1)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993387</millis>
+  <sequence>398</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : d = c.substring(1)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993387</millis>
+  <sequence>399</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(d)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993388</millis>
+  <sequence>400</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>10.50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993389</millis>
+  <sequence>401</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(d)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993389</millis>
+  <sequence>402</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyNotEqual(\&amp;quot;b\&amp;quot;, \&amp;quot;d\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">105</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993411</millis>
+  <sequence>404</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;b&amp;apos; and expected object &amp;apos;d&amp;apos; are not equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993412</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyNotEqual(\&amp;quot;b\&amp;quot;, \&amp;quot;d\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993412</millis>
+  <sequence>406</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot; Sub-total Price changed . Quantity selector is working\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">107</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993413</millis>
+  <sequence>407</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message> Sub-total Price changed . Quantity selector is working</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993413</millis>
+  <sequence>408</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot; Sub-total Price changed . Quantity selector is working\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993413</millis>
+  <sequence>409</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (flag == true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:53</date>
+  <millis>1564673993413</millis>
+  <sequence>410</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:55</date>
+  <millis>1564673995482</millis>
+  <sequence>411</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:55</date>
+  <millis>1564673995494</millis>
+  <sequence>412</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout- Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout- Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout- Payment</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\OCS- CRITICAL PATH\\Checkout- Payment.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:56</date>
+  <millis>1564673996014</millis>
+  <sequence>414</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL- Age gate\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:56</date>
+  <millis>1564673996079</millis>
+  <sequence>417</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/OCS - DESKTOP/CALL- Age gate</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/OCS - DESKTOP/CALL- Age gate</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/OCS - DESKTOP/CALL- Age gate</property>
+  <property name="source">\\Users\\sumankompelly\\git\\OCS--Relative-xpath-Desktop\\Test Cases\\OCS - DESKTOP\\CALL- Age gate.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:56</date>
+  <millis>1564673996299</millis>
+  <sequence>419</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T11:39:56</date>
+  <millis>1564673996301</millis>
+  <sequence>421</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:39:59</date>
+  <millis>1564673999524</millis>
+  <sequence>422</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004374</millis>
+  <sequence>424</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = be5af9f2-8bea-8f4f-8e56-650f2a288e3e</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">be5af9f2-8bea-8f4f-8e56-650f2a288e3e</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004384</millis>
+  <sequence>425</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 68.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Firefox 68.0</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004385</millis>
+  <sequence>426</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004385</millis>
+  <sequence>427</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004386</millis>
+  <sequence>428</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004387</millis>
+  <sequence>429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004387</millis>
+  <sequence>430</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:04</date>
+  <millis>1564674004387</millis>
+  <sequence>431</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:09</date>
+  <millis>1564674009225</millis>
+  <sequence>434</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:09</date>
+  <millis>1564674009226</millis>
+  <sequence>435</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://ocs.ca/?fts=0&amp;amp;preview_theme_id=74380642124\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:09</date>
+  <millis>1564674009226</millis>
+  <sequence>436</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:10</date>
+  <millis>1564674010316</millis>
+  <sequence>438</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:10</date>
+  <millis>1564674010319</millis>
+  <sequence>439</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:10</date>
+  <millis>1564674010319</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:15</date>
+  <millis>1564674015401</millis>
+  <sequence>442</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:15</date>
+  <millis>1564674015403</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:15</date>
+  <millis>1564674015403</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017409</millis>
+  <sequence>446</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017410</millis>
+  <sequence>447</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017410</millis>
+  <sequence>448</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017422</millis>
+  <sequence>449</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017423</millis>
+  <sequence>450</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:17</date>
+  <millis>1564674017423</millis>
+  <sequence>451</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Date\&amp;quot;), \&amp;quot;12\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:18</date>
+  <millis>1564674018439</millis>
+  <sequence>460</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;12&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Date&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:18</date>
+  <millis>1564674018442</millis>
+  <sequence>461</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Date\&amp;quot;), \&amp;quot;12\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:18</date>
+  <millis>1564674018443</millis>
+  <sequence>462</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/month\&amp;quot;), \&amp;quot;6\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:19</date>
+  <millis>1564674019506</millis>
+  <sequence>471</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;6&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/month&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:19</date>
+  <millis>1564674019507</millis>
+  <sequence>472</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/month\&amp;quot;), \&amp;quot;6\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:19</date>
+  <millis>1564674019507</millis>
+  <sequence>473</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:21</date>
+  <millis>1564674021509</millis>
+  <sequence>475</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:21</date>
+  <millis>1564674021521</millis>
+  <sequence>476</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:21</date>
+  <millis>1564674021555</millis>
+  <sequence>477</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Year Dropdown\&amp;quot;), \&amp;quot;1990\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024016</millis>
+  <sequence>486</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;1990&amp;apos; are selected in object &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Year Dropdown&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024016</millis>
+  <sequence>487</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Year Dropdown\&amp;quot;), \&amp;quot;1990\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024016</millis>
+  <sequence>488</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Verify\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024276</millis>
+  <sequence>495</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Verify&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024277</millis>
+  <sequence>496</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Verify\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024277</millis>
+  <sequence>497</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024540</millis>
+  <sequence>504</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024541</millis>
+  <sequence>505</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024542</millis>
+  <sequence>506</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024839</millis>
+  <sequence>513</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024839</millis>
+  <sequence>514</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:24</date>
+  <millis>1564674024840</millis>
+  <sequence>515</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:25</date>
+  <millis>1564674025151</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:25</date>
+  <millis>1564674025151</millis>
+  <sequence>523</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:25</date>
+  <millis>1564674025152</millis>
+  <sequence>524</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:27</date>
+  <millis>1564674027155</millis>
+  <sequence>526</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:27</date>
+  <millis>1564674027156</millis>
+  <sequence>527</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:27</date>
+  <millis>1564674027156</millis>
+  <sequence>528</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031052</millis>
+  <sequence>530</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031052</millis>
+  <sequence>531</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031053</millis>
+  <sequence>532</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/OCS - DESKTOP/CALL- Age gate</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031053</millis>
+  <sequence>533</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/OCS - DESKTOP/CALL- Age gate</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031053</millis>
+  <sequence>534</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/OCS - DESKTOP/CALL- Age gate&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031054</millis>
+  <sequence>535</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;OCS - DESKTOP/CALL- Age gate\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031054</millis>
+  <sequence>536</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031497</millis>
+  <sequence>543</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031498</millis>
+  <sequence>544</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:31</date>
+  <millis>1564674031498</millis>
+  <sequence>545</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:33</date>
+  <millis>1564674033500</millis>
+  <sequence>547</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:33</date>
+  <millis>1564674033501</millis>
+  <sequence>548</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:33</date>
+  <millis>1564674033501</millis>
+  <sequence>549</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037440</millis>
+  <sequence>556</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037441</millis>
+  <sequence>557</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037441</millis>
+  <sequence>558</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037478</millis>
+  <sequence>559</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037478</millis>
+  <sequence>560</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:37</date>
+  <millis>1564674037479</millis>
+  <sequence>561</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:39</date>
+  <millis>1564674039481</millis>
+  <sequence>563</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:39</date>
+  <millis>1564674039482</millis>
+  <sequence>564</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:39</date>
+  <millis>1564674039482</millis>
+  <sequence>565</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Collection page/Product image - 1st one\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042727</millis>
+  <sequence>572</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Collection page/Product image - 1st one&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042728</millis>
+  <sequence>573</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Collection page/Product image - 1st one\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042728</millis>
+  <sequence>574</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042752</millis>
+  <sequence>575</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042753</millis>
+  <sequence>576</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:42</date>
+  <millis>1564674042753</millis>
+  <sequence>577</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:43</date>
+  <millis>1564674043759</millis>
+  <sequence>579</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:43</date>
+  <millis>1564674043759</millis>
+  <sequence>580</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:43</date>
+  <millis>1564674043759</millis>
+  <sequence>581</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046763</millis>
+  <sequence>583</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046764</millis>
+  <sequence>584</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046765</millis>
+  <sequence>585</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046766</millis>
+  <sequence>586</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046767</millis>
+  <sequence>587</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Product image\&amp;quot;), 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:46</date>
+  <millis>1564674046767</millis>
+  <sequence>588</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:47</date>
+  <millis>1564674047141</millis>
+  <sequence>595</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Swatch_1g&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:47</date>
+  <millis>1564674047143</millis>
+  <sequence>596</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Swatch_1g\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:47</date>
+  <millis>1564674047143</millis>
+  <sequence>597</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049145</millis>
+  <sequence>599</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049146</millis>
+  <sequence>600</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049146</millis>
+  <sequence>601</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Add to Bag-button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049422</millis>
+  <sequence>608</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Product page/Add to Bag-button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049423</millis>
+  <sequence>609</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Product page/Add to Bag-button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:49</date>
+  <millis>1564674049423</millis>
+  <sequence>610</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050426</millis>
+  <sequence>612</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050427</millis>
+  <sequence>613</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050428</millis>
+  <sequence>614</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Home - page/view my bag - cart dropdown\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050761</millis>
+  <sequence>621</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Home - page/view my bag - cart dropdown&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050762</millis>
+  <sequence>622</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Home - page/view my bag - cart dropdown\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:50</date>
+  <millis>1564674050762</millis>
+  <sequence>623</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:53</date>
+  <millis>1564674053764</millis>
+  <sequence>625</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:53</date>
+  <millis>1564674053766</millis>
+  <sequence>626</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:53</date>
+  <millis>1564674053767</millis>
+  <sequence>627</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkbox_I confirm that\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:54</date>
+  <millis>1564674054048</millis>
+  <sequence>634</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Checkbox_I confirm that&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:54</date>
+  <millis>1564674054048</millis>
+  <sequence>635</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkbox_I confirm that\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:54</date>
+  <millis>1564674054048</millis>
+  <sequence>636</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055050</millis>
+  <sequence>638</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055051</millis>
+  <sequence>639</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055052</millis>
+  <sequence>640</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055309</millis>
+  <sequence>647</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055310</millis>
+  <sequence>648</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:55</date>
+  <millis>1564674055310</millis>
+  <sequence>649</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-08-01T11:40:56</date>
+  <millis>1564674056313</millis>
+  <sequence>651</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:56</date>
+  <millis>1564674056314</millis>
+  <sequence>652</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:40:56</date>
+  <millis>1564674056314</millis>
+  <sequence>653</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkout - Button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064738</millis>
+  <sequence>660</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OCS-DESKTOP/Cart flyout/Checkout - Button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064740</millis>
+  <sequence>661</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OCS-DESKTOP/Cart flyout/Checkout - Button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064740</millis>
+  <sequence>662</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064850</millis>
+  <sequence>663</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Execute JavaScript &amp;apos;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064850</millis>
+  <sequence>664</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : executeJavaScript(\&amp;quot;var previewBar = document.getElementById(\&amp;quot;preview-bar-iframe\&amp;quot;); previewBar.style.display = \&amp;quot;none\&amp;quot;;\&amp;quot;, [])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:04</date>
+  <millis>1564674064851</millis>
+  <sequence>665</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-08-01T11:41:05</date>
+  <millis>1564674065852</millis>
+  <sequence>667</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:05</date>
+  <millis>1564674065855</millis>
+  <sequence>668</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T11:41:05</date>
+  <millis>1564674065855</millis>
+  <sequence>669</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">25</property>
+</record>
+</log>

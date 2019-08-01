@@ -1,0 +1,16 @@
+1
+00:00:00,743 --> 00:00:00,744
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,816 --> 00:00:00,817
+1. openBrowser("")
+
+3
+00:00:03,227 --> 00:00:03,227
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:11,955 --> 00:00:11,956
+9. maximizeWindow()
+

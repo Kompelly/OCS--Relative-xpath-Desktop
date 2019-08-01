@@ -1,0 +1,116 @@
+1
+00:00:00,401 --> 00:00:00,405
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,470 --> 00:00:00,471
+1. openBrowser("")
+
+3
+00:00:09,615 --> 00:00:09,616
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:16,990 --> 00:00:16,991
+9. maximizeWindow()
+
+5
+00:00:17,837 --> 00:00:17,838
+13. refresh()
+
+6
+00:00:21,759 --> 00:00:21,759
+17. delay(2)
+
+7
+00:00:23,763 --> 00:00:23,763
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:23,774 --> 00:00:23,774
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:24,884 --> 00:00:24,885
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:25,467 --> 00:00:25,468
+33. delay(2)
+
+11
+00:00:27,472 --> 00:00:27,473
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:29,872 --> 00:00:29,873
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:30,143 --> 00:00:30,146
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:30,415 --> 00:00:30,415
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:30,653 --> 00:00:30,654
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:30,977 --> 00:00:30,977
+57. delay(2)
+
+17
+00:00:32,990 --> 00:00:32,992
+61. refresh()
+
+18
+00:00:37,194 --> 00:00:37,195
+5. delay(2)
+
+19
+00:00:39,199 --> 00:00:39,199
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+20
+00:00:39,209 --> 00:00:39,209
+13. click(findTestObject("OCS-DESKTOP/Home - page/Return Policy"))
+
+21
+00:00:41,688 --> 00:00:41,688
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:41,719 --> 00:00:41,719
+21. delay(2, OPTIONAL)
+
+23
+00:00:43,723 --> 00:00:43,723
+25. click(findTestObject("OCS-DESKTOP/Home - page/AGCO Cannabis retail stores"), CONTINUE_ON_FAILURE)
+
+24
+00:01:14,543 --> 00:01:14,544
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+25
+00:01:14,554 --> 00:01:14,554
+33. delay(2, OPTIONAL)
+
+26
+00:01:16,556 --> 00:01:16,556
+37. click(findTestObject("OCS-DESKTOP/Home - page/Payment - Delivery info"))
+
+27
+00:01:18,826 --> 00:01:18,827
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+28
+00:01:18,843 --> 00:01:18,843
+45. delay(2, OPTIONAL)
+
+29
+00:01:20,848 --> 00:01:20,848
+49. click(findTestObject("OCS-DESKTOP/Home - page/Legal use of cannbis in ontario"))
+

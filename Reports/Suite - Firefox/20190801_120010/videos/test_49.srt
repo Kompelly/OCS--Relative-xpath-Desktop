@@ -1,0 +1,80 @@
+1
+00:00:00,270 --> 00:00:00,271
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,346 --> 00:00:00,347
+1. openBrowser("")
+
+3
+00:00:10,255 --> 00:00:10,255
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:17,382 --> 00:00:17,383
+9. maximizeWindow()
+
+5
+00:00:18,037 --> 00:00:18,037
+13. refresh()
+
+6
+00:00:22,342 --> 00:00:22,343
+17. delay(2)
+
+7
+00:00:24,348 --> 00:00:24,349
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:24,375 --> 00:00:24,375
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:25,460 --> 00:00:25,461
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:26,001 --> 00:00:26,002
+33. delay(2)
+
+11
+00:00:28,003 --> 00:00:28,003
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:30,374 --> 00:00:30,374
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:30,621 --> 00:00:30,622
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:30,874 --> 00:00:30,874
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:31,115 --> 00:00:31,116
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:31,395 --> 00:00:31,395
+57. delay(2)
+
+17
+00:00:33,401 --> 00:00:33,401
+61. refresh()
+
+18
+00:00:36,373 --> 00:00:36,374
+5. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:37,122 --> 00:00:37,122
+9. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant"))
+
+20
+00:00:39,820 --> 00:00:39,821
+13. click(findTestObject("OCS-DESKTOP/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis"))
+
