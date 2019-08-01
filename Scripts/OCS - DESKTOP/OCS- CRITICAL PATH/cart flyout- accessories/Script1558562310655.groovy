@@ -37,7 +37,7 @@ not_run: WebUI.click(findTestObject('OCS-DESKTOP/Theme preview - Hide bar'))
 
 not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Up Chevron - Accessories you might need'))
+not_run: WebUI.click(findTestObject('OCS-DESKTOP/Cart flyout/Up Chevron - Accessories you might need'))
 
 WebUI.takeScreenshot()
 

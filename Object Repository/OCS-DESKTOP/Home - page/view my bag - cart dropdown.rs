@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class='btn btn--primary full-width']</value>
+         <value>//a[@class='btn btn--primary full-width js-alert__close']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@class='btn btn--primary full-width']</value>
+      <value>//a[@class='btn btn--primary full-width js-alert__close']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

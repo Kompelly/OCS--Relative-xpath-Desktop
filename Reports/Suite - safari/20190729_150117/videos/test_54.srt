@@ -1,0 +1,236 @@
+1
+00:00:00,055 --> 00:00:00,056
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,115 --> 00:00:00,115
+1. openBrowser("")
+
+3
+00:00:01,210 --> 00:00:01,210
+5. maximizeWindow()
+
+4
+00:00:01,259 --> 00:00:01,260
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:03,715 --> 00:00:03,715
+13. refresh()
+
+6
+00:00:03,781 --> 00:00:03,783
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:03,944 --> 00:00:03,945
+21. delay(4)
+
+8
+00:00:07,948 --> 00:00:07,949
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:08,718 --> 00:00:08,718
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:09,210 --> 00:00:09,210
+33. delay(2)
+
+11
+00:00:11,213 --> 00:00:11,213
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:13,471 --> 00:00:13,471
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:13,552 --> 00:00:13,552
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:13,712 --> 00:00:13,712
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:13,814 --> 00:00:13,814
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:13,910 --> 00:00:13,911
+57. delay(2)
+
+17
+00:00:15,915 --> 00:00:15,915
+61. navigateToUrl("https://ocs.ca/products/charlees")
+
+18
+00:00:21,301 --> 00:00:21,302
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:00:21,313 --> 00:00:21,314
+5. delay(2)
+
+20
+00:00:23,318 --> 00:00:23,319
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+21
+00:00:23,383 --> 00:00:23,383
+1. delay(2)
+
+22
+00:00:25,384 --> 00:00:25,384
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+23
+00:00:25,459 --> 00:00:25,459
+9. delay(2)
+
+24
+00:00:27,463 --> 00:00:27,464
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+25
+00:00:27,559 --> 00:00:27,559
+17. delay(5)
+
+26
+00:00:32,561 --> 00:00:32,561
+21. e = getWindowTitle()
+
+27
+00:00:32,568 --> 00:00:32,568
+13. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+28
+00:00:32,572 --> 00:00:32,572
+17. delay(2)
+
+29
+00:00:34,575 --> 00:00:34,575
+21. click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"))
+
+30
+00:00:34,666 --> 00:00:34,667
+25. delay(2)
+
+31
+00:00:36,677 --> 00:00:36,678
+29. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+32
+00:00:36,809 --> 00:00:36,810
+33. delay(2)
+
+33
+00:00:38,813 --> 00:00:38,814
+37. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+34
+00:00:38,909 --> 00:00:38,910
+41. delay(2)
+
+35
+00:00:40,915 --> 00:00:40,916
+45. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+36
+00:00:41,010 --> 00:00:41,011
+49. delay(2)
+
+37
+00:00:43,011 --> 00:00:43,012
+53. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+38
+00:00:43,059 --> 00:00:43,059
+57. delay(2)
+
+39
+00:00:45,061 --> 00:00:45,061
+61. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+40
+00:00:45,109 --> 00:00:45,110
+65. delay(2)
+
+41
+00:00:47,111 --> 00:00:47,113
+69. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+42
+00:00:47,209 --> 00:00:47,209
+73. delay(2)
+
+43
+00:00:49,212 --> 00:00:49,212
+77. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+44
+00:00:49,260 --> 00:00:49,260
+81. delay(2)
+
+45
+00:00:51,261 --> 00:00:51,261
+85. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+46
+00:00:51,360 --> 00:00:51,360
+89. delay(2)
+
+47
+00:00:53,364 --> 00:00:53,364
+93. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+48
+00:00:53,464 --> 00:00:53,465
+97. delay(2)
+
+49
+00:00:55,469 --> 00:00:55,470
+101. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+50
+00:00:55,563 --> 00:00:55,563
+105. delay(2)
+
+51
+00:00:57,566 --> 00:00:57,567
+109. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"))
+
+52
+00:00:57,662 --> 00:00:57,663
+113. delay(2)
+
+53
+00:00:59,667 --> 00:00:59,668
+117. click(findTestObject("OCS-DESKTOP/Cart flyout/Quantity increase - Product"))
+
+54
+00:00:59,769 --> 00:00:59,770
+121. delay(2)
+
+55
+00:01:01,780 --> 00:01:01,781
+125. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_I confirm that"))
+
+56
+00:01:01,868 --> 00:01:01,868
+129. delay(2)
+
+57
+00:01:03,872 --> 00:01:03,873
+133. click(findTestObject("OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition"))
+
+58
+00:01:04,009 --> 00:01:04,010
+137. delay(2)
+
+59
+00:01:06,014 --> 00:01:06,014
+141. click(findTestObject("Page_Blue Dream  Ontario Cannabis S/a_Passer  la caisse"))
+

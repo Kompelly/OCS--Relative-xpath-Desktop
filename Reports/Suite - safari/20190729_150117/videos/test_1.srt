@@ -1,0 +1,180 @@
+1
+00:00:01,393 --> 00:00:01,401
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,401 --> 00:00:02,402
+1. openBrowser("")
+
+3
+00:00:37,172 --> 00:00:37,174
+5. maximizeWindow()
+
+4
+00:00:37,323 --> 00:00:37,324
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:41,723 --> 00:00:41,724
+13. refresh()
+
+6
+00:00:48,390 --> 00:00:48,391
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:48,477 --> 00:00:48,479
+21. delay(4)
+
+8
+00:00:52,491 --> 00:00:52,492
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:01:06,567 --> 00:01:06,568
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:01:10,665 --> 00:01:10,666
+33. delay(2)
+
+11
+00:01:12,668 --> 00:01:12,668
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:02:10,128 --> 00:02:10,131
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:02:11,296 --> 00:02:11,297
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:02:12,016 --> 00:02:12,017
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:02:12,727 --> 00:02:12,729
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:02:13,180 --> 00:02:13,184
+57. delay(2)
+
+17
+00:02:15,192 --> 00:02:15,193
+61. navigateToUrl("https://ocs.ca/products/charlees")
+
+18
+00:02:21,269 --> 00:02:21,272
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:02:21,605 --> 00:02:21,610
+5. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+20
+00:02:21,612 --> 00:02:21,614
+9. delay(2)
+
+21
+00:02:23,616 --> 00:02:23,617
+13. flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"), 0)
+
+22
+00:02:26,791 --> 00:02:26,796
+17. comment(" flag =" + flag)
+
+23
+00:02:26,836 --> 00:02:26,837
+21. if (flag == true)
+
+24
+00:02:26,838 --> 00:02:26,838
+1. click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"))
+
+25
+00:02:28,166 --> 00:02:28,167
+5. delay(2)
+
+26
+00:02:30,169 --> 00:02:30,170
+9. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+27
+00:02:43,280 --> 00:02:43,281
+13. delay(2)
+
+28
+00:02:45,289 --> 00:02:45,291
+17. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+29
+00:02:47,274 --> 00:02:47,275
+21. delay(1)
+
+30
+00:02:48,282 --> 00:02:48,283
+25. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"), OPTIONAL)
+
+31
+00:02:56,181 --> 00:02:56,182
+29. click(findTestObject("OCS-DESKTOP/Cart flyout/Quantity increase - Product"))
+
+32
+00:02:56,183 --> 00:02:56,184
+33. delay(1)
+
+33
+00:02:57,193 --> 00:02:57,199
+37. click(findTestObject("OCS-DESKTOP/Cart flyout/Quantity increase - Product"))
+
+34
+00:02:57,200 --> 00:02:57,208
+41. delay(2)
+
+35
+00:02:59,219 --> 00:02:59,220
+45. a = getText(findTestObject("OCS-DESKTOP/Cart flyout/Unit price - Product"))
+
+36
+00:03:02,822 --> 00:03:02,824
+49. comment(a)
+
+37
+00:03:02,827 --> 00:03:02,828
+53. b = a.substring(1)
+
+38
+00:03:02,830 --> 00:03:02,833
+57. comment(b)
+
+39
+00:03:02,836 --> 00:03:02,838
+61. la = b.substring(0, b.length() - 1)
+
+40
+00:03:02,845 --> 00:03:02,853
+65. comment("la=" + la)
+
+41
+00:03:02,868 --> 00:03:02,869
+69. la1 = la.substring(0, la.length() - 1)
+
+42
+00:03:02,869 --> 00:03:02,870
+73. comment(" la1 =" + la1)
+
+43
+00:03:02,874 --> 00:03:02,876
+77. la2 = la1.substring(0, la1.length() - 1)
+
+44
+00:03:02,882 --> 00:03:02,892
+81. comment("la2 =" + la2)
+
+45
+00:03:02,917 --> 00:03:02,922
+85. click(findTestObject("OCS-DESKTOP/Cart flyout/input_-_updates"))
+

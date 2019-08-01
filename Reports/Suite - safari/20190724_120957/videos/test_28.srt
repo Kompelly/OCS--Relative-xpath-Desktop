@@ -1,0 +1,120 @@
+1
+00:00:00,340 --> 00:00:00,341
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,431 --> 00:00:00,431
+1. openBrowser("")
+
+3
+00:00:06,285 --> 00:00:06,285
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74209363788")
+
+4
+00:00:16,705 --> 00:00:16,705
+9. maximizeWindow()
+
+5
+00:00:17,017 --> 00:00:17,017
+13. delay(2)
+
+6
+00:00:19,022 --> 00:00:19,022
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:19,100 --> 00:00:19,100
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:23,898 --> 00:00:23,900
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:26,599 --> 00:00:26,599
+29. delay(2)
+
+10
+00:00:28,601 --> 00:00:28,602
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:41,876 --> 00:00:41,876
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:42,111 --> 00:00:42,111
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:42,310 --> 00:00:42,311
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:42,590 --> 00:00:42,590
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:42,913 --> 00:00:42,913
+53. delay(2)
+
+16
+00:00:44,914 --> 00:00:44,914
+57. refresh()
+
+17
+00:00:50,090 --> 00:00:50,090
+5. delay(2)
+
+18
+00:00:52,095 --> 00:00:52,095
+9. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+19
+00:00:52,350 --> 00:00:52,350
+13. delay(2, CONTINUE_ON_FAILURE)
+
+20
+00:00:54,351 --> 00:00:54,351
+17. delay(1, CONTINUE_ON_FAILURE)
+
+21
+00:00:55,354 --> 00:00:55,354
+21. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower"))
+
+22
+00:00:58,382 --> 00:00:58,382
+25. delay(1, CONTINUE_ON_FAILURE)
+
+23
+00:00:59,383 --> 00:00:59,383
+29. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+24
+00:00:59,593 --> 00:00:59,593
+33. delay(1, CONTINUE_ON_FAILURE)
+
+25
+00:01:00,595 --> 00:01:00,596
+37. delay(1, CONTINUE_ON_FAILURE)
+
+26
+00:01:01,604 --> 00:01:01,605
+41. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant"))
+
+27
+00:01:01,929 --> 00:01:01,929
+45. delay(1, CONTINUE_ON_FAILURE)
+
+28
+00:01:02,933 --> 00:01:02,933
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+29
+00:01:04,014 --> 00:01:04,014
+53. delay(2, CONTINUE_ON_FAILURE)
+
+30
+00:01:06,016 --> 00:01:06,016
+57. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - sativa dominant"))
+

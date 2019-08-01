@@ -1,0 +1,172 @@
+1
+00:00:00,052 --> 00:00:00,052
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,127 --> 00:00:00,128
+1. openBrowser("")
+
+3
+00:00:01,101 --> 00:00:01,101
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:03,997 --> 00:00:03,997
+9. maximizeWindow()
+
+5
+00:00:04,126 --> 00:00:04,127
+13. refresh()
+
+6
+00:00:04,286 --> 00:00:04,287
+17. delay(2)
+
+7
+00:00:06,296 --> 00:00:06,296
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:06,303 --> 00:00:06,303
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:09,206 --> 00:00:09,206
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:09,656 --> 00:00:09,656
+33. delay(2)
+
+11
+00:00:11,663 --> 00:00:11,663
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:14,005 --> 00:00:14,005
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:14,080 --> 00:00:14,080
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:14,197 --> 00:00:14,197
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:14,297 --> 00:00:14,297
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:14,397 --> 00:00:14,398
+57. delay(2)
+
+17
+00:00:16,402 --> 00:00:16,402
+61. refresh()
+
+18
+00:00:20,244 --> 00:00:20,245
+5. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:20,297 --> 00:00:20,298
+9. delay(2)
+
+20
+00:00:22,304 --> 00:00:22,305
+13. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - Indica dominant"))
+
+21
+00:00:25,405 --> 00:00:25,406
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:25,447 --> 00:00:25,447
+21. delay(2)
+
+23
+00:00:27,460 --> 00:00:27,460
+25. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_2"))
+
+24
+00:00:27,551 --> 00:00:27,551
+29. delay(2)
+
+25
+00:00:27,552 --> 00:00:27,552
+33. scrollToPosition(570, 49)
+
+26
+00:00:27,555 --> 00:00:27,555
+37. click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_3"), STOP_ON_FAILURE)
+
+27
+00:00:27,556 --> 00:00:27,556
+41. delay(2)
+
+28
+00:00:29,563 --> 00:00:29,563
+45. scrollToPosition(570, 49)
+
+29
+00:00:29,606 --> 00:00:29,607
+49. delay(2)
+
+30
+00:00:31,614 --> 00:00:31,614
+53. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+31
+00:00:31,747 --> 00:00:31,747
+57. delay(2)
+
+32
+00:00:33,748 --> 00:00:33,749
+61. scrollToPosition(570, 49)
+
+33
+00:00:33,755 --> 00:00:33,756
+65. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next"))
+
+34
+00:00:33,853 --> 00:00:33,856
+69. delay(2)
+
+35
+00:00:35,863 --> 00:00:35,864
+73. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+36
+00:00:35,898 --> 00:00:35,899
+77. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider"))
+
+37
+00:00:35,979 --> 00:00:35,980
+81. back()
+
+38
+00:00:35,999 --> 00:00:35,999
+85. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+39
+00:00:36,047 --> 00:00:36,047
+89. delay(4)
+
+40
+00:00:40,048 --> 00:00:40,048
+93. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+41
+00:00:40,048 --> 00:00:40,049
+97. delay(2)
+
+42
+00:00:42,063 --> 00:00:42,063
+101. delay(2)
+
+43
+00:00:44,070 --> 00:00:44,071
+105. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next - down"))
+

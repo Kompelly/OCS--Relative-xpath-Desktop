@@ -1,0 +1,92 @@
+1
+00:00:00,519 --> 00:00:00,520
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,835 --> 00:00:00,838
+1. openBrowser("")
+
+3
+00:00:10,719 --> 00:00:10,720
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:17,264 --> 00:00:17,265
+9. maximizeWindow()
+
+5
+00:00:25,471 --> 00:00:25,472
+13. refresh()
+
+6
+00:00:30,811 --> 00:00:30,812
+17. delay(2)
+
+7
+00:00:32,835 --> 00:00:32,836
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:33,530 --> 00:00:33,531
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:42,767 --> 00:00:42,769
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:48,021 --> 00:00:48,022
+33. delay(2)
+
+11
+00:00:50,032 --> 00:00:50,033
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:01:02,078 --> 00:01:02,080
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:01:02,416 --> 00:01:02,417
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:01:03,112 --> 00:01:03,112
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:01:03,272 --> 00:01:03,273
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:01:03,517 --> 00:01:03,518
+57. delay(2)
+
+17
+00:01:05,528 --> 00:01:05,529
+61. refresh()
+
+18
+00:01:12,065 --> 00:01:12,067
+5. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:01:12,566 --> 00:01:12,566
+9. delay(2)
+
+20
+00:01:14,575 --> 00:01:14,576
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:01:17,809 --> 00:01:17,810
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:01:18,066 --> 00:01:18,066
+21. delay(2)
+
+23
+00:01:20,077 --> 00:01:20,078
+25. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+

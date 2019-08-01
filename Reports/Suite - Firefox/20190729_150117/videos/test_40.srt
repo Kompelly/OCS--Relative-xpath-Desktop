@@ -1,0 +1,128 @@
+1
+00:00:00,512 --> 00:00:00,513
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,590 --> 00:00:00,593
+1. openBrowser("")
+
+3
+00:00:07,101 --> 00:00:07,102
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:13,564 --> 00:00:13,564
+9. maximizeWindow()
+
+5
+00:00:14,587 --> 00:00:14,588
+13. refresh()
+
+6
+00:00:19,409 --> 00:00:19,409
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:19,565 --> 00:00:19,565
+21. delay(4)
+
+8
+00:00:23,569 --> 00:00:23,569
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:24,358 --> 00:00:24,358
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:24,847 --> 00:00:24,847
+33. delay(2)
+
+11
+00:00:26,852 --> 00:00:26,853
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:28,930 --> 00:00:28,930
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:29,180 --> 00:00:29,181
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:29,448 --> 00:00:29,449
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:29,760 --> 00:00:29,761
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:30,033 --> 00:00:30,033
+57. refresh()
+
+17
+00:00:32,916 --> 00:00:32,916
+61. delay(2)
+
+18
+00:00:34,918 --> 00:00:34,919
+65. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:35,252 --> 00:00:35,253
+69. delay(2)
+
+20
+00:00:37,253 --> 00:00:37,254
+73. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:00:41,747 --> 00:00:41,747
+77. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:41,842 --> 00:00:41,842
+81. delay(2)
+
+23
+00:00:43,844 --> 00:00:43,845
+85. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0)
+
+24
+00:00:43,885 --> 00:00:43,885
+89. delay(2)
+
+25
+00:00:45,887 --> 00:00:45,887
+93. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+
+26
+00:00:48,436 --> 00:00:48,437
+97. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+27
+00:00:48,693 --> 00:00:48,693
+101. delay(2)
+
+28
+00:00:50,700 --> 00:00:50,701
+5. navigateToUrl("https://ocs.ca/products/la-confidential")
+
+29
+00:00:53,403 --> 00:00:53,403
+9. delay(2)
+
+30
+00:00:55,413 --> 00:00:55,414
+13. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+31
+00:00:55,432 --> 00:00:55,433
+17. delay(2)
+
+32
+00:00:57,437 --> 00:00:57,437
+21. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+

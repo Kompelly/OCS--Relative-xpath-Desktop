@@ -1,0 +1,1351 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite - Firefox,Firefox 68.0,,2019-07-29 15:01:21,2019-07-29 16:29:26,1h - 28m - 4.752s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty,Firefox 68.0,,2019-07-29 15:01:22,2019-07-29 15:02:35,1m - 12.851s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:01:24,2019-07-29 15:02:10,45.433s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:02:10,2019-07-29 15:02:10,0.006s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:02:10,2019-07-29 15:02:12,2.004s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 0)",Firefox 68.0,,2019-07-29 15:02:12,2019-07-29 15:02:12,0.023s,PASSED
+"comment("" flag ="" + flag)",Firefox 68.0,,2019-07-29 15:02:12,2019-07-29 15:02:12,0.006s,PASSED
+if (flag == true),Firefox 68.0,,2019-07-29 15:02:12,2019-07-29 15:02:33,20.788s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty,Firefox 68.0,,2019-07-29 15:02:35,2019-07-29 15:03:42,1m - 7.410s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:02:35,2019-07-29 15:03:13,37.696s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:03:13,2019-07-29 15:03:13,0.002s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:03:13,2019-07-29 15:03:15,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:03:15,2019-07-29 15:03:15,0.010s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""), 0)",Firefox 68.0,,2019-07-29 15:03:15,2019-07-29 15:03:15,0.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:03:15,2019-07-29 15:03:15,0.368s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:03:15,2019-07-29 15:03:16,0.561s,PASSED
+"comment("" flag ="" + flag)",Firefox 68.0,,2019-07-29 15:03:16,2019-07-29 15:03:16,0.002s,PASSED
+if (flag == true),Firefox 68.0,,2019-07-29 15:03:16,2019-07-29 15:03:40,24.137s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout- Payment,Firefox 68.0,,2019-07-29 15:03:42,2019-07-29 15:06:27,2m - 44.801s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:03:43,2019-07-29 15:04:21,38.584s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:04:21,2019-07-29 15:04:22,0.610s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:04:22,2019-07-29 15:04:24,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:04:24,2019-07-29 15:04:27,3.209s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:04:27,2019-07-29 15:04:27,0.031s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:04:27,2019-07-29 15:04:29,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:04:29,2019-07-29 15:04:34,4.665s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:04:34,2019-07-29 15:04:34,0.301s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:04:34,2019-07-29 15:04:35,1.004s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:04:35,2019-07-29 15:04:38,3.008s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:04:38,2019-07-29 15:04:38,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:04:38,2019-07-29 15:04:39,0.369s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:04:39,2019-07-29 15:04:41,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:04:41,2019-07-29 15:04:41,0.259s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:04:41,2019-07-29 15:04:42,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 15:04:42,2019-07-29 15:04:42,0.290s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:04:42,2019-07-29 15:04:45,3.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:04:45,2019-07-29 15:04:45,0.251s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:04:45,2019-07-29 15:04:46,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:04:46,2019-07-29 15:04:47,0.266s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:04:47,2019-07-29 15:04:48,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:04:48,2019-07-29 15:04:51,3.608s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:04:51,2019-07-29 15:04:52,0.499s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:04:52,2019-07-29 15:04:53,1.003s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:04:53,2019-07-29 15:04:55,2.003s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), 0)",Firefox 68.0,,2019-07-29 15:04:55,2019-07-29 15:04:55,0.045s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 68.0,,2019-07-29 15:04:55,2019-07-29 15:04:55,0.194s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_First name""), ""suman"")",Firefox 68.0,,2019-07-29 15:04:55,2019-07-29 15:04:55,0.284s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Last name""), ""kompelly"")",Firefox 68.0,,2019-07-29 15:04:55,2019-07-29 15:04:56,0.218s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:56,0.297s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:56,0.129s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_City""), ""montreal"")",Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:56,0.148s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:56,0.100s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:56,0.289s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:04:56,2019-07-29 15:04:59,3.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Continue to shipping method - Button""))",Firefox 68.0,,2019-07-29 15:04:59,2019-07-29 15:05:02,2.901s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:02,2019-07-29 15:05:05,3.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:05,2019-07-29 15:05:05,0.013s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:05,2019-07-29 15:05:06,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:05:06,2019-07-29 15:05:09,2.935s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:09,2019-07-29 15:05:10,1.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:10,2019-07-29 15:05:10,0.013s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:10,2019-07-29 15:05:11,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Payment -page/Change link span 1""))",Firefox 68.0,,2019-07-29 15:05:11,2019-07-29 15:05:14,3.009s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:14,2019-07-29 15:05:15,0.394s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:15,2019-07-29 15:05:18,3.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:05:18,2019-07-29 15:05:20,2.505s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:20,2019-07-29 15:05:23,3.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:23,2019-07-29 15:05:23,0.018s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:23,2019-07-29 15:05:24,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:05:24,2019-07-29 15:05:27,2.287s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:27,2019-07-29 15:05:30,3.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:30,2019-07-29 15:05:30,0.013s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:30,2019-07-29 15:05:31,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Payment -page/Change link span 2""))",Firefox 68.0,,2019-07-29 15:05:31,2019-07-29 15:05:33,2.133s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:33,2019-07-29 15:05:36,3.013s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:36,2019-07-29 15:05:36,0.018s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:36,2019-07-29 15:05:37,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:05:37,2019-07-29 15:05:39,2.156s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:39,2019-07-29 15:05:42,3.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:42,2019-07-29 15:05:42,0.014s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:05:42,2019-07-29 15:05:43,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:05:43,2019-07-29 15:05:45,2.511s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:45,2019-07-29 15:05:48,3.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:48,2019-07-29 15:05:49,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Firefox 68.0,,2019-07-29 15:05:49,2019-07-29 15:05:51,2.679s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:51,2019-07-29 15:05:54,3.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:05:54,2019-07-29 15:05:54,0.013s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:54,2019-07-29 15:05:57,3.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:05:57,2019-07-29 15:05:58,0.304s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:05:58,2019-07-29 15:06:01,3.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:06:01,2019-07-29 15:06:01,0.267s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:01,2019-07-29 15:06:02,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Cart page -checkout button""))",Firefox 68.0,,2019-07-29 15:06:02,2019-07-29 15:06:04,2.556s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:04,2019-07-29 15:06:05,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Payment -page/Information - Breadcrumb link""))",Firefox 68.0,,2019-07-29 15:06:05,2019-07-29 15:06:08,2.348s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:08,2019-07-29 15:06:09,1.011s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:06:09,2019-07-29 15:06:12,3.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:06:12,2019-07-29 15:06:12,0.019s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:12,2019-07-29 15:06:13,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Continue to shipping method - Button""))",Firefox 68.0,,2019-07-29 15:06:13,2019-07-29 15:06:15,2.540s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:15,2019-07-29 15:06:16,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Shipping - Breadcrumb link""))",Firefox 68.0,,2019-07-29 15:06:16,2019-07-29 15:06:19,2.226s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:06:19,2019-07-29 15:06:22,3.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:06:22,2019-07-29 15:06:22,0.012s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:06:22,2019-07-29 15:06:23,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:06:23,2019-07-29 15:06:25,2.315s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout - customer information page,Firefox 68.0,,2019-07-29 15:06:27,2019-07-29 15:08:00,1m - 33.415s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:06:28,2019-07-29 15:07:04,36.225s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:04,2019-07-29 15:07:06,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:07:06,2019-07-29 15:07:06,0.306s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:06,2019-07-29 15:07:08,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:07:08,2019-07-29 15:07:08,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:07:08,2019-07-29 15:07:11,3.124s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:07:11,2019-07-29 15:07:11,0.030s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:11,2019-07-29 15:07:13,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:07:13,2019-07-29 15:07:17,3.199s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:07:17,2019-07-29 15:07:17,0.426s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:17,2019-07-29 15:07:18,1.003s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:07:18,2019-07-29 15:07:21,3.004s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:07:21,2019-07-29 15:07:21,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:07:21,2019-07-29 15:07:21,0.398s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:21,2019-07-29 15:07:23,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:07:23,2019-07-29 15:07:24,0.322s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:24,2019-07-29 15:07:25,1.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 15:07:25,2019-07-29 15:07:25,0.280s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:25,2019-07-29 15:07:27,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:07:27,2019-07-29 15:07:27,0.286s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:27,2019-07-29 15:07:28,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:07:28,2019-07-29 15:07:29,0.309s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:07:29,2019-07-29 15:07:32,3.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:07:32,2019-07-29 15:07:35,2.917s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:07:35,2019-07-29 15:07:35,0.097s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:35,2019-07-29 15:07:36,1.004s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:36,2019-07-29 15:07:38,2.012s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), 0)",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:38,0.030s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:38,0.190s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_First name""), ""suman"")",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:38,0.230s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Last name""), ""kompelly"")",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:38,0.165s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:38,0.220s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 68.0,,2019-07-29 15:07:38,2019-07-29 15:07:39,0.195s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_City""), ""montreal"")",Firefox 68.0,,2019-07-29 15:07:39,2019-07-29 15:07:39,0.172s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 68.0,,2019-07-29 15:07:39,2019-07-29 15:07:39,0.188s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 68.0,,2019-07-29 15:07:39,2019-07-29 15:07:39,0.256s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:39,2019-07-29 15:07:40,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""))",Firefox 68.0,,2019-07-29 15:07:40,2019-07-29 15:07:43,2.380s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:43,2019-07-29 15:07:45,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page-Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:07:45,2019-07-29 15:07:45,0.328s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:07:45,2019-07-29 15:07:47,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/cart page - Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:07:47,2019-07-29 15:07:47,0.252s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:47,2019-07-29 15:07:48,1.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Cart page -checkout button""))",Firefox 68.0,,2019-07-29 15:07:48,2019-07-29 15:07:51,3.172s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 68.0,,2019-07-29 15:07:51,2019-07-29 15:07:52,0.608s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_First name""), ""suman"")",Firefox 68.0,,2019-07-29 15:07:52,2019-07-29 15:07:52,0.242s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Last name""), ""kompelly"")",Firefox 68.0,,2019-07-29 15:07:52,2019-07-29 15:07:53,0.250s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:53,0.215s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:53,0.187s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_City""), ""montreal"")",Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:53,0.145s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:53,0.098s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:53,0.283s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:07:53,2019-07-29 15:07:54,1.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:07:54,2019-07-29 15:07:54,0.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Continue to shipping method - Button""))",Firefox 68.0,,2019-07-29 15:07:54,2019-07-29 15:07:57,2.166s,PASSED
+closeBrowser(),Firefox 68.0,,2019-07-29 15:07:57,2019-07-29 15:07:58,1.670s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout-tooltips,Firefox 68.0,,2019-07-29 15:08:00,2019-07-29 15:08:46,45.485s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:08:01,2019-07-29 15:08:36,35.143s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:08:36,2019-07-29 15:08:38,2.007s,PASSED
+refresh(),Firefox 68.0,,2019-07-29 15:08:38,2019-07-29 15:08:41,3.547s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:08:41,2019-07-29 15:08:44,2.532s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart,Firefox 68.0,,2019-07-29 15:08:46,2019-07-29 15:10:11,1m - 25.086s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:08:46,2019-07-29 15:09:27,40.171s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:09:27,2019-07-29 15:09:27,0.004s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:09:27,2019-07-29 15:09:29,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:09:29,2019-07-29 15:09:29,0.018s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""))",Firefox 68.0,,2019-07-29 15:09:29,2019-07-29 15:09:29,0.378s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 1)",Firefox 68.0,,2019-07-29 15:09:29,2019-07-29 15:09:29,0.002s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:09:29,2019-07-29 15:09:31,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:09:31,2019-07-29 15:09:31,0.264s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:31,2019-07-29 15:09:33,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Back icon""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:09:33,2019-07-29 15:09:33,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:09:33,2019-07-29 15:09:35,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:09:35,2019-07-29 15:09:35,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:09:35,2019-07-29 15:09:37,2.004s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 0)",Firefox 68.0,,2019-07-29 15:09:37,2019-07-29 15:09:37,0.016s,PASSED
+"comment("" flag="" + flag)",Firefox 68.0,,2019-07-29 15:09:37,2019-07-29 15:09:37,0.004s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:09:37,2019-07-29 15:09:38,0.408s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:38,2019-07-29 15:09:40,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_7g""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:09:40,2019-07-29 15:09:40,0.466s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:40,2019-07-29 15:09:42,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:09:42,2019-07-29 15:09:43,0.256s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:43,2019-07-29 15:09:45,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:09:45,2019-07-29 15:09:45,0.252s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:45,2019-07-29 15:09:47,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:09:47,2019-07-29 15:09:47,0.279s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:47,2019-07-29 15:09:49,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:09:49,2019-07-29 15:09:49,0.259s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:49,2019-07-29 15:09:51,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:09:51,2019-07-29 15:09:54,2.740s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:09:54,2019-07-29 15:09:56,2.006s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""), 1)",Firefox 68.0,,2019-07-29 15:09:56,2019-07-29 15:09:56,0.002s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:09:56,2019-07-29 15:09:58,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Cart - Breadcrumb link""))",Firefox 68.0,,2019-07-29 15:09:58,2019-07-29 15:10:00,2.379s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:10:00,2019-07-29 15:10:02,2.006s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - 1st product""))",Firefox 68.0,,2019-07-29 15:10:02,2019-07-29 15:10:03,0.067s,PASSED
+comment(a),Firefox 68.0,,2019-07-29 15:10:03,2019-07-29 15:10:03,0.002s,PASSED
+a1 = a.substring(1),Firefox 68.0,,2019-07-29 15:10:03,2019-07-29 15:10:03,0.003s,PASSED
+"comment(""a1 = "" + a1)",Firefox 68.0,,2019-07-29 15:10:03,2019-07-29 15:10:03,0.003s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:10:03,2019-07-29 15:10:05,2.006s,PASSED
+"b = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - 2nd product""))",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.026s,PASSED
+comment(b),Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+a2 = b.substring(1),Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.002s,PASSED
+"comment(""a2 = "" + a2)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+"c = getText(findTestObject(""OCS-DESKTOP/Cart page/Sub-total""))",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.018s,PASSED
+comment(c),Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+a3 = c.substring(1),Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.000s,PASSED
+"comment(""a3 = "" + a3)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+p3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+try,Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.018s,PASSED
+try,Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.004s,PASSED
+"comment(""p2="" + p2)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+"comment(""p3="" + p3)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.002s,PASSED
+total = p2 + p3,Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+"comment(""total="" + total)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.001s,PASSED
+"verifyEqual(total, a3)",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:05,0.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Remove icon - 1st Product""))",Firefox 68.0,,2019-07-29 15:10:05,2019-07-29 15:10:07,2.198s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:10:07,2019-07-29 15:10:09,2.005s,PASSED
+"c23 = getText(findTestObject(""OCS-DESKTOP/Cart page/Sub-total""))",Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.041s,PASSED
+comment(c23),Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+a4 = c23.substring(1),Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.000s,PASSED
+"comment(""a4= "" + a4)",Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+"b25 = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - 1st product""))",Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.019s,PASSED
+comment(b25),Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+a25 = b25.substring(1),Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+"comment(""a25 = "" + a25)",Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+"verifyEqual(a4, a25)",Firefox 68.0,,2019-07-29 15:10:09,2019-07-29 15:10:09,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/cart flyout- accessories,Firefox 68.0,,2019-07-29 15:10:11,2019-07-29 15:11:21,1m - 10.449s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:10:11,2019-07-29 15:11:06,54.735s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:11:06,2019-07-29 15:11:06,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:11:06,2019-07-29 15:11:08,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:11:08,2019-07-29 15:11:09,0.506s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 1)",Firefox 68.0,,2019-07-29 15:11:09,2019-07-29 15:11:09,0.020s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:11:09,2019-07-29 15:11:11,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:11:11,2019-07-29 15:11:11,0.259s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:11:11,2019-07-29 15:11:12,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:11:12,2019-07-29 15:11:12,0.276s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:11:12,2019-07-29 15:11:14,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Theme preview - Hide bar""))",Firefox 68.0,,2019-07-29 15:11:14,2019-07-29 15:11:14,0.005s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:11:14,2019-07-29 15:11:14,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Up Chevron - Accessories you might need""))",Firefox 68.0,,2019-07-29 15:11:14,2019-07-29 15:11:14,0.305s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:11:14,2019-07-29 15:11:15,0.536s,PASSED
+delay(4),Firefox 68.0,,2019-07-29 15:11:15,2019-07-29 15:11:19,4.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Down Chevron - Accessories you might need""))",Firefox 68.0,,2019-07-29 15:11:19,2019-07-29 15:11:19,0.288s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout-price comparison,Firefox 68.0,,2019-07-29 15:11:21,2019-07-29 15:12:58,1m - 36.337s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:11:22,2019-07-29 15:12:04,41.186s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:12:04,2019-07-29 15:12:04,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:04,2019-07-29 15:12:06,2.002s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 0)",Firefox 68.0,,2019-07-29 15:12:06,2019-07-29 15:12:06,0.002s,NOT_RUN
+"comment("" flag="" + flag)",Firefox 68.0,,2019-07-29 15:12:06,2019-07-29 15:12:06,0.001s,NOT_RUN
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:12:06,2019-07-29 15:12:07,1.096s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 1)",Firefox 68.0,,2019-07-29 15:12:07,2019-07-29 15:12:07,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:12:07,2019-07-29 15:12:08,0.875s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:08,2019-07-29 15:12:08,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Theme preview - Hide bar""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:12:08,2019-07-29 15:12:08,0.001s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:12:08,2019-07-29 15:12:10,2.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:12:10,2019-07-29 15:12:10,0.471s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:12:10,2019-07-29 15:12:11,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Back icon""))",Firefox 68.0,,2019-07-29 15:12:11,2019-07-29 15:12:11,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:11,2019-07-29 15:12:13,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Chevron_Cannabis""))",Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.004s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Dried Flower_Plus icon""))",Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.000s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Collection page/Product image - 2nd one""))",Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:13,0.002s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:13,2019-07-29 15:12:15,2.003s,PASSED
+"navigateToUrl(""https://ocs.ca/products/la-confidential"")",Firefox 68.0,,2019-07-29 15:12:15,2019-07-29 15:12:15,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:12:15,2019-07-29 15:12:17,2.001s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:12:17,2019-07-29 15:12:18,0.657s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:18,2019-07-29 15:12:20,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""))",Firefox 68.0,,2019-07-29 15:12:20,2019-07-29 15:12:20,0.335s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:20,2019-07-29 15:12:22,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:12:22,2019-07-29 15:12:22,0.256s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:12:22,2019-07-29 15:12:23,1.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:12:23,2019-07-29 15:12:24,0.274s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:24,2019-07-29 15:12:24,0.003s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Theme preview - Hide bar""))",Firefox 68.0,,2019-07-29 15:12:24,2019-07-29 15:12:24,0.001s,NOT_RUN
+"a = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Unit price - 1st Product""))",Firefox 68.0,,2019-07-29 15:12:24,2019-07-29 15:12:24,0.069s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:24,2019-07-29 15:12:26,2.002s,PASSED
+"comment(""a="" + a)",Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:26,0.004s,PASSED
+without = a.substring(1),Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:26,0.004s,PASSED
+"comment(""without = "" + without)",Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:26,0.001s,PASSED
+"last = without.substring(0, without.length() - 1)",Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:26,0.003s,PASSED
+"comment(""last="" + last)",Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:26,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:26,2019-07-29 15:12:28,2.005s,PASSED
+"k = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Unit price - 2nd Product""))",Firefox 68.0,,2019-07-29 15:12:28,2019-07-29 15:12:28,0.019s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:28,2019-07-29 15:12:30,2.002s,PASSED
+"comment(""k="" + k)",Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.008s,PASSED
+without1 = k.substring(1),Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.007s,PASSED
+"comment(""without1 = "" + without1)",Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.006s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.004s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.001s,PASSED
+try,Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.005s,PASSED
+try,Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.004s,PASSED
+total = p1 + p2,Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.002s,PASSED
+"comment(""total ="" + total)",Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.001s,PASSED
+"amount = getText(findTestObject(""OCS-DESKTOP/Cart flyout/Sub-total Price""))",Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:30,0.021s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:30,2019-07-29 15:12:32,2.007s,PASSED
+"comment(""amount ="" + amount)",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.003s,PASSED
+soustotal = amount.substring(1),Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.001s,PASSED
+"comment(""soustotal= "" + soustotal)",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.001s,PASSED
+p = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.000s,PASSED
+try,Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.003s,PASSED
+finalprice = soustotal,Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.001s,PASSED
+"comment(""finalprice="" + finalprice)",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.000s,PASSED
+p = Double.valueOf(finalprice),Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.001s,PASSED
+"comment(""p="" + p)",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.001s,PASSED
+"verifyEqual(total, p)",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.008s,PASSED
+"comment(""cart items price equal"")",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.000s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.337s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:32,0.270s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:32,2019-07-29 15:12:34,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:12:34,2019-07-29 15:12:37,2.716s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), 0)",Firefox 68.0,,2019-07-29 15:12:37,2019-07-29 15:12:37,0.151s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 68.0,,2019-07-29 15:12:37,2019-07-29 15:12:38,0.903s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_First name""), ""suman"")",Firefox 68.0,,2019-07-29 15:12:38,2019-07-29 15:12:39,0.570s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Last name""), ""kompelly"")",Firefox 68.0,,2019-07-29 15:12:39,2019-07-29 15:12:39,0.186s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 68.0,,2019-07-29 15:12:39,2019-07-29 15:12:39,0.322s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 68.0,,2019-07-29 15:12:39,2019-07-29 15:12:39,0.157s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_City""), ""montreal"")",Firefox 68.0,,2019-07-29 15:12:39,2019-07-29 15:12:40,0.219s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 68.0,,2019-07-29 15:12:40,2019-07-29 15:12:40,0.162s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 68.0,,2019-07-29 15:12:40,2019-07-29 15:12:40,0.212s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:12:40,2019-07-29 15:12:40,0.050s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:12:40,2019-07-29 15:12:41,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Continue to shipping method - Button""))",Firefox 68.0,,2019-07-29 15:12:41,2019-07-29 15:12:44,2.702s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:44,2019-07-29 15:12:46,2.007s,PASSED
+refresh(),Firefox 68.0,,2019-07-29 15:12:46,2019-07-29 15:12:48,2.069s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:48,2019-07-29 15:12:50,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Shipping page/Continue to payment method - Button""))",Firefox 68.0,,2019-07-29 15:12:50,2019-07-29 15:12:53,2.717s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:12:53,2019-07-29 15:12:55,2.005s,PASSED
+"verifyTextPresent(""Payment"", false)",Firefox 68.0,,2019-07-29 15:12:55,2019-07-29 15:12:56,1.100s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout - Shipping,Firefox 68.0,,2019-07-29 15:12:58,2019-07-29 15:13:30,32.503s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:12:58,2019-07-29 15:13:28,30.104s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart page- decrease qty,Firefox 68.0,,2019-07-29 15:13:30,2019-07-29 15:15:22,1m - 51.479s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:13:31,2019-07-29 15:14:13,41.727s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:13,2019-07-29 15:14:15,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:14:15,2019-07-29 15:14:15,0.674s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:15,2019-07-29 15:14:17,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:14:17,2019-07-29 15:14:22,4.027s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:14:22,2019-07-29 15:14:22,0.053s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:22,2019-07-29 15:14:24,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Dried Flower_Plus icon""))",Firefox 68.0,,2019-07-29 15:14:24,2019-07-29 15:14:24,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:14:24,2019-07-29 15:14:26,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:14:26,2019-07-29 15:14:26,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:14:26,2019-07-29 15:14:28,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:14:28,2019-07-29 15:14:31,3.499s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:14:31,2019-07-29 15:14:31,0.020s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:14:31,2019-07-29 15:14:31,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:14:31,2019-07-29 15:14:33,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:14:33,2019-07-29 15:14:33,0.381s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 1)",Firefox 68.0,,2019-07-29 15:14:33,2019-07-29 15:14:33,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:14:33,2019-07-29 15:14:35,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 15:14:35,2019-07-29 15:14:36,0.285s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:36,2019-07-29 15:14:37,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 15:14:37,2019-07-29 15:14:37,0.274s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:37,2019-07-29 15:14:38,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 15:14:38,2019-07-29 15:14:38,0.244s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:38,2019-07-29 15:14:39,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 15:14:39,2019-07-29 15:14:40,0.254s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:40,2019-07-29 15:14:41,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 15:14:41,2019-07-29 15:14:41,0.254s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:41,2019-07-29 15:14:43,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:14:43,2019-07-29 15:14:43,0.266s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:43,2019-07-29 15:14:44,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 15:14:44,2019-07-29 15:14:44,0.267s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:44,2019-07-29 15:14:46,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:14:46,2019-07-29 15:14:47,0.318s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:47,2019-07-29 15:14:49,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:14:49,2019-07-29 15:14:49,0.262s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:14:49,2019-07-29 15:14:50,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:14:50,2019-07-29 15:14:53,3.523s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:14:53,2019-07-29 15:14:54,0.427s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:54,2019-07-29 15:14:56,2.005s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""), 1)",Firefox 68.0,,2019-07-29 15:14:56,2019-07-29 15:14:56,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:14:56,2019-07-29 15:14:57,1.001s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:14:57,2019-07-29 15:14:59,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""))",Firefox 68.0,,2019-07-29 15:14:59,2019-07-29 15:15:02,3.184s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:15:02,2019-07-29 15:15:03,1.006s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:15:03,2019-07-29 15:15:04,1.006s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Firefox 68.0,,2019-07-29 15:15:04,2019-07-29 15:15:04,0.042s,PASSED
+comment(a),Firefox 68.0,,2019-07-29 15:15:04,2019-07-29 15:15:04,0.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""))",Firefox 68.0,,2019-07-29 15:15:04,2019-07-29 15:15:04,0.278s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 68.0,,2019-07-29 15:15:04,2019-07-29 15:15:05,0.135s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""10"")",Firefox 68.0,,2019-07-29 15:15:05,2019-07-29 15:15:05,0.061s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:15:05,2019-07-29 15:15:07,2.005s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 68.0,,2019-07-29 15:15:07,2019-07-29 15:15:07,0.037s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/enter quantity""))",Firefox 68.0,,2019-07-29 15:15:07,2019-07-29 15:15:07,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:15:07,2019-07-29 15:15:09,2.002s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""7"")",Firefox 68.0,,2019-07-29 15:15:09,2019-07-29 15:15:09,0.064s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:15:09,2019-07-29 15:15:11,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product""))",Firefox 68.0,,2019-07-29 15:15:11,2019-07-29 15:15:11,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:15:11,2019-07-29 15:15:13,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Firefox 68.0,,2019-07-29 15:15:13,2019-07-29 15:15:13,0.253s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:15:13,2019-07-29 15:15:15,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Firefox 68.0,,2019-07-29 15:15:15,2019-07-29 15:15:15,0.293s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:15:15,2019-07-29 15:15:17,2.019s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Decrease icon""))",Firefox 68.0,,2019-07-29 15:15:17,2019-07-29 15:15:18,0.282s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:15:18,2019-07-29 15:15:20,2.005s,PASSED
+"b = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Firefox 68.0,,2019-07-29 15:15:20,2019-07-29 15:15:20,0.028s,PASSED
+comment(b),Firefox 68.0,,2019-07-29 15:15:20,2019-07-29 15:15:20,0.001s,PASSED
+"verifyNotEqual(""a"", ""b"")",Firefox 68.0,,2019-07-29 15:15:20,2019-07-29 15:15:20,0.003s,PASSED
+"comment("" price changed . Quantity selector is working"")",Firefox 68.0,,2019-07-29 15:15:20,2019-07-29 15:15:20,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/cart page-increase qty,Firefox 68.0,,2019-07-29 15:15:22,2019-07-29 15:16:54,1m - 32.058s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:15:22,2019-07-29 15:16:01,38.614s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:01,2019-07-29 15:16:03,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:16:03,2019-07-29 15:16:03,0.327s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:03,2019-07-29 15:16:05,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:16:05,2019-07-29 15:16:05,0.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:16:05,2019-07-29 15:16:09,3.957s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:09,2019-07-29 15:16:11,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:16:11,2019-07-29 15:16:11,0.155s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:16:11,2019-07-29 15:16:16,4.337s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:16:16,2019-07-29 15:16:16,0.410s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:16:16,2019-07-29 15:16:16,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:16:16,2019-07-29 15:16:18,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:16:18,2019-07-29 15:16:18,0.343s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:18,2019-07-29 15:16:20,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:16:20,2019-07-29 15:16:21,0.261s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:16:21,2019-07-29 15:16:24,3.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 15:16:24,2019-07-29 15:16:24,0.321s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:16:24,2019-07-29 15:16:27,3.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 15:16:27,2019-07-29 15:16:27,0.302s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:27,2019-07-29 15:16:29,2.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 15:16:29,2019-07-29 15:16:30,0.267s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:16:30,2019-07-29 15:16:31,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 15:16:31,2019-07-29 15:16:33,2.345s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:33,2019-07-29 15:16:35,2.005s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""), 1)",Firefox 68.0,,2019-07-29 15:16:35,2019-07-29 15:16:35,0.026s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:16:35,2019-07-29 15:16:35,0.007s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:16:35,2019-07-29 15:16:36,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Customer info page/Return to Cart - Link""))",Firefox 68.0,,2019-07-29 15:16:36,2019-07-29 15:16:39,3.145s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:16:39,2019-07-29 15:16:40,1.005s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Firefox 68.0,,2019-07-29 15:16:40,2019-07-29 15:16:40,0.089s,PASSED
+comment(a),Firefox 68.0,,2019-07-29 15:16:40,2019-07-29 15:16:40,0.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""))",Firefox 68.0,,2019-07-29 15:16:40,2019-07-29 15:16:40,0.312s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 68.0,,2019-07-29 15:16:40,2019-07-29 15:16:41,0.080s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""5"")",Firefox 68.0,,2019-07-29 15:16:41,2019-07-29 15:16:41,0.065s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:41,2019-07-29 15:16:43,2.002s,PASSED
+"sendKeys(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 68.0,,2019-07-29 15:16:43,2019-07-29 15:16:43,0.042s,PASSED
+"setText(findTestObject(""OCS-DESKTOP/Cart page/Quantity Input field""), ""7"")",Firefox 68.0,,2019-07-29 15:16:43,2019-07-29 15:16:43,0.087s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:43,2019-07-29 15:16:45,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Increase icon""))",Firefox 68.0,,2019-07-29 15:16:45,2019-07-29 15:16:45,0.307s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:45,2019-07-29 15:16:47,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Increase icon""))",Firefox 68.0,,2019-07-29 15:16:47,2019-07-29 15:16:47,0.343s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:47,2019-07-29 15:16:49,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart page/Qty Increase icon""))",Firefox 68.0,,2019-07-29 15:16:49,2019-07-29 15:16:50,0.290s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:16:50,2019-07-29 15:16:52,2.007s,PASSED
+"b = getText(findTestObject(""OCS-DESKTOP/Cart page/Unit price - product - price in cart page""))",Firefox 68.0,,2019-07-29 15:16:52,2019-07-29 15:16:52,0.045s,PASSED
+comment(b),Firefox 68.0,,2019-07-29 15:16:52,2019-07-29 15:16:52,0.000s,PASSED
+"verifyNotEqual(""a"", ""b"")",Firefox 68.0,,2019-07-29 15:16:52,2019-07-29 15:16:52,0.009s,PASSED
+"comment("" price changed . Quantity selector is working"")",Firefox 68.0,,2019-07-29 15:16:52,2019-07-29 15:16:52,0.002s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - decrease qty-fr,Firefox 68.0,,2019-07-29 15:16:54,2019-07-29 15:18:23,1m - 29.251s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:16:54,2019-07-29 15:17:29,34.633s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:17:29,2019-07-29 15:17:31,2.008s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:17:31,2019-07-29 15:17:41,10.201s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:17:41,2019-07-29 15:17:42,1.063s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:17:42,2019-07-29 15:17:44,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:17:44,2019-07-29 15:17:44,0.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:17:44,2019-07-29 15:17:48,3.304s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:17:48,2019-07-29 15:17:48,0.073s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:17:48,2019-07-29 15:17:50,2.011s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:17:50,2019-07-29 15:18:21,31.261s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart page - Decrease qty - fr,Firefox 68.0,,2019-07-29 15:18:23,2019-07-29 15:19:53,1m - 29.812s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:18:24,2019-07-29 15:19:00,36.504s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:19:00,2019-07-29 15:19:02,2.004s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:19:02,2019-07-29 15:19:12,9.683s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:19:12,2019-07-29 15:19:12,0.292s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:19:12,2019-07-29 15:19:14,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:19:14,2019-07-29 15:19:14,0.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:19:14,2019-07-29 15:19:18,3.530s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:19:18,2019-07-29 15:19:18,0.058s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:19:18,2019-07-29 15:19:20,2.009s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:19:20,2019-07-29 15:19:51,31.099s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - accessories -fr,Firefox 68.0,,2019-07-29 15:19:53,2019-07-29 15:21:21,1m - 28.238s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:19:53,2019-07-29 15:20:29,35.644s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:20:29,2019-07-29 15:20:31,2.004s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:20:31,2019-07-29 15:20:41,9.607s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:20:41,2019-07-29 15:20:41,0.281s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:20:41,2019-07-29 15:20:43,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:20:43,2019-07-29 15:20:43,0.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:20:43,2019-07-29 15:20:46,2.835s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:20:46,2019-07-29 15:20:46,0.050s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:20:46,2019-07-29 15:20:48,2.002s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:20:48,2019-07-29 15:21:19,31.216s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart - fr,Firefox 68.0,,2019-07-29 15:21:21,2019-07-29 15:21:53,32.116s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:21:22,2019-07-29 15:21:51,28.982s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - tooltips -fr,Firefox 68.0,,2019-07-29 15:21:53,2019-07-29 15:23:23,1m - 30.081s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:21:54,2019-07-29 15:22:31,36.507s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:22:31,2019-07-29 15:22:33,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:22:33,2019-07-29 15:22:42,9.708s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:22:42,2019-07-29 15:22:43,0.411s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:22:43,2019-07-29 15:22:45,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:22:45,2019-07-29 15:22:45,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:22:45,2019-07-29 15:22:48,3.421s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:22:48,2019-07-29 15:22:48,0.062s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:22:48,2019-07-29 15:22:50,2.003s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:22:50,2019-07-29 15:23:21,30.975s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Customer info page - fr,Firefox 68.0,,2019-07-29 15:23:23,2019-07-29 15:24:51,1m - 27.558s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:23:24,2019-07-29 15:23:59,34.769s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:23:59,2019-07-29 15:24:01,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:24:01,2019-07-29 15:24:10,9.608s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:24:10,2019-07-29 15:24:11,0.274s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:24:11,2019-07-29 15:24:13,2.016s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:24:13,2019-07-29 15:24:13,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:24:13,2019-07-29 15:24:16,2.970s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:24:16,2019-07-29 15:24:16,0.034s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:24:16,2019-07-29 15:24:18,2.005s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:24:18,2019-07-29 15:24:49,31.280s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout-Payment - fr,Firefox 68.0,,2019-07-29 15:24:51,2019-07-29 15:26:19,1m - 27.910s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:24:51,2019-07-29 15:25:25,33.990s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:25:25,2019-07-29 15:25:27,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:25:27,2019-07-29 15:25:37,9.930s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:25:37,2019-07-29 15:25:38,0.280s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:25:38,2019-07-29 15:25:40,2.059s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:25:40,2019-07-29 15:25:40,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:25:40,2019-07-29 15:25:44,4.067s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:25:44,2019-07-29 15:25:44,0.040s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:25:44,2019-07-29 15:25:46,2.001s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:25:46,2019-07-29 15:26:17,31.055s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - increase qty -fr,Firefox 68.0,,2019-07-29 15:26:19,2019-07-29 15:27:44,1m - 25.513s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:26:19,2019-07-29 15:26:52,33.067s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:26:52,2019-07-29 15:26:54,2.001s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:26:54,2019-07-29 15:27:04,9.652s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:27:04,2019-07-29 15:27:04,0.267s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:27:04,2019-07-29 15:27:06,2.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:27:06,2019-07-29 15:27:06,0.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:27:06,2019-07-29 15:27:09,3.019s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:27:09,2019-07-29 15:27:09,0.029s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:27:09,2019-07-29 15:27:11,2.008s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:27:11,2019-07-29 15:27:42,31.014s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Cart flyout - Price comparison-fr,Firefox 68.0,,2019-07-29 15:27:44,2019-07-29 15:29:12,1m - 27.659s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:27:45,2019-07-29 15:28:19,34.365s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:28:19,2019-07-29 15:28:21,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:28:21,2019-07-29 15:28:31,9.659s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:28:31,2019-07-29 15:28:31,0.274s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:28:31,2019-07-29 15:28:33,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:28:33,2019-07-29 15:28:33,0.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:28:33,2019-07-29 15:28:37,4.039s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:28:37,2019-07-29 15:28:37,0.032s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:28:37,2019-07-29 15:28:39,2.006s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:28:39,2019-07-29 15:29:10,30.913s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Checkout - Shipping-fr,Firefox 68.0,,2019-07-29 15:29:12,2019-07-29 15:30:36,1m - 24.067s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:29:12,2019-07-29 15:29:44,31.728s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:29:44,2019-07-29 15:29:46,2.008s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:29:46,2019-07-29 15:29:56,9.594s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:29:56,2019-07-29 15:29:56,0.275s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:29:56,2019-07-29 15:29:58,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:29:58,2019-07-29 15:29:58,0.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item""))",Firefox 68.0,,2019-07-29 15:29:58,2019-07-29 15:30:01,3.031s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:30:01,2019-07-29 15:30:01,0.024s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:30:01,2019-07-29 15:30:03,2.003s,PASSED
+"click(findTestObject(""FRENCH/Product image - 1st one""))",Firefox 68.0,,2019-07-29 15:30:03,2019-07-29 15:30:34,30.956s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/Toggling language,Firefox 68.0,,2019-07-29 15:30:36,2019-07-29 15:31:32,55.824s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:30:37,2019-07-29 15:31:09,32.004s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:31:09,2019-07-29 15:31:11,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/English dropdown""))",Firefox 68.0,,2019-07-29 15:31:11,2019-07-29 15:31:11,0.388s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:31:11,2019-07-29 15:31:13,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:31:13,2019-07-29 15:31:13,0.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Select French""))",Firefox 68.0,,2019-07-29 15:31:13,2019-07-29 15:31:13,0.268s,PASSED
+delay(5),Firefox 68.0,,2019-07-29 15:31:13,2019-07-29 15:31:18,5.004s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:31:18,2019-07-29 15:31:18,0.006s,PASSED
+"comment(""a = "" + a)",Firefox 68.0,,2019-07-29 15:31:18,2019-07-29 15:31:18,0.001s,PASSED
+"b = ""Magasin de Cannabis de l'Ontario | Ontario Cannabis Store""",Firefox 68.0,,2019-07-29 15:31:18,2019-07-29 15:31:18,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:31:18,2019-07-29 15:31:20,2.005s,PASSED
+"flag1 = verifyMatch(a, b, false)",Firefox 68.0,,2019-07-29 15:31:20,2019-07-29 15:31:20,0.009s,PASSED
+"comment(""flag = "" + flag1)",Firefox 68.0,,2019-07-29 15:31:20,2019-07-29 15:31:20,0.001s,PASSED
+if (flag1 == true),Firefox 68.0,,2019-07-29 15:31:20,2019-07-29 15:31:20,0.001s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:31:20,2019-07-29 15:31:22,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/French dropdown""))",Firefox 68.0,,2019-07-29 15:31:22,2019-07-29 15:31:23,0.281s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:31:23,2019-07-29 15:31:25,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Select English""))",Firefox 68.0,,2019-07-29 15:31:25,2019-07-29 15:31:25,0.285s,PASSED
+delay(5),Firefox 68.0,,2019-07-29 15:31:25,2019-07-29 15:31:30,5.005s,PASSED
+c = getWindowTitle(),Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.005s,PASSED
+"comment(""c ="" + c)",Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+"d = ""Ontario Cannabis Store | Ontario Cannabis Store""",Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+"comment(""d ="" + d)",Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+"flag = verifyMatch(c, d, false)",Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+"comment("" flag = "" + flag)",Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+if (flag == true),Firefox 68.0,,2019-07-29 15:31:30,2019-07-29 15:31:30,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP-Burger menu-Accessories,Firefox 68.0,,2019-07-29 15:31:32,2019-07-29 15:32:07,34.544s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:31:32,2019-07-29 15:32:04,31.934s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/Announcement,Firefox 68.0,,2019-07-29 15:32:07,2019-07-29 15:32:43,36.963s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:32:07,2019-07-29 15:32:41,34.621s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/cart flyout,Firefox 68.0,,2019-07-29 15:32:43,2019-07-29 15:33:51,1m - 7.471s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:32:44,2019-07-29 15:33:24,40.065s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:33:24,2019-07-29 15:33:26,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/cart icon - bag""))",Firefox 68.0,,2019-07-29 15:33:26,2019-07-29 15:33:26,0.310s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:33:26,2019-07-29 15:33:29,3.004s,PASSED
+"verifyTextPresent(""Bag"", false, OPTIONAL)",Firefox 68.0,,2019-07-29 15:33:29,2019-07-29 15:33:39,9.370s,PASSED
+if (true),Firefox 68.0,,2019-07-29 15:33:39,2019-07-29 15:33:39,0.007s,PASSED
+delay(5),Firefox 68.0,,2019-07-29 15:33:39,2019-07-29 15:33:44,5.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Collapse cart flyout""))",Firefox 68.0,,2019-07-29 15:33:44,2019-07-29 15:33:44,0.427s,PASSED
+"verifyTextNotPresent(""Bag"", false, STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:33:44,2019-07-29 15:33:49,4.853s,PASSED
+if (true),Firefox 68.0,,2019-07-29 15:33:49,2019-07-29 15:33:49,0.002s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/Retail stores link,Firefox 68.0,,2019-07-29 15:33:51,2019-07-29 15:35:05,1m - 14.409s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:33:51,2019-07-29 15:34:29,38.033s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:34:29,2019-07-29 15:34:31,2.008s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-DESKTOP/Home - page/Retail stores link""), 0, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:34:31,2019-07-29 15:35:03,32.010s,FAILED
+"comment(""flag="" + flag)",Firefox 68.0,,2019-07-29 15:35:03,2019-07-29 15:35:03,0.004s,PASSED
+if (flag == true),Firefox 68.0,,2019-07-29 15:35:03,2019-07-29 15:35:03,0.001s,PASSED
+else,Firefox 68.0,,2019-07-29 15:35:03,2019-07-29 15:35:03,0.008s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/Screen reader link,Firefox 68.0,,2019-07-29 15:35:05,2019-07-29 15:36:13,1m - 7.767s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:35:06,2019-07-29 15:35:37,31.076s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:35:37,2019-07-29 15:35:39,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Screen readers link""))",Firefox 68.0,,2019-07-29 15:35:39,2019-07-29 15:36:11,32.209s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP-Burger menu -cannabis,Firefox 68.0,,2019-07-29 15:36:13,2019-07-29 15:39:24,3m - 10.750s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:14,2019-07-29 15:36:49,35.609s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:36:49,2019-07-29 15:36:51,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:51,2019-07-29 15:36:52,0.293s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:52,2019-07-29 15:36:54,2.005s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:54,2019-07-29 15:36:55,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower""))",Firefox 68.0,,2019-07-29 15:36:55,2019-07-29 15:36:58,3.071s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:58,2019-07-29 15:36:59,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 15:36:59,2019-07-29 15:36:59,0.593s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:36:59,2019-07-29 15:37:00,1.007s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:00,2019-07-29 15:37:01,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant""))",Firefox 68.0,,2019-07-29 15:37:01,2019-07-29 15:37:04,2.878s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:04,2019-07-29 15:37:05,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:05,2019-07-29 15:37:06,0.324s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:06,2019-07-29 15:37:08,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - sativa dominant""))",Firefox 68.0,,2019-07-29 15:37:08,2019-07-29 15:37:11,3.117s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:11,2019-07-29 15:37:12,1.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:12,2019-07-29 15:37:13,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:13,2019-07-29 15:37:13,0.359s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:13,2019-07-29 15:37:15,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - Hybrid""))",Firefox 68.0,,2019-07-29 15:37:15,2019-07-29 15:37:18,3.232s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:18,2019-07-29 15:37:19,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:19,2019-07-29 15:37:20,0.299s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:20,2019-07-29 15:37:21,1.007s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:21,2019-07-29 15:37:22,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop all dried flower""))",Firefox 68.0,,2019-07-29 15:37:22,2019-07-29 15:37:26,4.759s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:26,2019-07-29 15:37:27,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:27,2019-07-29 15:37:28,0.310s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:28,2019-07-29 15:37:30,2.054s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:30,2019-07-29 15:37:31,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Prerolled - Plus accordian""))",Firefox 68.0,,2019-07-29 15:37:31,2019-07-29 15:37:34,2.770s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:34,2019-07-29 15:37:35,1.009s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:35,2019-07-29 15:37:36,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:36,2019-07-29 15:37:36,0.355s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:36,2019-07-29 15:37:37,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Prerolled - Indica dominant""))",Firefox 68.0,,2019-07-29 15:37:37,2019-07-29 15:37:40,3.183s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:40,2019-07-29 15:37:41,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:41,2019-07-29 15:37:42,0.355s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:42,2019-07-29 15:37:44,2.004s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:44,2019-07-29 15:37:45,1.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:45,2019-07-29 15:37:46,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Prerolled - sativa dominant""))",Firefox 68.0,,2019-07-29 15:37:46,2019-07-29 15:37:50,4.596s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:50,2019-07-29 15:37:51,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:51,2019-07-29 15:37:51,0.336s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:51,2019-07-29 15:37:53,2.004s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:53,2019-07-29 15:37:54,1.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:54,2019-07-29 15:37:55,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Prerolled - Hybrid""))",Firefox 68.0,,2019-07-29 15:37:55,2019-07-29 15:37:59,3.149s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:37:59,2019-07-29 15:38:00,1.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:00,2019-07-29 15:38:00,0.311s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:00,2019-07-29 15:38:02,2.015s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:02,2019-07-29 15:38:03,1.009s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:03,2019-07-29 15:38:04,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop all prerolled""))",Firefox 68.0,,2019-07-29 15:38:04,2019-07-29 15:38:07,2.909s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:07,2019-07-29 15:38:08,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:08,2019-07-29 15:38:08,0.270s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:08,2019-07-29 15:38:10,2.005s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:10,2019-07-29 15:38:11,1.004s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:11,2019-07-29 15:38:12,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Oils - plus accordian""))",Firefox 68.0,,2019-07-29 15:38:12,2019-07-29 15:38:15,2.690s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:15,2019-07-29 15:38:16,1.005s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:16,2019-07-29 15:38:17,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:17,2019-07-29 15:38:17,0.311s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:17,2019-07-29 15:38:18,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Oils - Bottled oils""))",Firefox 68.0,,2019-07-29 15:38:18,2019-07-29 15:38:21,3.304s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:21,2019-07-29 15:38:22,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:22,2019-07-29 15:38:23,0.305s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:23,2019-07-29 15:38:25,2.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:25,2019-07-29 15:38:26,1.002s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:26,2019-07-29 15:38:27,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Oils - oral sprays""))",Firefox 68.0,,2019-07-29 15:38:27,2019-07-29 15:38:30,2.753s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:30,2019-07-29 15:38:31,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:31,2019-07-29 15:38:31,0.764s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:31,2019-07-29 15:38:33,2.006s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:33,2019-07-29 15:38:34,1.007s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:34,2019-07-29 15:38:35,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/shop all oils""))",Firefox 68.0,,2019-07-29 15:38:35,2019-07-29 15:38:38,3.109s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:38,2019-07-29 15:38:39,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:39,2019-07-29 15:38:40,0.312s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:40,2019-07-29 15:38:42,2.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:42,2019-07-29 15:38:43,1.007s,PASSED
+"click(findTestObject(""MOBILE OBJECTS/Capsules chevron""))",Firefox 68.0,,2019-07-29 15:38:43,2019-07-29 15:38:47,4.455s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:47,2019-07-29 15:38:48,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:48,2019-07-29 15:38:49,0.393s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:49,2019-07-29 15:38:51,2.004s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:51,2019-07-29 15:38:52,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop by plant type - plus accordian""))",Firefox 68.0,,2019-07-29 15:38:52,2019-07-29 15:38:52,0.004s,NOT_RUN
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:52,2019-07-29 15:38:53,1.008s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:53,2019-07-29 15:38:54,1.013s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:54,2019-07-29 15:38:55,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop by plant type - Indica dominant""))",Firefox 68.0,,2019-07-29 15:38:55,2019-07-29 15:38:58,3.238s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:58,2019-07-29 15:38:59,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:59,2019-07-29 15:38:59,0.304s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:38:59,2019-07-29 15:39:01,2.002s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:01,2019-07-29 15:39:02,1.005s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:02,2019-07-29 15:39:03,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop by plant type - sativa dominant""))",Firefox 68.0,,2019-07-29 15:39:03,2019-07-29 15:39:06,3.020s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:06,2019-07-29 15:39:07,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:07,2019-07-29 15:39:08,0.272s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:08,2019-07-29 15:39:10,2.006s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:10,2019-07-29 15:39:11,1.004s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:11,2019-07-29 15:39:12,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Shop by plant type - Hybrid""))",Firefox 68.0,,2019-07-29 15:39:12,2019-07-29 15:39:14,2.918s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:14,2019-07-29 15:39:15,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:15,2019-07-29 15:39:16,0.393s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:16,2019-07-29 15:39:18,2.003s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:18,2019-07-29 15:39:19,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Collections - plus accordian""))",Firefox 68.0,,2019-07-29 15:39:19,2019-07-29 15:39:19,0.000s,NOT_RUN
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:19,2019-07-29 15:39:20,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:20,2019-07-29 15:39:20,0.365s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:20,2019-07-29 15:39:21,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Collections- New products""))",Firefox 68.0,,2019-07-29 15:39:21,2019-07-29 15:39:22,0.458s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/footer,Firefox 68.0,,2019-07-29 15:39:24,2019-07-29 15:41:51,2m - 26.735s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:39:25,2019-07-29 15:39:57,32.426s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:39:57,2019-07-29 15:39:59,2.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:39:59,2019-07-29 15:39:59,0.053s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Return Policy""))",Firefox 68.0,,2019-07-29 15:39:59,2019-07-29 15:40:02,2.293s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:02,2019-07-29 15:40:02,0.040s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:02,2019-07-29 15:40:04,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/AGCO Cannabis retail stores""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:40:04,2019-07-29 15:40:34,30.858s,FAILED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:34,2019-07-29 15:40:34,0.013s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:34,2019-07-29 15:40:36,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Payment - Delivery info""))",Firefox 68.0,,2019-07-29 15:40:36,2019-07-29 15:40:39,2.189s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:39,2019-07-29 15:40:39,0.060s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:39,2019-07-29 15:40:41,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Legal use of cannbis in ontario""))",Firefox 68.0,,2019-07-29 15:40:41,2019-07-29 15:40:43,2.275s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:43,2019-07-29 15:40:43,0.030s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:43,2019-07-29 15:40:45,2.018s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Glossary of terms""))",Firefox 68.0,,2019-07-29 15:40:45,2019-07-29 15:40:47,1.882s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:47,2019-07-29 15:40:49,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:49,2019-07-29 15:40:49,0.015s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Product Recall""))",Firefox 68.0,,2019-07-29 15:40:49,2019-07-29 15:40:53,3.590s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:53,2019-07-29 15:40:55,2.011s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:55,2019-07-29 15:40:55,0.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Government of Canada - Canna""))",Firefox 68.0,,2019-07-29 15:40:55,2019-07-29 15:40:55,0.107s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:40:55,2019-07-29 15:40:57,2.006s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:40:57,2019-07-29 15:40:59,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:40:59,2019-07-29 15:40:59,0.233s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Government of Ontario - Cann""))",Firefox 68.0,,2019-07-29 15:40:59,2019-07-29 15:41:00,0.778s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:00,2019-07-29 15:41:00,0.057s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/About the OCS""))",Firefox 68.0,,2019-07-29 15:41:00,2019-07-29 15:41:03,3.103s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:03,2019-07-29 15:41:05,2.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:05,2019-07-29 15:41:05,0.023s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Careers""))",Firefox 68.0,,2019-07-29 15:41:05,2019-07-29 15:41:09,3.778s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:09,2019-07-29 15:41:11,2.004s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:41:11,2019-07-29 15:41:13,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:13,2019-07-29 15:41:13,0.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/News""), OPTIONAL)",Firefox 68.0,,2019-07-29 15:41:13,2019-07-29 15:41:16,3.147s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:16,2019-07-29 15:41:18,2.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:18,2019-07-29 15:41:18,0.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Doing Business With OCS""))",Firefox 68.0,,2019-07-29 15:41:18,2019-07-29 15:41:19,0.668s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:19,2019-07-29 15:41:21,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:21,2019-07-29 15:41:21,0.156s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Help us improve OCS.ca""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:41:21,2019-07-29 15:41:21,0.005s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:41:21,2019-07-29 15:41:23,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:23,2019-07-29 15:41:23,0.273s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Terms and Conditions""))",Firefox 68.0,,2019-07-29 15:41:23,2019-07-29 15:41:27,4.302s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:27,2019-07-29 15:41:29,2.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:29,2019-07-29 15:41:29,0.016s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Privacy""))",Firefox 68.0,,2019-07-29 15:41:29,2019-07-29 15:41:32,2.893s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:32,2019-07-29 15:41:32,0.024s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:32,2019-07-29 15:41:34,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Accessibility""))",Firefox 68.0,,2019-07-29 15:41:34,2019-07-29 15:41:37,2.756s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:37,2019-07-29 15:41:39,2.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:39,2019-07-29 15:41:39,0.014s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Delivery to First Nations""))",Firefox 68.0,,2019-07-29 15:41:39,2019-07-29 15:41:42,3.159s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:42,2019-07-29 15:41:44,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:41:44,2019-07-29 15:41:44,0.016s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Hello OCS image""))",Firefox 68.0,,2019-07-29 15:41:44,2019-07-29 15:41:45,1.057s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:41:45,2019-07-29 15:41:47,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/twitter""))",Firefox 68.0,,2019-07-29 15:41:47,2019-07-29 15:41:48,1.211s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/why trust OCS,Firefox 68.0,,2019-07-29 15:41:51,2019-07-29 15:42:36,45.129s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:41:52,2019-07-29 15:42:27,34.967s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:42:27,2019-07-29 15:42:29,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:42:29,2019-07-29 15:42:29,0.010s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 15:42:29,2019-07-29 15:42:30,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Why trust OCS -img""))",Firefox 68.0,,2019-07-29 15:42:30,2019-07-29 15:42:34,3.600s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/How to choose cannabis-learn more,Firefox 68.0,,2019-07-29 15:42:36,2019-07-29 15:43:30,54.198s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:42:36,2019-07-29 15:43:13,36.636s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 15:43:13,2019-07-29 15:43:15,2.008s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:43:15,2019-07-29 15:43:15,0.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/a_Learn more- A brief history of cannabis""))",Firefox 68.0,,2019-07-29 15:43:15,2019-07-29 15:43:18,2.496s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:43:18,2019-07-29 15:43:20,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/OCS icon""), STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:43:20,2019-07-29 15:43:20,0.002s,NOT_RUN
+back(),Firefox 68.0,,2019-07-29 15:43:20,2019-07-29 15:43:22,2.776s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:43:22,2019-07-29 15:43:24,2.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:43:24,2019-07-29 15:43:24,0.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/a_Learn more- Tips for responsible use""))",Firefox 68.0,,2019-07-29 15:43:24,2019-07-29 15:43:28,3.554s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP -Burger menu-FAQ,Firefox 68.0,,2019-07-29 15:43:30,2019-07-29 15:45:09,1m - 39.359s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:43:30,2019-07-29 15:44:05,34.873s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:44:05,2019-07-29 15:44:07,2.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:44:07,2019-07-29 15:44:07,0.010s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:44:07,2019-07-29 15:44:09,2.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/FAQ menu - En""))",Firefox 68.0,,2019-07-29 15:44:09,2019-07-29 15:44:12,3.016s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:44:12,2019-07-29 15:44:14,2.007s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:44:14,2019-07-29 15:44:14,0.010s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /FAQ page/scroll view element""), 0)",Firefox 68.0,,2019-07-29 15:44:14,2019-07-29 15:44:14,0.000s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:44:14,2019-07-29 15:44:15,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Dropdown button -First chevron -open- FAQ""))",Firefox 68.0,,2019-07-29 15:44:15,2019-07-29 15:44:16,0.274s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:16,2019-07-29 15:44:17,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Dropdown button -First chevron - close -FAQ""))",Firefox 68.0,,2019-07-29 15:44:17,2019-07-29 15:44:17,0.251s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 15:44:17,2019-07-29 15:44:18,1.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/First accordian - add""))",Firefox 68.0,,2019-07-29 15:44:18,2019-07-29 15:44:18,0.250s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:18,2019-07-29 15:44:19,1.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/First accordian - Subtract""))",Firefox 68.0,,2019-07-29 15:44:19,2019-07-29 15:44:19,0.238s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:19,2019-07-29 15:44:20,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Second accordian- add""))",Firefox 68.0,,2019-07-29 15:44:20,2019-07-29 15:44:21,0.244s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:21,2019-07-29 15:44:22,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Second accordian - subtract""))",Firefox 68.0,,2019-07-29 15:44:22,2019-07-29 15:44:22,0.261s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:22,2019-07-29 15:44:23,1.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Load more1""))",Firefox 68.0,,2019-07-29 15:44:23,2019-07-29 15:44:23,0.281s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:23,2019-07-29 15:44:24,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Loadmore2""))",Firefox 68.0,,2019-07-29 15:44:24,2019-07-29 15:44:25,0.510s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:25,2019-07-29 15:44:26,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Loadmore3""))",Firefox 68.0,,2019-07-29 15:44:26,2019-07-29 15:44:26,0.297s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:44:26,2019-07-29 15:44:27,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Learn about cannabis""))",Firefox 68.0,,2019-07-29 15:44:27,2019-07-29 15:44:29,2.233s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 15:44:29,2019-07-29 15:44:30,1.011s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:44:30,2019-07-29 15:44:30,0.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/FAQ menu - En""))",Firefox 68.0,,2019-07-29 15:44:30,2019-07-29 15:44:33,2.503s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:44:33,2019-07-29 15:44:33,0.080s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Loadmore4""))",Firefox 68.0,,2019-07-29 15:44:33,2019-07-29 15:44:35,2.464s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 15:44:35,2019-07-29 15:44:36,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/FAQ page/Learn about OCS""))",Firefox 68.0,,2019-07-29 15:44:36,2019-07-29 15:45:07,31.007s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- HOME PAGE/HP- Burger menu- Learn,Firefox 68.0,,2019-07-29 15:45:09,2019-07-29 15:46:13,1m - 3.096s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:10,2019-07-29 15:45:41,31.545s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:41,2019-07-29 15:45:43,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En""))",Firefox 68.0,,2019-07-29 15:45:43,2019-07-29 15:45:44,0.309s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:45:44,2019-07-29 15:45:46,2.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/LEARN page/How cannabis works""))",Firefox 68.0,,2019-07-29 15:45:46,2019-07-29 15:45:47,1.842s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:47,2019-07-29 15:45:49,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En""))",Firefox 68.0,,2019-07-29 15:45:49,2019-07-29 15:45:50,0.318s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:50,2019-07-29 15:45:52,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/LEARN page/The Effects of Cannabis""))",Firefox 68.0,,2019-07-29 15:45:52,2019-07-29 15:45:54,2.346s,PASSED
+"verifyTextPresent(""The Effects of Cannabis"", true)",Firefox 68.0,,2019-07-29 15:45:54,2019-07-29 15:45:55,1.058s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:45:55,2019-07-29 15:45:57,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:57,2019-07-29 15:45:58,0.344s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:45:58,2019-07-29 15:46:00,2.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/LEARN page/Endocannabinoids chevron""))",Firefox 68.0,,2019-07-29 15:46:00,2019-07-29 15:46:03,3.020s,PASSED
+"verifyTextPresent(""The Endocannabinoid System"", true)",Firefox 68.0,,2019-07-29 15:46:03,2019-07-29 15:46:03,0.755s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:46:03,2019-07-29 15:46:05,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En""), CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:46:05,2019-07-29 15:46:06,0.275s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:46:06,2019-07-29 15:46:08,2.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/LEARN page/Read More -1""))",Firefox 68.0,,2019-07-29 15:46:08,2019-07-29 15:46:09,1.818s,PASSED
+"verifyTextPresent(""The human reaction to cannabis."", false)",Firefox 68.0,,2019-07-29 15:46:09,2019-07-29 15:46:10,0.943s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Add to bag CTA,Firefox 68.0,,2019-07-29 15:46:13,2019-07-29 15:47:23,1m - 10.412s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:46:13,2019-07-29 15:47:08,55.477s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:47:08,2019-07-29 15:47:08,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:47:08,2019-07-29 15:47:10,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:47:10,2019-07-29 15:47:11,0.420s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""), 1)",Firefox 68.0,,2019-07-29 15:47:11,2019-07-29 15:47:11,0.017s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:47:11,2019-07-29 15:47:13,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 15:47:13,2019-07-29 15:47:13,0.252s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:47:13,2019-07-29 15:47:14,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 15:47:14,2019-07-29 15:47:14,0.271s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:47:14,2019-07-29 15:47:15,1.004s,PASSED
+"verifyElementPresent(findTestObject(""OCS-DESKTOP/Cart flyout/Cart - 1st item""), 2)",Firefox 68.0,,2019-07-29 15:47:15,2019-07-29 15:47:15,0.069s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:47:15,2019-07-29 15:47:16,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/Collapse cart flyout""))",Firefox 68.0,,2019-07-29 15:47:16,2019-07-29 15:47:17,0.300s,PASSED
+closeBrowser(),Firefox 68.0,,2019-07-29 15:47:17,2019-07-29 15:47:21,4.311s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Shop all of our products,Firefox 68.0,,2019-07-29 15:47:23,2019-07-29 15:48:21,57.829s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:47:23,2019-07-29 15:48:15,51.402s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Recently Viewed/1st Product - Image""), 2)",Firefox 68.0,,2019-07-29 15:48:15,2019-07-29 15:48:15,0.001s,NOT_RUN
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 15:48:15,2019-07-29 15:48:16,1.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Shop all of our products - Button""))",Firefox 68.0,,2019-07-29 15:48:16,2019-07-29 15:48:19,3.072s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:48:19,2019-07-29 15:48:19,0.012s,PASSED
+"b = ""All Products | Ontario Cannabis Store""",Firefox 68.0,,2019-07-29 15:48:19,2019-07-29 15:48:19,0.000s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Firefox 68.0,,2019-07-29 15:48:19,2019-07-29 15:48:19,0.001s,PASSED
+"verifyEqual(a, b)",Firefox 68.0,,2019-07-29 15:48:19,2019-07-29 15:48:19,0.007s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Tooltip,Firefox 68.0,,2019-07-29 15:48:21,2019-07-29 15:49:48,1m - 27.673s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:48:21,2019-07-29 15:49:17,56.182s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Product page/Tooltips/THC - Tooltip""))",Firefox 68.0,,2019-07-29 15:49:17,2019-07-29 15:49:17,0.200s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:17,2019-07-29 15:49:18,0.563s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:49:18,2019-07-29 15:49:20,2.007s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Product page/Tooltips/CBD - Tooltip""))",Firefox 68.0,,2019-07-29 15:49:20,2019-07-29 15:49:20,0.123s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:20,2019-07-29 15:49:21,0.472s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:49:21,2019-07-29 15:49:23,2.005s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Plant type - Tooltip""))",Firefox 68.0,,2019-07-29 15:49:23,2019-07-29 15:49:23,0.125s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:23,2019-07-29 15:49:23,0.343s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:49:23,2019-07-29 15:49:25,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Terpenes - Tooltip""))",Firefox 68.0,,2019-07-29 15:49:25,2019-07-29 15:49:25,0.281s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:25,2019-07-29 15:49:26,0.462s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:49:26,2019-07-29 15:49:28,2.005s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/About Product - Section""), 0)",Firefox 68.0,,2019-07-29 15:49:28,2019-07-29 15:49:28,0.029s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/THC - Tooltip - About this product""))",Firefox 68.0,,2019-07-29 15:49:28,2019-07-29 15:49:28,0.320s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:28,2019-07-29 15:49:29,1.004s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:29,2019-07-29 15:49:30,0.439s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:30,2019-07-29 15:49:31,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Close - Tooltip - THC""))",Firefox 68.0,,2019-07-29 15:49:31,2019-07-29 15:49:31,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:49:31,2019-07-29 15:49:32,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/CBD - Tooltip - About this product""))",Firefox 68.0,,2019-07-29 15:49:32,2019-07-29 15:49:32,0.297s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:32,2019-07-29 15:49:33,1.002s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:33,2019-07-29 15:49:33,0.339s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:33,2019-07-29 15:49:34,1.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Close - Tooltip - CBD""))",Firefox 68.0,,2019-07-29 15:49:34,2019-07-29 15:49:34,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:49:34,2019-07-29 15:49:35,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Plant type - Tooltip - About this product""))",Firefox 68.0,,2019-07-29 15:49:35,2019-07-29 15:49:35,0.266s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:35,2019-07-29 15:49:36,1.002s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:36,2019-07-29 15:49:37,0.421s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:37,2019-07-29 15:49:38,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Close - Tooltip - Plant""))",Firefox 68.0,,2019-07-29 15:49:38,2019-07-29 15:49:38,0.000s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:49:38,2019-07-29 15:49:39,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Terpenes - Tooltip - About this product""))",Firefox 68.0,,2019-07-29 15:49:39,2019-07-29 15:49:39,0.237s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:39,2019-07-29 15:49:40,1.006s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:40,2019-07-29 15:49:41,0.434s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:41,2019-07-29 15:49:42,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Close - Tooltip - Terepenes""))",Firefox 68.0,,2019-07-29 15:49:42,2019-07-29 15:49:42,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:49:42,2019-07-29 15:49:43,1.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/GTIN - Tooltip - About this product""))",Firefox 68.0,,2019-07-29 15:49:43,2019-07-29 15:49:43,0.307s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:43,2019-07-29 15:49:44,1.006s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:49:44,2019-07-29 15:49:44,0.448s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:49:44,2019-07-29 15:49:45,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Tooltips/Close - Tooltip - GTIN""))",Firefox 68.0,,2019-07-29 15:49:45,2019-07-29 15:49:45,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 15:49:45,2019-07-29 15:49:46,1.005s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Show all accessories,Firefox 68.0,,2019-07-29 15:49:48,2019-07-29 15:50:48,59.255s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:49:49,2019-07-29 15:50:37,48.426s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Grinders - Tab""), 2)",Firefox 68.0,,2019-07-29 15:50:37,2019-07-29 15:50:37,0.001s,NOT_RUN
+delay(5),Firefox 68.0,,2019-07-29 15:50:37,2019-07-29 15:50:42,5.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/More items to consider section/Show all accessories - Link""))",Firefox 68.0,,2019-07-29 15:50:42,2019-07-29 15:50:46,3.526s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:50:46,2019-07-29 15:50:46,0.010s,PASSED
+"b = ""All Products | Ontario Cannabis Store""",Firefox 68.0,,2019-07-29 15:50:46,2019-07-29 15:50:46,0.000s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Firefox 68.0,,2019-07-29 15:50:46,2019-07-29 15:50:46,0.002s,PASSED
+"verifyEqual(a, b)",Firefox 68.0,,2019-07-29 15:50:46,2019-07-29 15:50:46,0.002s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/breadcrumb,Firefox 68.0,,2019-07-29 15:50:48,2019-07-29 15:51:58,1m - 10.316s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:50:48,2019-07-29 15:51:44,56.069s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/a_Dried flower""))",Firefox 68.0,,2019-07-29 15:51:44,2019-07-29 15:51:49,4.831s,PASSED
+b = getWindowTitle(),Firefox 68.0,,2019-07-29 15:51:49,2019-07-29 15:51:49,0.006s,PASSED
+"comment("" b= "" + b)",Firefox 68.0,,2019-07-29 15:51:49,2019-07-29 15:51:49,0.001s,PASSED
+assert getWindowTitle() == b,Firefox 68.0,,2019-07-29 15:51:49,2019-07-29 15:51:49,0.017s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/a_Cannabis""))",Firefox 68.0,,2019-07-29 15:51:49,2019-07-29 15:51:53,4.165s,PASSED
+c = getWindowTitle(),Firefox 68.0,,2019-07-29 15:51:53,2019-07-29 15:51:53,0.008s,PASSED
+"comment("" c= "" + c)",Firefox 68.0,,2019-07-29 15:51:53,2019-07-29 15:51:53,0.000s,PASSED
+assert getWindowTitle() == c,Firefox 68.0,,2019-07-29 15:51:53,2019-07-29 15:51:53,0.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/a_Home""))",Firefox 68.0,,2019-07-29 15:51:53,2019-07-29 15:51:56,2.574s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:51:56,2019-07-29 15:51:56,0.003s,PASSED
+"comment("" a= "" + a)",Firefox 68.0,,2019-07-29 15:51:56,2019-07-29 15:51:56,0.001s,PASSED
+assert getWindowTitle() == a,Firefox 68.0,,2019-07-29 15:51:56,2019-07-29 15:51:56,0.010s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/More items to consider,Firefox 68.0,,2019-07-29 15:51:58,2019-07-29 15:53:44,1m - 46.068s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:51:59,2019-07-29 15:52:53,54.508s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:52:53,2019-07-29 15:52:53,0.002s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/Learn More - Link""))",Firefox 68.0,,2019-07-29 15:52:53,2019-07-29 15:52:54,0.294s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:52:54,2019-07-29 15:52:55,1.006s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Last raw of the table""), 0)",Firefox 68.0,,2019-07-29 15:52:55,2019-07-29 15:52:55,0.000s,NOT_RUN
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:52:55,2019-07-29 15:52:55,0.451s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:52:55,2019-07-29 15:52:56,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Grinder""))",Firefox 68.0,,2019-07-29 15:52:56,2019-07-29 15:52:59,3.294s,PASSED
+"delay(2, STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:52:59,2019-07-29 15:53:01,2.010s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:53:01,2019-07-29 15:53:02,0.488s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:53:02,2019-07-29 15:53:03,1.004s,PASSED
+back(),Firefox 68.0,,2019-07-29 15:53:03,2019-07-29 15:53:05,2.542s,PASSED
+"delay(2, STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:53:05,2019-07-29 15:53:07,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:53:07,2019-07-29 15:53:07,0.024s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/More items to consider section/Vaporizers - Tab""))",Firefox 68.0,,2019-07-29 15:53:07,2019-07-29 15:53:08,0.308s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:53:08,2019-07-29 15:53:10,2.005s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:53:10,2019-07-29 15:53:10,0.252s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 15:53:10,2019-07-29 15:53:11,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Vaporizer""))",Firefox 68.0,,2019-07-29 15:53:11,2019-07-29 15:53:42,31.037s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Price,Firefox 68.0,,2019-07-29 15:53:44,2019-07-29 15:54:44,1m - 0.275s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:53:45,2019-07-29 15:54:35,50.188s,PASSED
+"navigateToUrl(""https://ocs.ca/products/la-confidential"")",Firefox 68.0,,2019-07-29 15:54:35,2019-07-29 15:54:38,2.703s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:54:38,2019-07-29 15:54:40,2.010s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:54:40,2019-07-29 15:54:40,0.020s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:54:40,2019-07-29 15:54:42,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:54:42,2019-07-29 15:54:42,0.698s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Learn More,Firefox 68.0,,2019-07-29 15:54:44,2019-07-29 15:55:47,1m - 2.348s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:54:45,2019-07-29 15:55:44,58.805s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:55:44,2019-07-29 15:55:44,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/Learn More - Link""))",Firefox 68.0,,2019-07-29 15:55:44,2019-07-29 15:55:44,0.390s,PASSED
+"verifyElementPresent(findTestObject(""OCS-DESKTOP/Product page/About Product - Table""), 1)",Firefox 68.0,,2019-07-29 15:55:44,2019-07-29 15:55:44,0.039s,PASSED
+takeScreenshot(),Firefox 68.0,,2019-07-29 15:55:44,2019-07-29 15:55:45,0.680s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/Recently viewed,Firefox 68.0,,2019-07-29 15:55:47,2019-07-29 15:57:14,1m - 27.247s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:55:47,2019-07-29 15:56:41,53.618s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:56:41,2019-07-29 15:56:41,0.032s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Firefox 68.0,,2019-07-29 15:56:41,2019-07-29 15:56:41,0.015s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/How to choose cannabis product - Section""), 2)",Firefox 68.0,,2019-07-29 15:56:41,2019-07-29 15:56:41,0.025s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Recently Viewed/1st Product - Image""))",Firefox 68.0,,2019-07-29 15:56:41,2019-07-29 15:57:12,31.043s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/variants selector,Firefox 68.0,,2019-07-29 15:57:14,2019-07-29 15:58:27,1m - 13.208s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:57:15,2019-07-29 15:58:04,49.761s,PASSED
+"navigateToUrl(""https://ocs.ca/products/lola-montes-edison"")",Firefox 68.0,,2019-07-29 15:58:04,2019-07-29 15:58:07,3.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:58:07,2019-07-29 15:58:08,0.327s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:58:08,2019-07-29 15:58:10,2.011s,PASSED
+"scrollToElement(findTestObject(""OCS-DESKTOP/Product page/Product image""), 1)",Firefox 68.0,,2019-07-29 15:58:10,2019-07-29 15:58:10,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 15:58:10,2019-07-29 15:58:12,2.008s,PASSED
+"flag1 = verifyElementClickable(findTestObject(""OCS-DESKTOP/Product page/Swatch_1g""))",Firefox 68.0,,2019-07-29 15:58:12,2019-07-29 15:58:12,0.046s,PASSED
+"comment(""flag1="" + flag1)",Firefox 68.0,,2019-07-29 15:58:12,2019-07-29 15:58:12,0.001s,PASSED
+if (flag1 == true),Firefox 68.0,,2019-07-29 15:58:12,2019-07-29 15:58:20,7.882s,PASSED
+"flag2 = verifyElementClickable(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""))",Firefox 68.0,,2019-07-29 15:58:20,2019-07-29 15:58:20,0.023s,PASSED
+"comment(""flag2="" + flag2)",Firefox 68.0,,2019-07-29 15:58:20,2019-07-29 15:58:20,0.002s,PASSED
+if (flag2 == true),Firefox 68.0,,2019-07-29 15:58:20,2019-07-29 15:58:22,2.728s,PASSED
+"flag3 = verifyElementClickable(findTestObject(""OCS-DESKTOP/Product page/Swatch_7g""))",Firefox 68.0,,2019-07-29 15:58:22,2019-07-29 15:58:22,0.019s,PASSED
+"comment(""flag3="" + flag3)",Firefox 68.0,,2019-07-29 15:58:22,2019-07-29 15:58:22,0.002s,PASSED
+if (flag3 == true),Firefox 68.0,,2019-07-29 15:58:22,2019-07-29 15:58:25,2.733s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- PRODUCT PAGE/How to choose cannbis products,Firefox 68.0,,2019-07-29 15:58:27,2019-07-29 15:59:27,59.735s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 15:58:27,2019-07-29 15:59:18,50.129s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/How to choose cannabis product - Section""), 2)",Firefox 68.0,,2019-07-29 15:59:18,2019-07-29 15:59:18,0.002s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Product page/How to choose cannabis product - Button""))",Firefox 68.0,,2019-07-29 15:59:18,2019-07-29 15:59:21,3.652s,PASSED
+a = getWindowTitle(),Firefox 68.0,,2019-07-29 15:59:21,2019-07-29 15:59:21,0.010s,PASSED
+"b = ""Factors in Choosing Cannabis Products | Ontario Cannabis Store""",Firefox 68.0,,2019-07-29 15:59:21,2019-07-29 15:59:21,0.001s,PASSED
+"comment(""WINDOW TITLE IS: "" + a)",Firefox 68.0,,2019-07-29 15:59:21,2019-07-29 15:59:21,0.003s,PASSED
+if (a == b),Firefox 68.0,,2019-07-29 15:59:21,2019-07-29 15:59:21,0.002s,PASSED
+back(),Firefox 68.0,,2019-07-29 15:59:21,2019-07-29 15:59:25,3.608s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-AGE GATE/AG- Under Age,Firefox 68.0,,2019-07-29 15:59:27,2019-07-29 16:00:15,48.060s,PASSED
+"openBrowser("""")",Firefox 68.0,,2019-07-29 15:59:27,2019-07-29 15:59:36,8.806s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=74210314060"")",Firefox 68.0,,2019-07-29 15:59:36,2019-07-29 15:59:51,14.854s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 15:59:51,2019-07-29 15:59:51,0.093s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Date""), ""12"", true)",Firefox 68.0,,2019-07-29 15:59:51,2019-07-29 15:59:52,0.936s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/month""), ""6"", true)",Firefox 68.0,,2019-07-29 15:59:52,2019-07-29 15:59:53,0.680s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 15:59:53,2019-07-29 15:59:55,2.010s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Year Dropdown""), ""2017"", true)",Firefox 68.0,,2019-07-29 15:59:55,2019-07-29 15:59:56,1.810s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/button_Verify""))",Firefox 68.0,,2019-07-29 15:59:56,2019-07-29 15:59:57,0.245s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 68.0,,2019-07-29 15:59:57,2019-07-29 15:59:57,0.356s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM""))",Firefox 68.0,,2019-07-29 15:59:57,2019-07-29 15:59:57,0.246s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 15:59:57,2019-07-29 16:00:00,3.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Oops Im actually 19 or older - Link""))",Firefox 68.0,,2019-07-29 16:00:00,2019-07-29 16:00:00,0.301s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Date""), ""5"", true)",Firefox 68.0,,2019-07-29 16:00:00,2019-07-29 16:00:01,0.759s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/month""), ""6"", true)",Firefox 68.0,,2019-07-29 16:00:01,2019-07-29 16:00:02,0.623s,PASSED
+"selectOptionByValue(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Year Dropdown""), ""1970"", true)",Firefox 68.0,,2019-07-29 16:00:02,2019-07-29 16:00:05,2.671s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/button_Verify""))",Firefox 68.0,,2019-07-29 16:00:05,2019-07-29 16:00:05,0.247s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 68.0,,2019-07-29 16:00:05,2019-07-29 16:00:05,0.252s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM""))",Firefox 68.0,,2019-07-29 16:00:05,2019-07-29 16:00:05,0.244s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing""))",Firefox 68.0,,2019-07-29 16:00:05,2019-07-29 16:00:06,0.378s,PASSED
+delay(3),Firefox 68.0,,2019-07-29 16:00:06,2019-07-29 16:00:09,3.008s,PASSED
+closeBrowser(),Firefox 68.0,,2019-07-29 16:00:09,2019-07-29 16:00:13,4.148s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-AGE GATE/AG - Date correction,Firefox 68.0,,2019-07-29 16:00:15,2019-07-29 16:00:29,14.025s,FAILED
+"openBrowser("""")",Firefox 68.0,,2019-07-29 16:00:15,2019-07-29 16:00:21,5.928s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=74210314060"")",Firefox 68.0,,2019-07-29 16:00:21,2019-07-29 16:00:27,5.326s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 16:00:27,2019-07-29 16:00:27,0.316s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/Sort,Firefox 68.0,,2019-07-29 16:00:29,2019-07-29 16:00:55,25.456s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:00:29,2019-07-29 16:00:52,22.967s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/Chevron dropdown,Firefox 68.0,,2019-07-29 16:00:55,2019-07-29 16:01:20,25.752s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:00:55,2019-07-29 16:01:18,23.475s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/breadcrumbs,Firefox 68.0,,2019-07-29 16:01:20,2019-07-29 16:02:02,41.643s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:01:21,2019-07-29 16:01:58,36.389s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English""))",Firefox 68.0,,2019-07-29 16:01:58,2019-07-29 16:01:58,0.740s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant""))",Firefox 68.0,,2019-07-29 16:01:58,2019-07-29 16:01:59,1.199s,PASSED
+"click(findTestObject(""OCS-DESKTOP/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis""))",Firefox 68.0,,2019-07-29 16:01:59,2019-07-29 16:02:00,0.405s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/Pagination,Firefox 68.0,,2019-07-29 16:02:02,2019-07-29 16:02:49,47.471s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:02:02,2019-07-29 16:02:47,44.977s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/What to consider,Firefox 68.0,,2019-07-29 16:02:49,2019-07-29 16:03:59,1m - 9.202s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:02:50,2019-07-29 16:03:31,40.915s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:03:31,2019-07-29 16:03:33,2.012s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 68.0,,2019-07-29 16:03:33,2019-07-29 16:03:33,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:03:33,2019-07-29 16:03:35,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Chevron_Cannabis""))",Firefox 68.0,,2019-07-29 16:03:35,2019-07-29 16:03:35,0.321s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:03:35,2019-07-29 16:03:37,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower""))",Firefox 68.0,,2019-07-29 16:03:37,2019-07-29 16:03:42,4.999s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:03:42,2019-07-29 16:03:44,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant""))",Firefox 68.0,,2019-07-29 16:03:44,2019-07-29 16:03:44,0.001s,NOT_RUN
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 16:03:44,2019-07-29 16:03:44,0.010s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:03:44,2019-07-29 16:03:46,2.027s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/loadmore""))",Firefox 68.0,,2019-07-29 16:03:46,2019-07-29 16:03:46,0.000s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:03:46,2019-07-29 16:03:48,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Collection page/What to consider""))",Firefox 68.0,,2019-07-29 16:03:48,2019-07-29 16:03:54,5.505s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:03:54,2019-07-29 16:03:56,2.012s,PASSED
+"verifyTextPresent(""Six things to know before deciding to consume cannabis."", false)",Firefox 68.0,,2019-07-29 16:03:56,2019-07-29 16:03:57,0.991s,PASSED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS-COLLECTION PAGE/Filter,Firefox 68.0,,2019-07-29 16:03:59,2019-07-29 16:26:28,22m - 29.745s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL- Age gate""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:03:59,2019-07-29 16:04:56,57.064s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 68.0,,2019-07-29 16:04:56,2019-07-29 16:04:56,0.005s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:04:56,2019-07-29 16:04:58,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Age gate and Mega menu/Chevron_Cannabis""))",Firefox 68.0,,2019-07-29 16:04:58,2019-07-29 16:04:59,0.301s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:04:59,2019-07-29 16:05:00,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower""))",Firefox 68.0,,2019-07-29 16:05:00,2019-07-29 16:05:04,4.568s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:04,2019-07-29 16:05:05,1.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant""))",Firefox 68.0,,2019-07-29 16:05:05,2019-07-29 16:05:05,0.001s,NOT_RUN
+delay(1),Firefox 68.0,,2019-07-29 16:05:05,2019-07-29 16:05:06,1.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Filter option""))",Firefox 68.0,,2019-07-29 16:05:06,2019-07-29 16:05:07,0.343s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:07,2019-07-29 16:05:09,2.009s,PASSED
+"mouseOver(findTestObject(""OCS-DESKTOP/Filter flyout/THC - CBD Tool tip""))",Firefox 68.0,,2019-07-29 16:05:09,2019-07-29 16:05:09,0.141s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Click element outside""))",Firefox 68.0,,2019-07-29 16:05:09,2019-07-29 16:05:09,0.285s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:09,2019-07-29 16:05:11,2.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/THC CBD plus accordian""))",Firefox 68.0,,2019-07-29 16:05:11,2019-07-29 16:05:11,0.379s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:11,2019-07-29 16:05:13,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/THC - CBD Subtract accordian""))",Firefox 68.0,,2019-07-29 16:05:13,2019-07-29 16:05:14,0.243s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:14,2019-07-29 16:05:16,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/THC CBD plus accordian""))",Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.266s,PASSED
+"click(findTestObject(""OCS-MOBILE /Filter flyout/div_18.00""))",Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.000s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/div_25.00""))",Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/div_14.00""))",Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.000s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/div_19.00""))",Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:16,0.002s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:16,2019-07-29 16:05:18,2.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Learn More About THC CBD""))",Firefox 68.0,,2019-07-29 16:05:18,2019-07-29 16:05:18,0.002s,NOT_RUN
+delay(4),Firefox 68.0,,2019-07-29 16:05:18,2019-07-29 16:05:22,4.008s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/OCS-COLLECTION PAGE/calling test case""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:05:22,2019-07-29 16:05:22,0.002s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Filter option""))",Firefox 68.0,,2019-07-29 16:05:22,2019-07-29 16:05:22,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Plant type tooltip""))",Firefox 68.0,,2019-07-29 16:05:22,2019-07-29 16:05:22,0.277s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:22,2019-07-29 16:05:24,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Click element outside""))",Firefox 68.0,,2019-07-29 16:05:24,2019-07-29 16:05:24,0.247s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Plant type plus accordian""))",Firefox 68.0,,2019-07-29 16:05:24,2019-07-29 16:05:25,0.247s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:25,2019-07-29 16:05:26,1.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Plant type subtract accordian""))",Firefox 68.0,,2019-07-29 16:05:26,2019-07-29 16:05:26,0.259s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:26,2019-07-29 16:05:27,1.008s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Plant type plus accordian""))",Firefox 68.0,,2019-07-29 16:05:27,2019-07-29 16:05:27,0.259s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:27,2019-07-29 16:05:29,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Indica Dominant""))",Firefox 68.0,,2019-07-29 16:05:29,2019-07-29 16:05:30,0.281s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:30,2019-07-29 16:05:32,2.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Sativa Dominant""))",Firefox 68.0,,2019-07-29 16:05:32,2019-07-29 16:05:32,0.277s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:32,2019-07-29 16:05:34,2.012s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Hybrid""))",Firefox 68.0,,2019-07-29 16:05:34,2019-07-29 16:05:34,0.264s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:34,2019-07-29 16:05:36,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Blend""))",Firefox 68.0,,2019-07-29 16:05:36,2019-07-29 16:05:36,0.275s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:36,2019-07-29 16:05:38,2.012s,PASSED
+"click(findTestObject(""Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Sativa Dominant""))",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Hybrid""))",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Blend""))",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Learn More About Plant Type""))",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+"callTestCase(findTestCase(""OCS - MOBILE/OCS-COLLECTION PAGE/calling test case""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:38,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Plant type subtract accordian""))",Firefox 68.0,,2019-07-29 16:05:38,2019-07-29 16:05:39,0.329s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:39,2019-07-29 16:05:40,1.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Filter option""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:40,2019-07-29 16:05:40,0.464s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 16:05:40,2019-07-29 16:05:40,0.015s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Brand tool tip""))",Firefox 68.0,,2019-07-29 16:05:40,2019-07-29 16:05:41,0.362s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Click element outside""))",Firefox 68.0,,2019-07-29 16:05:41,2019-07-29 16:05:41,0.252s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:41,2019-07-29 16:05:42,1.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Brand plus accordian""))",Firefox 68.0,,2019-07-29 16:05:42,2019-07-29 16:05:42,0.255s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:42,2019-07-29 16:05:44,2.016s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Brand subtract accordian""))",Firefox 68.0,,2019-07-29 16:05:44,2019-07-29 16:05:44,0.277s,PASSED
+delay(1),Firefox 68.0,,2019-07-29 16:05:44,2019-07-29 16:05:45,1.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Brand plus accordian""))",Firefox 68.0,,2019-07-29 16:05:45,2019-07-29 16:05:46,0.261s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:05:46,2019-07-29 16:05:48,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Edison""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:48,2019-07-29 16:05:48,0.345s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:48,2019-07-29 16:05:50,2.009s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:50,2019-07-29 16:05:52,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Haven St""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:52,2019-07-29 16:05:52,0.311s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:52,2019-07-29 16:05:54,2.011s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Emerald""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:54,2019-07-29 16:05:55,0.281s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:55,2019-07-29 16:05:57,2.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Gage Cannabis Co""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:57,2019-07-29 16:05:57,0.002s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:57,2019-07-29 16:05:59,2.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Filter flyout/INDIVA""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:59,2019-07-29 16:05:59,0.001s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:05:59,2019-07-29 16:06:01,2.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/RIFF""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:06:01,2019-07-29 16:06:32,31.253s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:06:32,2019-07-29 16:06:34,2.014s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Seven Oaks""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:06:34,2019-07-29 16:06:34,0.356s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:06:34,2019-07-29 16:06:36,2.010s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Synr.g""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:06:36,2019-07-29 16:07:07,31.170s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:07,2019-07-29 16:07:09,2.009s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Trailblazer""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:09,2019-07-29 16:07:10,0.368s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:10,2019-07-29 16:07:12,2.007s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/_Xscape""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:12,2019-07-29 16:07:43,31.158s,PASSED
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:43,2019-07-29 16:07:45,2.021s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Aurora""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:45,2019-07-29 16:07:45,0.401s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Canna Farms""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:45,2019-07-29 16:07:46,0.283s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Edison""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:46,2019-07-29 16:07:46,0.282s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Flowr""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:46,2019-07-29 16:07:46,0.281s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Haven St""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:46,2019-07-29 16:07:47,0.303s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/liiv""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:07:47,2019-07-29 16:08:18,31.231s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Saturday""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:08:18,2019-07-29 16:22:34,14m - 16.127s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Spinach""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:22:34,2019-07-29 16:23:06,32.032s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Spinach1""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:23:06,2019-07-29 16:23:37,30.898s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/THC BioMed""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:23:37,2019-07-29 16:24:08,30.865s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Whistler Cannabis Co""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:24:08,2019-07-29 16:24:08,0.461s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Spinach""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:24:08,2019-07-29 16:24:39,31.210s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Spinach1""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:24:39,2019-07-29 16:25:10,30.949s,PASSED
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Learn More About brand""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.009s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE /Filter flyout/Input to search - brand""), ""boveda"", OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"verifyTextPresent("""", Keys.chord(ENTER), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"verifyTextPresent(""Boveda"", false, OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE /Filter flyout/Input to search - brand""), ""ace valley"", OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"sendKeys(findTestObject(""Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Shop by Brands  Ontario Cannab/input_Shop by Brands_q""), Keys.chord(ENTER), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"verifyTextPresent(""Ace Valley"", false, OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.000s,NOT_RUN
+back(OPTIONAL),Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.000s,NOT_RUN
+back(OPTIONAL),Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Filter option""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:10,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpenes tooltip""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:10,2019-07-29 16:25:11,0.315s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Click element outside""))",Firefox 68.0,,2019-07-29 16:25:11,2019-07-29 16:25:11,0.259s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpenes plus accordian""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:11,2019-07-29 16:25:11,0.277s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpenes subtract accordian""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:11,2019-07-29 16:25:42,30.870s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpenes plus accordian""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:25:42,2019-07-29 16:26:13,30.982s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Alpha-bisabolol""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:13,2019-07-29 16:26:13,0.367s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Alpha-pinene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:13,2019-07-29 16:26:14,0.260s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Alpha-pinene1""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:14,2019-07-29 16:26:14,0.360s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Beta-pinene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:14,2019-07-29 16:26:14,0.262s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Guaiol""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:14,2019-07-29 16:26:15,0.290s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Limonene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:15,2019-07-29 16:26:15,0.259s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:15,2019-07-29 16:26:16,1.013s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Myrcene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:16,2019-07-29 16:26:16,0.252s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:16,2019-07-29 16:26:17,1.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Ocimene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:17,2019-07-29 16:26:17,0.252s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpinene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:17,2019-07-29 16:26:18,0.284s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpinolene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:18,2019-07-29 16:26:18,0.269s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:18,2019-07-29 16:26:19,1.002s,PASSED
+"click(findTestObject(""Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/span_Trans-caryophyllene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:19,2019-07-29 16:26:19,0.001s,NOT_RUN
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Terpineol""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:19,2019-07-29 16:26:19,0.307s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Para-cymenene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:19,2019-07-29 16:26:20,0.467s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Nerolidol""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:20,2019-07-29 16:26:20,0.266s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Linalool""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:20,2019-07-29 16:26:20,0.284s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Humulene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:20,2019-07-29 16:26:21,0.248s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Bisabolol""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:21,2019-07-29 16:26:21,0.299s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Beta-caryophyllene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:21,2019-07-29 16:26:21,0.257s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Alpha-caryophyllene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:21,2019-07-29 16:26:21,0.258s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Trans-caryophyllene""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:21,2019-07-29 16:26:22,0.269s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:26:22,2019-07-29 16:26:24,2.004s,PASSED
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:24,2019-07-29 16:26:25,1.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Filter flyout/Done (43)""))",Firefox 68.0,,2019-07-29 16:26:25,2019-07-29 16:26:26,1.133s,PASSED
+"a = getText(findTestObject(""OCS-DESKTOP/Filter flyout/li_Pre-Rolled""))",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.058s,PASSED
+comment(a),Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.001s,PASSED
+"if (a == ""40 Products"")",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.001s,PASSED
+else,Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.001s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/OCS-COLLECTION PAGE/calling test case""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Filter option""))",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.001s,NOT_RUN
+delay(2),Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+"delay(1, OPTIONAL)",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Filter flyout/Learn More About Terpenes""))",Firefox 68.0,,2019-07-29 16:26:26,2019-07-29 16:26:26,0.000s,NOT_RUN
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Max limit,Firefox 68.0,,2019-07-29 16:26:28,2019-07-29 16:28:10,1m - 41.967s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:26:29,2019-07-29 16:27:01,31.618s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:01,2019-07-29 16:27:03,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""))",Firefox 68.0,,2019-07-29 16:27:03,2019-07-29 16:27:03,0.313s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:03,2019-07-29 16:27:05,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:05,2019-07-29 16:27:05,0.266s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:05,2019-07-29 16:27:07,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:07,2019-07-29 16:27:08,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:08,2019-07-29 16:27:10,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:10,2019-07-29 16:27:10,0.260s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:10,2019-07-29 16:27:12,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:12,2019-07-29 16:27:12,0.310s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:12,2019-07-29 16:27:14,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:14,2019-07-29 16:27:14,0.242s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:14,2019-07-29 16:27:16,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:16,2019-07-29 16:27:17,0.283s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:17,2019-07-29 16:27:19,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:19,2019-07-29 16:27:19,0.240s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:19,2019-07-29 16:27:21,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:21,2019-07-29 16:27:21,0.259s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:21,2019-07-29 16:27:23,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:27:23,2019-07-29 16:27:23,0.242s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:23,2019-07-29 16:27:25,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 16:27:25,2019-07-29 16:27:26,0.267s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:26,2019-07-29 16:27:28,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 16:27:28,2019-07-29 16:27:28,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:28,2019-07-29 16:27:30,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity increase - Product""))",Firefox 68.0,,2019-07-29 16:27:30,2019-07-29 16:27:30,0.273s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:30,2019-07-29 16:27:32,2.003s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_I confirm that""))",Firefox 68.0,,2019-07-29 16:27:32,2019-07-29 16:27:32,0.246s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:32,2019-07-29 16:27:34,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 68.0,,2019-07-29 16:27:34,2019-07-29 16:27:35,0.239s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:27:35,2019-07-29 16:27:37,2.002s,PASSED
+"verifyElementClickable(findTestObject(""OCS-DESKTOP/Cart flyout/Checkout - Button""))",Firefox 68.0,,2019-07-29 16:27:37,2019-07-29 16:28:08,31.504s,FAILED
+,,,,,,
+Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH - FRENCH/Max limit - fr,Firefox 68.0,,2019-07-29 16:28:10,2019-07-29 16:29:25,1m - 14.739s,FAILED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - Navigate to PDP""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:28:11,2019-07-29 16:28:42,31.214s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:28:42,2019-07-29 16:28:44,2.003s,PASSED
+"callTestCase(findTestCase(""OCS - DESKTOP/CALL - TOGGLING LANGUAGE""), [:], STOP_ON_FAILURE)",Firefox 68.0,,2019-07-29 16:28:44,2019-07-29 16:28:53,9.719s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 68.0,,2019-07-29 16:28:53,2019-07-29 16:28:53,0.007s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:28:53,2019-07-29 16:28:55,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Swatch_3.5g""))",Firefox 68.0,,2019-07-29 16:28:55,2019-07-29 16:28:56,0.346s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:28:56,2019-07-29 16:28:58,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:28:58,2019-07-29 16:28:58,0.245s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:28:58,2019-07-29 16:29:00,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:00,2019-07-29 16:29:00,0.258s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:00,2019-07-29 16:29:02,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:02,2019-07-29 16:29:03,0.244s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:03,2019-07-29 16:29:05,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:05,2019-07-29 16:29:05,0.258s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:05,2019-07-29 16:29:07,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:07,2019-07-29 16:29:07,0.241s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:07,2019-07-29 16:29:09,2.002s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:09,2019-07-29 16:29:09,0.256s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:09,2019-07-29 16:29:11,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:11,2019-07-29 16:29:12,0.243s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:12,2019-07-29 16:29:14,2.006s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:14,2019-07-29 16:29:14,0.235s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:14,2019-07-29 16:29:16,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Quantity Increase - Button""))",Firefox 68.0,,2019-07-29 16:29:16,2019-07-29 16:29:16,0.235s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:16,2019-07-29 16:29:18,2.001s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Product page/Add to Bag-button""))",Firefox 68.0,,2019-07-29 16:29:18,2019-07-29 16:29:18,0.242s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:18,2019-07-29 16:29:20,2.005s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Home - page/view my bag - cart dropdown""))",Firefox 68.0,,2019-07-29 16:29:20,2019-07-29 16:29:21,0.251s,PASSED
+delay(2),Firefox 68.0,,2019-07-29 16:29:21,2019-07-29 16:29:23,2.004s,PASSED
+"click(findTestObject(""OCS-DESKTOP/Cart flyout/Quantity increase - Product""))",Firefox 68.0,,2019-07-29 16:29:23,2019-07-29 16:29:23,0.418s,FAILED

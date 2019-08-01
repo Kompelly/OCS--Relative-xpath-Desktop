@@ -1,0 +1,12 @@
+1
+00:00:00,342 --> 00:00:00,343
+1. openBrowser("")
+
+2
+00:00:06,271 --> 00:00:06,271
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+3
+00:00:11,596 --> 00:00:11,598
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+

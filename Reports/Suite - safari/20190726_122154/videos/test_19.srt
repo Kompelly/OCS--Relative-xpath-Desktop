@@ -1,0 +1,176 @@
+1
+00:00:01,188 --> 00:00:01,190
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,257 --> 00:00:01,258
+1. openBrowser("")
+
+3
+00:00:04,223 --> 00:00:04,223
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:12,829 --> 00:00:12,830
+9. maximizeWindow()
+
+5
+00:00:13,054 --> 00:00:13,055
+13. delay(2)
+
+6
+00:00:15,059 --> 00:00:15,059
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:15,082 --> 00:00:15,082
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:16,060 --> 00:00:16,060
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:16,481 --> 00:00:16,481
+29. delay(2)
+
+10
+00:00:18,487 --> 00:00:18,488
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:20,949 --> 00:00:20,950
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:21,399 --> 00:00:21,399
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:21,571 --> 00:00:21,572
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:21,689 --> 00:00:21,690
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:22,179 --> 00:00:22,179
+53. delay(2)
+
+16
+00:00:24,180 --> 00:00:24,180
+57. refresh()
+
+17
+00:00:24,193 --> 00:00:24,194
+5. delay(2)
+
+18
+00:00:26,200 --> 00:00:26,205
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+19
+00:00:26,287 --> 00:00:26,287
+1. delay(2)
+
+20
+00:00:28,292 --> 00:00:28,294
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+21
+00:00:32,227 --> 00:00:32,227
+9. delay(2)
+
+22
+00:00:34,231 --> 00:00:34,232
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+23
+00:00:34,528 --> 00:00:34,528
+17. delay(5)
+
+24
+00:00:39,530 --> 00:00:39,530
+21. e = getWindowTitle()
+
+25
+00:00:43,228 --> 00:00:43,229
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+26
+00:00:43,538 --> 00:00:43,538
+17. delay(2)
+
+27
+00:00:45,544 --> 00:00:45,545
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+28
+00:00:45,561 --> 00:00:45,562
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+29
+00:00:50,822 --> 00:00:50,826
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+30
+00:00:50,839 --> 00:00:50,839
+33. delay(2)
+
+31
+00:00:52,842 --> 00:00:52,844
+37. click(findTestObject("FRENCH/Product image - 1st one"))
+
+32
+00:00:59,467 --> 00:00:59,467
+41. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+33
+00:00:59,478 --> 00:00:59,479
+45. delay(3)
+
+34
+00:01:02,493 --> 00:01:02,494
+49. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+35
+00:01:03,355 --> 00:01:03,357
+53. delay(2)
+
+36
+00:01:05,362 --> 00:01:05,363
+57. click(findTestObject("OCS-DESKTOP/Product page/Add to Bag-button"))
+
+37
+00:01:05,545 --> 00:01:05,546
+61. delay(2)
+
+38
+00:01:07,548 --> 00:01:07,548
+65. click(findTestObject("OCS-DESKTOP/Product page/Quantity Increase - Button"))
+
+39
+00:01:08,333 --> 00:01:08,333
+69. delay(2)
+
+40
+00:01:10,343 --> 00:01:10,348
+73. click(findTestObject("OCS-DESKTOP/Home - page/view my bag - cart dropdown"), OPTIONAL)
+
+41
+00:01:12,072 --> 00:01:12,073
+77. delay(2)
+
+42
+00:01:14,081 --> 00:01:14,083
+81. a = getText(findTestObject("OCS-DESKTOP/Cart flyout/Unit price - Product"))
+
+43
+00:01:14,183 --> 00:01:14,184
+85. comment(a)
+
+44
+00:01:14,186 --> 00:01:14,187
+89. b = a.substring(1)
+

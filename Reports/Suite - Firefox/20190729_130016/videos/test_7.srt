@@ -1,0 +1,88 @@
+1
+00:00:00,516 --> 00:00:00,517
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,185 --> 00:00:01,186
+1. openBrowser("")
+
+3
+00:00:13,675 --> 00:00:13,676
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:19,553 --> 00:00:19,554
+9. maximizeWindow()
+
+5
+00:00:20,514 --> 00:00:20,514
+13. refresh()
+
+6
+00:00:25,673 --> 00:00:25,673
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:25,775 --> 00:00:25,775
+21. delay(4)
+
+8
+00:00:29,785 --> 00:00:29,786
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:30,746 --> 00:00:30,747
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:31,362 --> 00:00:31,363
+33. delay(2)
+
+11
+00:00:33,369 --> 00:00:33,370
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:35,766 --> 00:00:35,767
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:36,046 --> 00:00:36,047
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:36,314 --> 00:00:36,316
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:36,617 --> 00:00:36,618
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:36,954 --> 00:00:36,956
+57. refresh()
+
+17
+00:00:41,329 --> 00:00:41,331
+61. delay(2)
+
+18
+00:00:43,340 --> 00:00:43,340
+65. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:43,633 --> 00:00:43,633
+69. delay(2)
+
+20
+00:00:45,644 --> 00:00:45,645
+73. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:00:49,915 --> 00:00:49,915
+77. delay(2)
+
+22
+00:00:51,923 --> 00:00:51,924
+81. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0)
+

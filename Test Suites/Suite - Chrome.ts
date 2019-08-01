@@ -13,67 +13,67 @@
    <testCaseLink>
       <guid>00854566-6269-4cb1-aa13-a929b2996eed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- increase qty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>977e1f09-348b-4815-b8d9-0698a560f733</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout- decrease qty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f1c59255-8675-426e-b5ce-fea028180da7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout- Payment</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>82e945aa-fd2e-41ab-824c-c8f456ff13e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout - customer information page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e58fa1f8-1c50-44b9-b75a-ee22563a6f47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout-tooltips</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2731079b-511f-4d21-bcde-d56ba2ea2f9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>59722a5b-4685-4938-a1cd-3aea922e941a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/cart flyout- accessories</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9c247e45-d3fa-4548-9071-98ce860505f5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart flyout-price comparison</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c92581ce-6c3b-4f9e-a18d-cc8541e0914c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Checkout - Shipping</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>96e83539-d5b0-4b7b-813e-48e3def576ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/Cart page- decrease qty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2d803cfd-1f82-4c92-9dfe-885248029abe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/OCS - DESKTOP/OCS- CRITICAL PATH/cart page-increase qty</testCaseId>
    </testCaseLink>
    <testCaseLink>

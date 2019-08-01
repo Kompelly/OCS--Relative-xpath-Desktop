@@ -15,9 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74380642124')
 
 WebUI.maximizeWindow()
+
+WebUI.refresh()
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -49,6 +51,9 @@ WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS m
 WebUI.delay(2)
 
 WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item'))
+
+WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+    [])
 
 WebUI.delay(2)
 

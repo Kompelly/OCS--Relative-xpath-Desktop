@@ -1,0 +1,96 @@
+1
+00:00:00,438 --> 00:00:00,443
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,748 --> 00:00:00,755
+1. openBrowser("")
+
+3
+00:00:03,428 --> 00:00:03,429
+5. maximizeWindow()
+
+4
+00:00:03,679 --> 00:00:03,685
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:09,295 --> 00:00:09,296
+13. refresh()
+
+6
+00:00:12,954 --> 00:00:12,955
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:12,986 --> 00:00:12,987
+21. delay(4)
+
+8
+00:00:17,003 --> 00:00:17,004
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:17,489 --> 00:00:17,489
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:17,797 --> 00:00:17,798
+33. delay(2)
+
+11
+00:00:19,800 --> 00:00:19,800
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:21,021 --> 00:00:21,021
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:21,154 --> 00:00:21,157
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:21,247 --> 00:00:21,248
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:21,354 --> 00:00:21,355
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:21,496 --> 00:00:21,497
+57. delay(2)
+
+17
+00:00:23,500 --> 00:00:23,501
+61. navigateToUrl("https://ocs.ca/products/charlees")
+
+18
+00:00:28,165 --> 00:00:28,167
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:00:28,210 --> 00:00:28,212
+5. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+20
+00:00:28,213 --> 00:00:28,214
+9. delay(2)
+
+21
+00:00:30,216 --> 00:00:30,217
+13. flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"), 0)
+
+22
+00:00:30,245 --> 00:00:30,246
+17. comment(" flag =" + flag)
+
+23
+00:00:30,250 --> 00:00:30,251
+21. if (flag == true)
+
+24
+00:00:30,251 --> 00:00:30,252
+1. click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"))
+

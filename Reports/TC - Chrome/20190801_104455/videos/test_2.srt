@@ -1,0 +1,16 @@
+1
+00:00:00,177 --> 00:00:00,180
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,251 --> 00:00:00,251
+1. openBrowser("")
+
+3
+00:00:01,572 --> 00:00:01,573
+5. maximizeWindow()
+
+4
+00:00:01,801 --> 00:00:01,802
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+

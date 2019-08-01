@@ -93,9 +93,9 @@ String without = a.substring(1)
 
 WebUI.comment('without = ' + without)
 
-String last = without.substring(0, without.length() - 1)
+//String last = without.substring(0, without.length() - 1)
 
-WebUI.comment('last=' + last)
+WebUI.comment('without=' + without)
 
 WebUI.delay(2)
 
@@ -116,7 +116,7 @@ double p2
 
 // code to convert string to int
 try {
-    String str = last
+    String str = without
 
     WebUI.comment('str=' + str)
 

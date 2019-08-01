@@ -1,0 +1,16 @@
+1
+00:00:00,051 --> 00:00:00,052
+1. openBrowser("")
+
+2
+00:00:01,045 --> 00:00:01,046
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+3
+00:00:03,796 --> 00:00:03,797
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+4
+00:00:03,832 --> 00:00:03,833
+13. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+

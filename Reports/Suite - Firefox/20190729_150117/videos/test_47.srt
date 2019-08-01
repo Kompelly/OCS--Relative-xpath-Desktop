@@ -1,0 +1,28 @@
+1
+00:00:00,394 --> 00:00:00,395
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,478 --> 00:00:00,478
+1. openBrowser("")
+
+3
+00:00:09,445 --> 00:00:09,445
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:16,546 --> 00:00:16,547
+9. maximizeWindow()
+
+5
+00:00:17,826 --> 00:00:17,827
+13. refresh()
+
+6
+00:00:21,019 --> 00:00:21,019
+17. delay(2)
+
+7
+00:00:23,024 --> 00:00:23,024
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+

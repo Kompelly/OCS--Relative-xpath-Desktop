@@ -1,0 +1,168 @@
+1
+00:00:00,060 --> 00:00:00,061
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,127 --> 00:00:00,127
+1. openBrowser("")
+
+3
+00:00:01,260 --> 00:00:01,261
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:05,786 --> 00:00:05,787
+9. maximizeWindow()
+
+5
+00:00:06,010 --> 00:00:06,011
+13. delay(2)
+
+6
+00:00:08,015 --> 00:00:08,016
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:08,027 --> 00:00:08,028
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:38,800 --> 00:00:38,801
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:39,137 --> 00:00:39,137
+29. delay(2)
+
+10
+00:00:41,143 --> 00:00:41,143
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:43,238 --> 00:00:43,238
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:48,697 --> 00:00:48,697
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:48,992 --> 00:00:48,992
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:49,185 --> 00:00:49,185
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:49,442 --> 00:00:49,443
+53. delay(2)
+
+16
+00:00:51,448 --> 00:00:51,448
+57. refresh()
+
+17
+00:00:51,458 --> 00:00:51,459
+5. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+18
+00:00:57,013 --> 00:00:57,013
+9. delay(2)
+
+19
+00:00:59,017 --> 00:00:59,018
+13. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - Indica dominant"))
+
+20
+00:01:03,323 --> 00:01:03,323
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+21
+00:01:03,387 --> 00:01:03,388
+21. delay(2)
+
+22
+00:01:05,391 --> 00:01:05,396
+25. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_2"))
+
+23
+00:01:05,512 --> 00:01:05,513
+29. delay(2)
+
+24
+00:01:05,515 --> 00:01:05,515
+33. scrollToPosition(570, 49)
+
+25
+00:01:05,515 --> 00:01:05,516
+37. click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_3"), STOP_ON_FAILURE)
+
+26
+00:01:05,516 --> 00:01:05,516
+41. delay(2)
+
+27
+00:01:07,519 --> 00:01:07,519
+45. scrollToPosition(570, 49)
+
+28
+00:01:07,591 --> 00:01:07,591
+49. delay(2)
+
+29
+00:01:09,595 --> 00:01:09,596
+53. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+30
+00:01:09,817 --> 00:01:09,817
+57. delay(2)
+
+31
+00:01:11,821 --> 00:01:11,823
+61. scrollToPosition(570, 49)
+
+32
+00:01:11,846 --> 00:01:11,848
+65. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next"))
+
+33
+00:01:11,988 --> 00:01:11,988
+69. delay(2)
+
+34
+00:01:14,006 --> 00:01:14,007
+73. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+35
+00:01:14,014 --> 00:01:14,015
+77. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider"))
+
+36
+00:01:17,930 --> 00:01:17,931
+81. back()
+
+37
+00:01:22,603 --> 00:01:22,604
+85. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+38
+00:01:22,645 --> 00:01:22,646
+89. delay(4)
+
+39
+00:01:26,649 --> 00:01:26,650
+93. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+40
+00:01:26,651 --> 00:01:26,652
+97. delay(2)
+
+41
+00:01:28,653 --> 00:01:28,654
+101. delay(2)
+
+42
+00:01:30,658 --> 00:01:30,659
+105. click(findTestObject("OCS-DESKTOP/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next - down"))
+

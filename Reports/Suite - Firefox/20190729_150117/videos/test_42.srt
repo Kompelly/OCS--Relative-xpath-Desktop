@@ -1,0 +1,124 @@
+1
+00:00:00,299 --> 00:00:00,301
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,446 --> 00:00:00,447
+1. openBrowser("")
+
+3
+00:00:09,892 --> 00:00:09,893
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:15,992 --> 00:00:15,992
+9. maximizeWindow()
+
+5
+00:00:16,709 --> 00:00:16,710
+13. refresh()
+
+6
+00:00:21,022 --> 00:00:21,022
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:21,272 --> 00:00:21,273
+21. delay(4)
+
+8
+00:00:25,279 --> 00:00:25,280
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:26,136 --> 00:00:26,136
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:26,698 --> 00:00:26,702
+33. delay(2)
+
+11
+00:00:28,709 --> 00:00:28,713
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:30,715 --> 00:00:30,716
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:30,971 --> 00:00:30,972
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:31,279 --> 00:00:31,280
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:31,667 --> 00:00:31,667
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:32,046 --> 00:00:32,047
+57. refresh()
+
+17
+00:00:35,803 --> 00:00:35,804
+61. delay(2)
+
+18
+00:00:37,807 --> 00:00:37,807
+65. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:38,076 --> 00:00:38,076
+69. delay(2)
+
+20
+00:00:40,086 --> 00:00:40,093
+73. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:00:44,610 --> 00:00:44,612
+77. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:44,702 --> 00:00:44,702
+81. delay(2)
+
+23
+00:00:46,708 --> 00:00:46,709
+85. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0)
+
+24
+00:00:46,725 --> 00:00:46,725
+89. delay(2)
+
+25
+00:00:48,728 --> 00:00:48,728
+93. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+
+26
+00:00:51,834 --> 00:00:51,835
+97. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+27
+00:00:51,885 --> 00:00:51,885
+101. delay(2)
+
+28
+00:00:53,917 --> 00:00:53,918
+5. a = getWindowTitle()
+
+29
+00:00:53,950 --> 00:00:53,950
+9. comment("WINDOW TITLE: " + a)
+
+30
+00:00:53,963 --> 00:00:53,966
+13. scrollToElement(findTestObject("OCS-DESKTOP/Product page/How to choose cannabis product - Section"), 2)
+
+31
+00:00:53,990 --> 00:00:53,991
+17. click(findTestObject("OCS-DESKTOP/Product page/Recently Viewed/1st Product - Image"))
+

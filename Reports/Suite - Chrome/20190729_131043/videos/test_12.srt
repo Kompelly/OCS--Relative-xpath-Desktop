@@ -1,0 +1,128 @@
+1
+00:00:00,390 --> 00:00:00,391
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,455 --> 00:00:00,455
+1. openBrowser("")
+
+3
+00:00:02,745 --> 00:00:02,745
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:11,328 --> 00:00:11,329
+9. maximizeWindow()
+
+5
+00:00:11,631 --> 00:00:11,632
+13. refresh()
+
+6
+00:00:12,258 --> 00:00:12,258
+17. delay(2)
+
+7
+00:00:14,264 --> 00:00:14,265
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:18,451 --> 00:00:18,452
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:19,038 --> 00:00:19,039
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:19,809 --> 00:00:19,811
+33. delay(2)
+
+11
+00:00:21,813 --> 00:00:21,814
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:23,535 --> 00:00:23,536
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:23,809 --> 00:00:23,809
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:23,998 --> 00:00:23,999
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:24,178 --> 00:00:24,178
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:24,492 --> 00:00:24,492
+57. delay(2)
+
+17
+00:00:26,494 --> 00:00:26,495
+61. refresh()
+
+18
+00:00:26,504 --> 00:00:26,504
+5. delay(2)
+
+19
+00:00:28,506 --> 00:00:28,508
+9. callTestCase(findTestCase("OCS - DESKTOP/CALL - TOGGLING LANGUAGE"), [:], STOP_ON_FAILURE)
+
+20
+00:00:28,843 --> 00:00:28,850
+1. delay(2)
+
+21
+00:00:30,852 --> 00:00:30,853
+5. click(findTestObject("OCS-DESKTOP/Cart flyout/English dropdown"))
+
+22
+00:00:31,349 --> 00:00:31,350
+9. delay(2)
+
+23
+00:00:33,353 --> 00:00:33,353
+13. click(findTestObject("OCS-DESKTOP/Cart flyout/Select French"))
+
+24
+00:00:33,458 --> 00:00:33,458
+17. delay(5)
+
+25
+00:00:38,464 --> 00:00:38,464
+21. e = getWindowTitle()
+
+26
+00:00:40,930 --> 00:00:40,931
+13. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+27
+00:00:41,166 --> 00:00:41,166
+17. delay(2)
+
+28
+00:00:43,172 --> 00:00:43,172
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+29
+00:00:43,189 --> 00:00:43,190
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+30
+00:00:46,693 --> 00:00:46,694
+29. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+31
+00:00:46,791 --> 00:00:46,792
+33. delay(2)
+
+32
+00:00:48,797 --> 00:00:48,797
+37. click(findTestObject("FRENCH/Product image - 1st one"))
+

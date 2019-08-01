@@ -1,0 +1,36 @@
+1
+00:00:00,203 --> 00:00:00,206
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,286 --> 00:00:00,286
+1. openBrowser("")
+
+3
+00:00:01,813 --> 00:00:01,813
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:04:59,498 --> 00:04:59,502
+9. maximizeWindow()
+
+5
+00:05:00,874 --> 00:05:00,876
+13. refresh()
+
+6
+00:05:06,202 --> 00:05:06,203
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:05:06,252 --> 00:05:06,253
+21. delay(4)
+
+8
+00:05:10,260 --> 00:05:10,261
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:05:11,252 --> 00:05:11,252
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+

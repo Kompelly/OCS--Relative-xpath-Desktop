@@ -58,7 +58,7 @@ not_run: WebUI.click(findTestObject('OCS-DESKTOP/Home - page/view my bag - cart 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Product page/Swatch_3.5g'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('OCS-DESKTOP/Product page/Swatch_7g'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 

@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74380642124')
+
+WebUI.refresh()
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -40,7 +42,7 @@ WebUI.click(findTestObject('OCS-MOBILE /Age gate and burger menu/button_CONFIRM'
 
 WebUI.click(findTestObject('OCS-MOBILE /Age gate and burger menu/button_Start Browsing'))
 
-WebUI.navigateToUrl('https://ocs.ca/products/dream-weaver', FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://ocs.ca/products/city-lights', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

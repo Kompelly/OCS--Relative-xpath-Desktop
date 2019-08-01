@@ -1,0 +1,144 @@
+1
+00:00:00,545 --> 00:00:00,546
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,651 --> 00:00:00,651
+1. openBrowser("")
+
+3
+00:00:02,666 --> 00:00:02,667
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:05,362 --> 00:00:05,362
+9. maximizeWindow()
+
+5
+00:00:05,587 --> 00:00:05,588
+13. refresh()
+
+6
+00:00:11,086 --> 00:00:11,087
+17. delay(2)
+
+7
+00:00:13,091 --> 00:00:13,091
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:13,116 --> 00:00:13,116
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:14,972 --> 00:00:14,972
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:15,624 --> 00:00:15,624
+33. delay(2)
+
+11
+00:00:17,628 --> 00:00:17,628
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:21,670 --> 00:00:21,670
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:21,806 --> 00:00:21,806
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:22,011 --> 00:00:22,012
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:22,164 --> 00:00:22,164
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:22,364 --> 00:00:22,364
+57. delay(2)
+
+17
+00:00:24,369 --> 00:00:24,370
+61. refresh()
+
+18
+00:00:29,262 --> 00:00:29,263
+5. delay(2, CONTINUE_ON_FAILURE)
+
+19
+00:00:31,266 --> 00:00:31,266
+9. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"))
+
+20
+00:00:31,516 --> 00:00:31,516
+13. delay(2)
+
+21
+00:00:33,520 --> 00:00:33,521
+17. click(findTestObject("OCS-DESKTOP/LEARN page/How cannabis works"))
+
+22
+00:00:36,664 --> 00:00:36,664
+21. delay(2, CONTINUE_ON_FAILURE)
+
+23
+00:00:38,669 --> 00:00:38,669
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"))
+
+24
+00:00:38,817 --> 00:00:38,817
+29. delay(2, CONTINUE_ON_FAILURE)
+
+25
+00:00:40,821 --> 00:00:40,822
+33. click(findTestObject("OCS-DESKTOP/LEARN page/The Effects of Cannabis"))
+
+26
+00:00:45,572 --> 00:00:45,575
+37. verifyTextPresent("The Effects of Cannabis", true)
+
+27
+00:00:45,874 --> 00:00:45,874
+41. delay(2)
+
+28
+00:00:47,878 --> 00:00:47,879
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE)
+
+29
+00:00:48,165 --> 00:00:48,165
+49. delay(2, CONTINUE_ON_FAILURE)
+
+30
+00:00:50,171 --> 00:00:50,171
+53. click(findTestObject("OCS-DESKTOP/LEARN page/Endocannabinoids chevron"))
+
+31
+00:00:53,612 --> 00:00:53,613
+57. verifyTextPresent("The Endocannabinoid System", true)
+
+32
+00:00:53,671 --> 00:00:53,672
+61. delay(2)
+
+33
+00:00:55,676 --> 00:00:55,676
+65. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/LEARN menu - En"), CONTINUE_ON_FAILURE)
+
+34
+00:00:55,868 --> 00:00:55,868
+69. delay(2, CONTINUE_ON_FAILURE)
+
+35
+00:00:57,870 --> 00:00:57,870
+73. click(findTestObject("OCS-DESKTOP/LEARN page/Read More -1"))
+
+36
+00:00:58,027 --> 00:00:58,027
+77. verifyTextPresent("The human reaction to cannabis.", false)
+

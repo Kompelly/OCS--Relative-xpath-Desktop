@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//article[@id='product_2108928657228']//a//img</value>
+         <value>//article[@id='product_3610562758476']//div[@class='product-tile__info']//a</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//article[@id='product_2108928657228']//a//img</value>
+      <value>//article[@id='product_3610562758476']//div[@class='product-tile__info']//a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

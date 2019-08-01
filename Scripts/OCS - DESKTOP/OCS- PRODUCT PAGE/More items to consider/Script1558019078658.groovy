@@ -110,24 +110,24 @@ WebUI.back()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OCS-DESKTOP/Product page/More items to consider section/Chronic- Tab'))
+not_run: WebUI.click(findTestObject('OCS-DESKTOP/Product page/More items to consider section/Chronic- Tab'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
+not_run: WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
 
-WebUI.click(findTestObject('OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Chronic'))
+not_run: WebUI.click(findTestObject('OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Chronic'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot()
+not_run: WebUI.takeScreenshot()
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-WebUI.back()
+not_run: WebUI.back()
 

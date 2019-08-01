@@ -1,0 +1,8 @@
+1
+00:00:00,088 --> 00:00:00,091
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,153 --> 00:00:00,153
+1. openBrowser("")
+

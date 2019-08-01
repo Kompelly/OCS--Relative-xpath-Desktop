@@ -1,0 +1,92 @@
+1
+00:00:00,996 --> 00:00:01,105
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - Navigate to PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,270 --> 00:00:01,270
+1. openBrowser("")
+
+3
+00:00:14,166 --> 00:00:14,166
+5. maximizeWindow()
+
+4
+00:00:15,563 --> 00:00:15,564
+9. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+5
+00:00:18,725 --> 00:00:18,726
+13. refresh()
+
+6
+00:00:19,029 --> 00:00:19,029
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:20,930 --> 00:00:20,932
+21. delay(4)
+
+8
+00:00:24,940 --> 00:00:24,943
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:29,070 --> 00:00:29,070
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:35,827 --> 00:00:35,828
+33. delay(2)
+
+11
+00:00:37,830 --> 00:00:37,831
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:01:25,878 --> 00:01:25,880
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:01:26,510 --> 00:01:26,517
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:01:27,164 --> 00:01:27,164
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:01:27,423 --> 00:01:27,424
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:01:27,668 --> 00:01:27,672
+57. delay(2)
+
+17
+00:01:29,684 --> 00:01:29,685
+61. navigateToUrl("https://ocs.ca/products/la-confidential")
+
+18
+00:01:37,289 --> 00:01:37,290
+65. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+19
+00:01:37,336 --> 00:01:37,336
+5. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+20
+00:01:37,345 --> 00:01:37,346
+9. delay(2)
+
+21
+00:01:39,356 --> 00:01:39,357
+13. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:01:39,462 --> 00:01:39,463
+17. flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"), 0)
+
+23
+00:01:39,577 --> 00:01:39,577
+21. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+

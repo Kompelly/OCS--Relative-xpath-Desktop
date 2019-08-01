@@ -1,0 +1,84 @@
+1
+00:00:01,338 --> 00:00:01,343
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,510 --> 00:00:01,510
+1. openBrowser("")
+
+3
+00:00:04,562 --> 00:00:04,563
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:14,707 --> 00:00:14,708
+9. maximizeWindow()
+
+5
+00:00:14,943 --> 00:00:14,944
+13. delay(2)
+
+6
+00:00:16,947 --> 00:00:16,947
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:16,962 --> 00:00:16,963
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:18,162 --> 00:00:18,163
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:19,056 --> 00:00:19,057
+29. delay(2)
+
+10
+00:00:21,065 --> 00:00:21,066
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:23,176 --> 00:00:23,177
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:23,408 --> 00:00:23,408
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:23,559 --> 00:00:23,559
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:23,736 --> 00:00:23,736
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:24,007 --> 00:00:24,007
+53. delay(2)
+
+16
+00:00:26,011 --> 00:00:26,012
+57. refresh()
+
+17
+00:00:32,745 --> 00:00:32,747
+5. flag = verifyTextPresent("Due to holiday closures within the Canada Post network for Victoria Day, please expect some order delivery delays.", false, CONTINUE_ON_FAILURE)
+
+18
+00:00:38,099 --> 00:00:38,100
+9. delay(2)
+
+19
+00:00:40,108 --> 00:00:40,109
+13. comment("flag =" + flag)
+
+20
+00:00:40,121 --> 00:00:40,126
+17. if (flag == false)
+
+21
+00:00:40,126 --> 00:00:40,128
+1. comment(" there is no  announcment ")
+

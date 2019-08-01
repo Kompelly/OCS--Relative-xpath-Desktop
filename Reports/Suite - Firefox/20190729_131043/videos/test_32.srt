@@ -1,0 +1,196 @@
+1
+00:00:00,395 --> 00:00:00,396
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,462 --> 00:00:00,464
+1. openBrowser("")
+
+3
+00:00:10,663 --> 00:00:10,663
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:16,065 --> 00:00:16,066
+9. maximizeWindow()
+
+5
+00:00:17,225 --> 00:00:17,225
+13. refresh()
+
+6
+00:00:21,108 --> 00:00:21,108
+17. delay(2)
+
+7
+00:00:23,113 --> 00:00:23,113
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:23,124 --> 00:00:23,125
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:24,066 --> 00:00:24,067
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:24,719 --> 00:00:24,720
+33. delay(2)
+
+11
+00:00:26,722 --> 00:00:26,722
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:29,124 --> 00:00:29,124
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:29,438 --> 00:00:29,438
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:29,724 --> 00:00:29,724
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:30,054 --> 00:00:30,055
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:30,443 --> 00:00:30,444
+57. delay(2)
+
+17
+00:00:32,448 --> 00:00:32,449
+61. refresh()
+
+18
+00:00:36,624 --> 00:00:36,625
+5. delay(2)
+
+19
+00:00:38,629 --> 00:00:38,630
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+20
+00:00:38,639 --> 00:00:38,640
+13. delay(2)
+
+21
+00:00:40,641 --> 00:00:40,641
+17. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/FAQ menu - En"))
+
+22
+00:00:43,874 --> 00:00:43,875
+21. delay(2)
+
+23
+00:00:45,880 --> 00:00:45,880
+25. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+24
+00:00:45,888 --> 00:00:45,889
+29. scrollToElement(findTestObject("OCS-MOBILE /FAQ page/scroll view element"), 0)
+
+25
+00:00:45,890 --> 00:00:45,890
+33. delay(1)
+
+26
+00:00:46,894 --> 00:00:46,896
+37. click(findTestObject("OCS-DESKTOP/FAQ page/Dropdown button -First chevron -open- FAQ"))
+
+27
+00:00:47,174 --> 00:00:47,174
+41. delay(1)
+
+28
+00:00:48,177 --> 00:00:48,178
+45. click(findTestObject("OCS-DESKTOP/FAQ page/Dropdown button -First chevron - close -FAQ"))
+
+29
+00:00:48,421 --> 00:00:48,422
+49. delay(1, OPTIONAL)
+
+30
+00:00:49,425 --> 00:00:49,426
+53. click(findTestObject("OCS-DESKTOP/FAQ page/First accordian - add"))
+
+31
+00:00:49,678 --> 00:00:49,678
+57. delay(1)
+
+32
+00:00:50,683 --> 00:00:50,683
+61. click(findTestObject("OCS-DESKTOP/FAQ page/First accordian - Subtract"))
+
+33
+00:00:50,920 --> 00:00:50,921
+65. delay(1)
+
+34
+00:00:51,926 --> 00:00:51,926
+69. click(findTestObject("OCS-DESKTOP/FAQ page/Second accordian- add"))
+
+35
+00:00:52,165 --> 00:00:52,165
+73. delay(1)
+
+36
+00:00:53,167 --> 00:00:53,168
+77. click(findTestObject("OCS-DESKTOP/FAQ page/Second accordian - subtract"))
+
+37
+00:00:53,408 --> 00:00:53,408
+81. delay(1)
+
+38
+00:00:54,410 --> 00:00:54,410
+85. click(findTestObject("OCS-DESKTOP/FAQ page/Load more1"))
+
+39
+00:00:54,685 --> 00:00:54,685
+89. delay(1)
+
+40
+00:00:55,687 --> 00:00:55,688
+93. click(findTestObject("OCS-DESKTOP/FAQ page/Loadmore2"))
+
+41
+00:00:55,933 --> 00:00:55,933
+97. delay(1)
+
+42
+00:00:56,938 --> 00:00:56,938
+101. click(findTestObject("OCS-DESKTOP/FAQ page/Loadmore3"))
+
+43
+00:00:57,181 --> 00:00:57,182
+105. delay(1)
+
+44
+00:00:58,182 --> 00:00:58,183
+109. click(findTestObject("OCS-DESKTOP/FAQ page/Learn about cannabis"))
+
+45
+00:01:00,400 --> 00:01:00,401
+113. delay(1, OPTIONAL)
+
+46
+00:01:01,406 --> 00:01:01,407
+117. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+47
+00:01:01,416 --> 00:01:01,416
+121. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/FAQ menu - En"))
+
+48
+00:01:04,219 --> 00:01:04,220
+125. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+49
+00:01:04,244 --> 00:01:04,244
+129. click(findTestObject("OCS-DESKTOP/FAQ page/Loadmore4"))
+

@@ -1,0 +1,504 @@
+1
+00:00:01,662 --> 00:00:01,667
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,740 --> 00:00:01,740
+1. openBrowser("")
+
+3
+00:00:11,377 --> 00:00:11,378
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:17,634 --> 00:00:17,635
+9. maximizeWindow()
+
+5
+00:00:18,481 --> 00:00:18,482
+13. delay(2)
+
+6
+00:00:20,488 --> 00:00:20,488
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:20,505 --> 00:00:20,506
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:21,701 --> 00:00:21,702
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:22,306 --> 00:00:22,310
+29. delay(2)
+
+10
+00:00:24,316 --> 00:00:24,318
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:27,274 --> 00:00:27,274
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:27,534 --> 00:00:27,535
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:27,842 --> 00:00:27,843
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:28,118 --> 00:00:28,118
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:28,743 --> 00:00:28,743
+53. delay(2)
+
+16
+00:00:30,753 --> 00:00:30,754
+57. refresh()
+
+17
+00:00:34,465 --> 00:00:34,465
+5. delay(2)
+
+18
+00:00:36,469 --> 00:00:36,470
+9. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+19
+00:00:36,873 --> 00:00:36,873
+13. delay(2, CONTINUE_ON_FAILURE)
+
+20
+00:00:38,877 --> 00:00:38,880
+17. delay(1, CONTINUE_ON_FAILURE)
+
+21
+00:00:39,882 --> 00:00:39,883
+21. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower"))
+
+22
+00:00:44,465 --> 00:00:44,465
+25. delay(1, CONTINUE_ON_FAILURE)
+
+23
+00:00:45,468 --> 00:00:45,468
+29. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+24
+00:00:45,752 --> 00:00:45,752
+33. delay(1, CONTINUE_ON_FAILURE)
+
+25
+00:00:46,754 --> 00:00:46,754
+37. delay(1, CONTINUE_ON_FAILURE)
+
+26
+00:00:47,756 --> 00:00:47,757
+41. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant"))
+
+27
+00:00:51,081 --> 00:00:51,082
+45. delay(1, CONTINUE_ON_FAILURE)
+
+28
+00:00:52,084 --> 00:00:52,085
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+29
+00:00:53,606 --> 00:00:53,607
+53. delay(2, CONTINUE_ON_FAILURE)
+
+30
+00:00:55,610 --> 00:00:55,610
+57. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - sativa dominant"))
+
+31
+00:00:59,576 --> 00:00:59,578
+61. delay(1, CONTINUE_ON_FAILURE)
+
+32
+00:01:00,580 --> 00:01:00,588
+65. delay(1, CONTINUE_ON_FAILURE)
+
+33
+00:01:01,591 --> 00:01:01,592
+69. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+34
+00:01:01,993 --> 00:01:01,994
+73. delay(2, CONTINUE_ON_FAILURE)
+
+35
+00:01:04,000 --> 00:01:04,000
+77. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Hybrid"))
+
+36
+00:01:06,723 --> 00:01:06,724
+81. delay(1, CONTINUE_ON_FAILURE)
+
+37
+00:01:07,741 --> 00:01:07,741
+85. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+38
+00:01:08,767 --> 00:01:08,767
+89. delay(1, CONTINUE_ON_FAILURE)
+
+39
+00:01:09,769 --> 00:01:09,770
+93. delay(1, CONTINUE_ON_FAILURE)
+
+40
+00:01:10,774 --> 00:01:10,776
+97. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop all dried flower"))
+
+41
+00:01:15,408 --> 00:01:15,409
+101. delay(1, CONTINUE_ON_FAILURE)
+
+42
+00:01:16,414 --> 00:01:16,418
+105. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+43
+00:01:16,797 --> 00:01:16,800
+109. delay(2, CONTINUE_ON_FAILURE)
+
+44
+00:01:18,818 --> 00:01:18,819
+113. delay(1, CONTINUE_ON_FAILURE)
+
+45
+00:01:19,844 --> 00:01:19,845
+117. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - Plus accordian"))
+
+46
+00:01:24,018 --> 00:01:24,021
+121. delay(1, CONTINUE_ON_FAILURE)
+
+47
+00:01:25,024 --> 00:01:25,025
+125. delay(1, CONTINUE_ON_FAILURE)
+
+48
+00:01:26,031 --> 00:01:26,031
+129. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+49
+00:01:26,519 --> 00:01:26,522
+133. delay(1, CONTINUE_ON_FAILURE)
+
+50
+00:01:27,525 --> 00:01:27,525
+137. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - Indica dominant"))
+
+51
+00:01:30,756 --> 00:01:30,757
+141. delay(1, CONTINUE_ON_FAILURE)
+
+52
+00:01:31,758 --> 00:01:31,759
+145. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+53
+00:01:32,243 --> 00:01:32,244
+149. delay(2, CONTINUE_ON_FAILURE)
+
+54
+00:01:34,250 --> 00:01:34,251
+153. delay(1, CONTINUE_ON_FAILURE)
+
+55
+00:01:35,254 --> 00:01:35,254
+157. delay(1, CONTINUE_ON_FAILURE)
+
+56
+00:01:36,261 --> 00:01:36,262
+161. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - sativa dominant"))
+
+57
+00:01:39,181 --> 00:01:39,182
+165. delay(1, CONTINUE_ON_FAILURE)
+
+58
+00:01:40,183 --> 00:01:40,184
+169. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+59
+00:01:41,484 --> 00:01:41,485
+173. delay(2, CONTINUE_ON_FAILURE)
+
+60
+00:01:43,487 --> 00:01:43,491
+177. delay(1, CONTINUE_ON_FAILURE)
+
+61
+00:01:44,505 --> 00:01:44,507
+181. delay(1, CONTINUE_ON_FAILURE)
+
+62
+00:01:45,511 --> 00:01:45,512
+185. click(findTestObject("OCS-DESKTOP/Cannabis page/Prerolled - Hybrid"))
+
+63
+00:01:48,864 --> 00:01:48,864
+189. delay(1, CONTINUE_ON_FAILURE)
+
+64
+00:01:49,866 --> 00:01:49,878
+193. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+65
+00:01:51,100 --> 00:01:51,101
+197. delay(2, CONTINUE_ON_FAILURE)
+
+66
+00:01:53,106 --> 00:01:53,108
+201. delay(1, CONTINUE_ON_FAILURE)
+
+67
+00:01:54,111 --> 00:01:54,112
+205. delay(1, CONTINUE_ON_FAILURE)
+
+68
+00:01:55,117 --> 00:01:55,119
+209. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop all prerolled"))
+
+69
+00:01:59,305 --> 00:01:59,307
+213. delay(1, CONTINUE_ON_FAILURE)
+
+70
+00:02:00,312 --> 00:02:00,313
+217. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+71
+00:02:00,599 --> 00:02:00,604
+221. delay(2, CONTINUE_ON_FAILURE)
+
+72
+00:02:02,606 --> 00:02:02,608
+225. delay(1, CONTINUE_ON_FAILURE)
+
+73
+00:02:03,699 --> 00:02:03,700
+229. delay(1, CONTINUE_ON_FAILURE)
+
+74
+00:02:04,703 --> 00:02:04,704
+233. click(findTestObject("OCS-DESKTOP/Cannabis page/Oils - plus accordian"))
+
+75
+00:02:07,614 --> 00:02:07,616
+237. delay(1, CONTINUE_ON_FAILURE)
+
+76
+00:02:08,618 --> 00:02:08,620
+241. delay(1, CONTINUE_ON_FAILURE)
+
+77
+00:02:09,626 --> 00:02:09,631
+245. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+78
+00:02:10,018 --> 00:02:10,019
+249. delay(1, CONTINUE_ON_FAILURE)
+
+79
+00:02:11,021 --> 00:02:11,022
+253. click(findTestObject("OCS-DESKTOP/Cannabis page/Oils - Bottled oils"))
+
+80
+00:02:14,561 --> 00:02:14,562
+257. delay(1, CONTINUE_ON_FAILURE)
+
+81
+00:02:15,565 --> 00:02:15,566
+261. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+82
+00:02:16,691 --> 00:02:16,695
+265. delay(2, CONTINUE_ON_FAILURE)
+
+83
+00:02:18,696 --> 00:02:18,697
+269. delay(1, CONTINUE_ON_FAILURE)
+
+84
+00:02:19,703 --> 00:02:19,703
+273. delay(1, CONTINUE_ON_FAILURE)
+
+85
+00:02:20,705 --> 00:02:20,705
+277. click(findTestObject("OCS-DESKTOP/Cannabis page/Oils - oral sprays"))
+
+86
+00:02:25,571 --> 00:02:25,572
+281. delay(1, CONTINUE_ON_FAILURE)
+
+87
+00:02:26,583 --> 00:02:26,586
+285. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+88
+00:02:27,004 --> 00:02:27,004
+289. delay(2, CONTINUE_ON_FAILURE)
+
+89
+00:02:29,009 --> 00:02:29,010
+293. delay(1, CONTINUE_ON_FAILURE)
+
+90
+00:02:30,012 --> 00:02:30,013
+297. delay(1, CONTINUE_ON_FAILURE)
+
+91
+00:02:31,014 --> 00:02:31,015
+301. click(findTestObject("OCS-DESKTOP/Cannabis page/shop all oils"))
+
+92
+00:02:33,723 --> 00:02:33,728
+305. delay(1, CONTINUE_ON_FAILURE)
+
+93
+00:02:34,743 --> 00:02:34,743
+309. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+94
+00:02:35,337 --> 00:02:35,338
+313. delay(2, CONTINUE_ON_FAILURE)
+
+95
+00:02:37,344 --> 00:02:37,345
+317. delay(1, CONTINUE_ON_FAILURE)
+
+96
+00:02:38,350 --> 00:02:38,351
+321. click(findTestObject("MOBILE OBJECTS/Capsules chevron"))
+
+97
+00:02:41,396 --> 00:02:41,399
+325. delay(1, CONTINUE_ON_FAILURE)
+
+98
+00:02:42,405 --> 00:02:42,407
+329. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+99
+00:02:43,784 --> 00:02:43,785
+333. delay(2, CONTINUE_ON_FAILURE)
+
+100
+00:02:45,787 --> 00:02:45,788
+337. delay(1, CONTINUE_ON_FAILURE)
+
+101
+00:02:46,794 --> 00:02:46,795
+341. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop by plant type - plus accordian"))
+
+102
+00:02:46,802 --> 00:02:46,819
+345. delay(1, CONTINUE_ON_FAILURE)
+
+103
+00:02:47,841 --> 00:02:47,844
+349. delay(1, CONTINUE_ON_FAILURE)
+
+104
+00:02:48,851 --> 00:02:48,852
+353. delay(1, CONTINUE_ON_FAILURE)
+
+105
+00:02:49,856 --> 00:02:49,860
+357. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop by plant type - Indica dominant"))
+
+106
+00:02:53,177 --> 00:02:53,178
+361. delay(1, CONTINUE_ON_FAILURE)
+
+107
+00:02:54,181 --> 00:02:54,182
+365. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+108
+00:02:54,948 --> 00:02:54,950
+369. delay(2, CONTINUE_ON_FAILURE)
+
+109
+00:02:56,952 --> 00:02:56,952
+373. delay(1, CONTINUE_ON_FAILURE)
+
+110
+00:02:57,956 --> 00:02:57,957
+377. delay(1, CONTINUE_ON_FAILURE)
+
+111
+00:02:58,961 --> 00:02:58,961
+381. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop by plant type - sativa dominant"))
+
+112
+00:03:01,729 --> 00:03:01,730
+385. delay(1, CONTINUE_ON_FAILURE)
+
+113
+00:03:02,732 --> 00:03:02,732
+389. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+114
+00:03:03,390 --> 00:03:03,392
+393. delay(2, CONTINUE_ON_FAILURE)
+
+115
+00:03:05,394 --> 00:03:05,394
+397. delay(1, CONTINUE_ON_FAILURE)
+
+116
+00:03:06,398 --> 00:03:06,405
+401. delay(1, CONTINUE_ON_FAILURE)
+
+117
+00:03:07,408 --> 00:03:07,409
+405. click(findTestObject("OCS-DESKTOP/Cannabis page/Shop by plant type - Hybrid"))
+
+118
+00:03:13,537 --> 00:03:13,541
+409. delay(1, CONTINUE_ON_FAILURE)
+
+119
+00:03:14,551 --> 00:03:14,551
+413. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+120
+00:03:15,431 --> 00:03:15,432
+417. delay(2, CONTINUE_ON_FAILURE)
+
+121
+00:03:17,434 --> 00:03:17,434
+421. delay(1, CONTINUE_ON_FAILURE)
+
+122
+00:03:18,439 --> 00:03:18,440
+425. click(findTestObject("OCS-DESKTOP/Cannabis page/Collections - plus accordian"))
+
+123
+00:03:18,442 --> 00:03:18,442
+429. delay(1, CONTINUE_ON_FAILURE)
+
+124
+00:03:19,447 --> 00:03:19,448
+433. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"), CONTINUE_ON_FAILURE)
+
+125
+00:03:20,022 --> 00:03:20,023
+437. delay(1, CONTINUE_ON_FAILURE)
+
+126
+00:03:21,029 --> 00:03:21,038
+441. click(findTestObject("OCS-DESKTOP/Cannabis page/Collections- New products"))
+

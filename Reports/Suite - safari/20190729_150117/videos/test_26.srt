@@ -1,0 +1,88 @@
+1
+00:00:00,270 --> 00:00:00,270
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,346 --> 00:00:00,347
+1. openBrowser("")
+
+3
+00:00:02,736 --> 00:00:02,737
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:06,286 --> 00:00:06,286
+9. maximizeWindow()
+
+5
+00:00:06,591 --> 00:00:06,592
+13. refresh()
+
+6
+00:00:14,539 --> 00:00:14,539
+17. delay(2)
+
+7
+00:00:16,549 --> 00:00:16,550
+21. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+8
+00:00:17,691 --> 00:00:17,693
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:34,797 --> 00:00:34,797
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:37,195 --> 00:00:37,196
+33. delay(2)
+
+11
+00:00:39,204 --> 00:00:39,204
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:54,795 --> 00:00:54,796
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:55,165 --> 00:00:55,167
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:56,440 --> 00:00:56,440
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:56,633 --> 00:00:56,633
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:56,982 --> 00:00:56,982
+57. delay(2)
+
+17
+00:00:58,993 --> 00:00:58,994
+61. refresh()
+
+18
+00:01:04,264 --> 00:01:04,278
+5. delay(2)
+
+19
+00:01:06,284 --> 00:01:06,284
+9. flag = verifyElementPresent(findTestObject("OCS-DESKTOP/Home - page/Retail stores link"), 0, CONTINUE_ON_FAILURE)
+
+20
+00:01:49,396 --> 00:01:49,402
+13. comment("flag=" + flag)
+
+21
+00:01:49,432 --> 00:01:49,432
+17. if (flag == true)
+
+22
+00:01:49,441 --> 00:01:49,441
+2. comment("There is no retail stores link ")
+

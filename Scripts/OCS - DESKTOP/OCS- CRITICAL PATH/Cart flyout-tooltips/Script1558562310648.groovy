@@ -55,8 +55,6 @@ WebUI.delay(1)
 
 WebUI.mouseOver(findTestObject('OCS-DESKTOP/Cart flyout/tool tip - TOP'))
 
-WebUI.delay(3)
-
 WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('OCS-DESKTOP/Cart flyout/tool tip -DOWN'))

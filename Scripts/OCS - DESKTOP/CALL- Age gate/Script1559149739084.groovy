@@ -15,9 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74380642124')
 
 WebUI.maximizeWindow()
+
+WebUI.refresh()
 
 WebUI.delay(2)
 

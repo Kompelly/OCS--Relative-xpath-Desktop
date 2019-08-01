@@ -17,7 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74209363788')
+WebUI.navigateToUrl('https://ocs.ca/?fts=0&preview_theme_id=74380642124')
+
+WebUI.refresh()
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])
@@ -42,7 +44,7 @@ WebUI.click(findTestObject('OCS-DESKTOP/Age gate and Mega menu/button_Start Brow
 
 WebUI.delay(2)
 
-WebUI.navigateToUrl('https://ocs.ca/products/la-confidential')
+WebUI.navigateToUrl('https://ocs.ca/products/city-lights')
 
 WebUI.executeJavaScript('var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";', 
     [])

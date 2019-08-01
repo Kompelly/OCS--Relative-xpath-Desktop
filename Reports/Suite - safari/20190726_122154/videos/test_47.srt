@@ -1,0 +1,176 @@
+1
+00:00:00,345 --> 00:00:00,346
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL- Age gate"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,431 --> 00:00:00,432
+1. openBrowser("")
+
+3
+00:00:02,318 --> 00:00:02,318
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:07,892 --> 00:00:07,892
+9. maximizeWindow()
+
+5
+00:00:08,107 --> 00:00:08,109
+13. delay(2)
+
+6
+00:00:10,113 --> 00:00:10,113
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:10,124 --> 00:00:10,124
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:10,662 --> 00:00:10,663
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:10,990 --> 00:00:10,991
+29. delay(2)
+
+10
+00:00:12,994 --> 00:00:12,994
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:14,585 --> 00:00:14,586
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:14,752 --> 00:00:14,754
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:14,868 --> 00:00:14,869
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:14,953 --> 00:00:14,954
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:15,188 --> 00:00:15,188
+53. delay(2)
+
+16
+00:00:17,198 --> 00:00:17,199
+57. refresh()
+
+17
+00:00:17,214 --> 00:00:17,215
+5. delay(2)
+
+18
+00:00:19,219 --> 00:00:19,220
+9. click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English"))
+
+19
+00:00:19,226 --> 00:00:19,226
+13. delay(2)
+
+20
+00:00:21,231 --> 00:00:21,232
+17. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Chevron_Cannabis"))
+
+21
+00:00:26,748 --> 00:00:26,748
+21. delay(2)
+
+22
+00:00:28,753 --> 00:00:28,754
+25. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Dried Flower_Plus icon"))
+
+23
+00:00:28,755 --> 00:00:28,755
+29. delay(2)
+
+24
+00:00:30,759 --> 00:00:30,759
+33. click(findTestObject("OCS-DESKTOP/Cannabis page/Dried flower - Indica dominant"))
+
+25
+00:00:40,658 --> 00:00:40,658
+37. delay(2)
+
+26
+00:00:42,661 --> 00:00:42,661
+41. click(findTestObject("OCS-DESKTOP/Collection page/sort option"))
+
+27
+00:00:47,859 --> 00:00:47,859
+45. delay(1)
+
+28
+00:00:48,860 --> 00:00:48,861
+49. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+29
+00:00:48,868 --> 00:00:48,868
+53. click(findTestObject("OCS-DESKTOP/Collection page/Price Low to High"))
+
+30
+00:00:54,220 --> 00:00:54,222
+57. delay(1)
+
+31
+00:00:55,223 --> 00:00:55,223
+61. refresh()
+
+32
+00:00:55,232 --> 00:00:55,233
+65. delay(1)
+
+33
+00:00:56,238 --> 00:00:56,239
+69. callTestCase(findTestCase("OCS - DESKTOP/OCS-COLLECTION PAGE/calling test case"), [:], STOP_ON_FAILURE)
+
+34
+00:00:56,474 --> 00:00:56,475
+1. delay(2)
+
+35
+00:00:56,476 --> 00:00:56,476
+5. click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English"))
+
+36
+00:00:56,477 --> 00:00:56,479
+9. delay(2)
+
+37
+00:00:56,480 --> 00:00:56,480
+13. click(findTestObject("OCS-MOBILE /Cannabis page/Cannabis chevron"))
+
+38
+00:00:56,481 --> 00:00:56,481
+17. delay(2)
+
+39
+00:00:56,481 --> 00:00:56,481
+21. click(findTestObject("OCS-MOBILE /Cannabis page/Dried flower - plus accordian"))
+
+40
+00:00:56,482 --> 00:00:56,482
+25. delay(2)
+
+41
+00:00:56,483 --> 00:00:56,483
+29. click(findTestObject("OCS-MOBILE /Cannabis page/Dried flower - Indica dominant"))
+
+42
+00:00:56,483 --> 00:00:56,484
+33. delay(2)
+
+43
+00:00:56,484 --> 00:00:56,485
+37. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/scroll element"), 0)
+
+44
+00:00:57,643 --> 00:00:57,644
+41. click(findTestObject("OCS-DESKTOP/Collection page/sort option"))
+

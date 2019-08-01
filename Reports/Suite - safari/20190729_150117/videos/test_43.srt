@@ -1,0 +1,224 @@
+1
+00:00:00,056 --> 00:00:00,057
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,119 --> 00:00:00,119
+1. openBrowser("")
+
+3
+00:00:01,213 --> 00:00:01,214
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74380642124")
+
+4
+00:00:03,425 --> 00:00:03,425
+9. maximizeWindow()
+
+5
+00:00:03,560 --> 00:00:03,560
+13. refresh()
+
+6
+00:00:08,703 --> 00:00:08,703
+17. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+7
+00:00:08,711 --> 00:00:08,711
+21. delay(4)
+
+8
+00:00:12,712 --> 00:00:12,712
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+9
+00:00:13,513 --> 00:00:13,514
+29. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+10
+00:00:13,959 --> 00:00:13,959
+33. delay(2)
+
+11
+00:00:15,963 --> 00:00:15,963
+37. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+12
+00:00:18,271 --> 00:00:18,271
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+13
+00:00:18,357 --> 00:00:18,357
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+14
+00:00:18,452 --> 00:00:18,452
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+15
+00:00:18,503 --> 00:00:18,503
+53. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+16
+00:00:18,558 --> 00:00:18,558
+57. refresh()
+
+17
+00:00:24,253 --> 00:00:24,254
+61. delay(2)
+
+18
+00:00:26,258 --> 00:00:26,258
+65. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+19
+00:00:26,353 --> 00:00:26,353
+69. delay(2)
+
+20
+00:00:28,356 --> 00:00:28,357
+73. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+21
+00:00:30,527 --> 00:00:30,528
+77. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+22
+00:00:30,596 --> 00:00:30,596
+81. delay(2)
+
+23
+00:00:32,606 --> 00:00:32,607
+85. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0)
+
+24
+00:00:32,655 --> 00:00:32,656
+89. delay(2)
+
+25
+00:00:34,657 --> 00:00:34,657
+93. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+
+26
+00:00:38,644 --> 00:00:38,644
+97. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+27
+00:00:38,659 --> 00:00:38,660
+101. delay(2)
+
+28
+00:00:40,665 --> 00:00:40,665
+5. navigateToUrl("https://ocs.ca/products/lola-montes-edison")
+
+29
+00:00:44,703 --> 00:00:44,703
+9. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+30
+00:00:44,752 --> 00:00:44,753
+13. delay(2)
+
+31
+00:00:46,756 --> 00:00:46,758
+17. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Product image"), 1)
+
+32
+00:00:46,759 --> 00:00:46,759
+21. delay(2)
+
+33
+00:00:48,762 --> 00:00:48,762
+25. flag1 = verifyElementClickable(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"))
+
+34
+00:00:48,810 --> 00:00:48,811
+29. comment("flag1=" + flag1)
+
+35
+00:00:48,811 --> 00:00:48,811
+33. if (flag1 == true)
+
+36
+00:00:48,811 --> 00:00:48,811
+1. delay(2)
+
+37
+00:00:50,816 --> 00:00:50,816
+5. click(findTestObject("OCS-DESKTOP/Product page/Swatch_1g"), CONTINUE_ON_FAILURE)
+
+38
+00:00:50,903 --> 00:00:50,904
+9. delay(3)
+
+39
+00:00:53,906 --> 00:00:53,906
+13. delay(1)
+
+40
+00:00:54,913 --> 00:00:54,913
+17. takeScreenshot()
+
+41
+00:00:55,014 --> 00:00:55,015
+21. delay(1)
+
+42
+00:00:56,018 --> 00:00:56,019
+37. flag2 = verifyElementClickable(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"))
+
+43
+00:00:56,058 --> 00:00:56,058
+41. comment("flag2=" + flag2)
+
+44
+00:00:56,059 --> 00:00:56,059
+45. if (flag2 == true)
+
+45
+00:00:56,059 --> 00:00:56,059
+1. click(findTestObject("OCS-DESKTOP/Product page/Swatch_3.5g"), CONTINUE_ON_FAILURE)
+
+46
+00:00:56,153 --> 00:00:56,153
+5. delay(1)
+
+47
+00:00:57,157 --> 00:00:57,157
+9. takeScreenshot()
+
+48
+00:00:57,214 --> 00:00:57,214
+13. delay(1)
+
+49
+00:00:58,219 --> 00:00:58,220
+49. flag3 = verifyElementClickable(findTestObject("OCS-DESKTOP/Product page/Swatch_7g"))
+
+50
+00:00:58,262 --> 00:00:58,263
+53. comment("flag3=" + flag3)
+
+51
+00:00:58,263 --> 00:00:58,263
+57. if (flag3 == true)
+
+52
+00:00:58,263 --> 00:00:58,263
+1. click(findTestObject("OCS-DESKTOP/Product page/Swatch_7g"), CONTINUE_ON_FAILURE)
+
+53
+00:00:58,363 --> 00:00:58,363
+5. delay(1)
+
+54
+00:00:59,368 --> 00:00:59,369
+9. takeScreenshot()
+
+55
+00:00:59,460 --> 00:00:59,461
+13. delay(1)
+
+56
+00:01:00,463 --> 00:01:00,463
+17. closeBrowser()
+

@@ -1,0 +1,68 @@
+1
+00:00:00,588 --> 00:00:00,591
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,696 --> 00:00:00,697
+1. openBrowser("")
+
+3
+00:00:02,712 --> 00:00:02,712
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:10,120 --> 00:00:10,120
+9. maximizeWindow()
+
+5
+00:00:10,347 --> 00:00:10,347
+13. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+6
+00:00:10,399 --> 00:00:10,399
+17. delay(4)
+
+7
+00:00:14,403 --> 00:00:14,404
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:15,109 --> 00:00:15,109
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:15,482 --> 00:00:15,483
+29. delay(2)
+
+10
+00:00:17,495 --> 00:00:17,496
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:19,157 --> 00:00:19,158
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:24,413 --> 00:00:24,414
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:29,532 --> 00:00:29,533
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:35,050 --> 00:00:35,051
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:41,142 --> 00:00:41,143
+53. refresh()
+
+16
+00:00:41,161 --> 00:00:41,161
+57. delay(2)
+
+17
+00:00:43,166 --> 00:00:43,167
+61. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+

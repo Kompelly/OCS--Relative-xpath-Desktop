@@ -1,0 +1,172 @@
+1
+00:00:00,731 --> 00:00:00,732
+1. callTestCase(findTestCase("OCS - DESKTOP/CALL - PDP"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,813 --> 00:00:00,813
+1. openBrowser("")
+
+3
+00:00:03,345 --> 00:00:03,345
+5. navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=74210314060")
+
+4
+00:00:12,527 --> 00:00:12,527
+9. maximizeWindow()
+
+5
+00:00:12,745 --> 00:00:12,746
+13. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+6
+00:00:12,803 --> 00:00:12,804
+17. delay(4)
+
+7
+00:00:16,808 --> 00:00:16,808
+21. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Date"), "12", true)
+
+8
+00:00:17,531 --> 00:00:17,532
+25. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/month"), "6", true)
+
+9
+00:00:17,883 --> 00:00:17,883
+29. delay(2)
+
+10
+00:00:19,894 --> 00:00:19,895
+33. selectOptionByValue(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Year Dropdown"), "1990", true)
+
+11
+00:00:21,924 --> 00:00:21,925
+37. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Verify"))
+
+12
+00:00:22,314 --> 00:00:22,315
+41. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Checkbox_CONFIRM AND ACKNOWLEDGE"))
+
+13
+00:00:22,545 --> 00:00:22,545
+45. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_CONFIRM"))
+
+14
+00:00:22,659 --> 00:00:22,660
+49. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/button_Start Browsing"))
+
+15
+00:00:22,981 --> 00:00:22,982
+53. refresh()
+
+16
+00:00:23,041 --> 00:00:23,044
+57. delay(2)
+
+17
+00:00:25,049 --> 00:00:25,050
+61. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Header/CANNABIS menu - English"))
+
+18
+00:00:28,666 --> 00:00:28,666
+65. delay(2)
+
+19
+00:00:30,668 --> 00:00:30,668
+69. click(findTestObject("OCS-DESKTOP/Age gate and Mega menu/Indica Dominant_Menu item"))
+
+20
+00:00:36,007 --> 00:00:36,007
+73. delay(2)
+
+21
+00:00:38,012 --> 00:00:38,012
+77. scrollToElement(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"), 0)
+
+22
+00:00:38,069 --> 00:00:38,070
+81. delay(2)
+
+23
+00:00:40,075 --> 00:00:40,077
+85. click(findTestObject("OCS-DESKTOP/Collection page/Product image - 1st one"))
+
+24
+00:00:45,409 --> 00:00:45,410
+89. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+25
+00:00:45,423 --> 00:00:45,424
+93. delay(2)
+
+26
+00:00:47,433 --> 00:00:47,434
+5. scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1)
+
+27
+00:00:47,435 --> 00:00:47,436
+9. click(findTestObject("OCS-DESKTOP/Product page/Learn More - Link"))
+
+28
+00:00:47,565 --> 00:00:47,566
+13. delay(1)
+
+29
+00:00:48,570 --> 00:00:48,571
+17. scrollToElement(findTestObject("OCS-DESKTOP/Product page/Last raw of the table"), 0)
+
+30
+00:00:48,575 --> 00:00:48,576
+21. takeScreenshot()
+
+31
+00:00:49,667 --> 00:00:49,669
+25. delay(1)
+
+32
+00:00:50,675 --> 00:00:50,676
+29. click(findTestObject("OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Grinder"))
+
+33
+00:00:55,244 --> 00:00:55,244
+33. delay(2, STOP_ON_FAILURE)
+
+34
+00:00:57,249 --> 00:00:57,250
+37. takeScreenshot()
+
+35
+00:00:58,445 --> 00:00:58,446
+41. delay(1)
+
+36
+00:00:59,450 --> 00:00:59,451
+45. back()
+
+37
+00:01:04,277 --> 00:01:04,277
+49. delay(2, STOP_ON_FAILURE)
+
+38
+00:01:06,282 --> 00:01:06,283
+53. executeJavaScript("var previewBar = document.getElementById("preview-bar-iframe"); previewBar.style.display = "none";", [])
+
+39
+00:01:06,299 --> 00:01:06,300
+57. click(findTestObject("OCS-DESKTOP/Product page/More items to consider section/Vaporizers - Tab"))
+
+40
+00:01:06,451 --> 00:01:06,453
+61. delay(2)
+
+41
+00:01:08,457 --> 00:01:08,458
+65. takeScreenshot()
+
+42
+00:01:10,311 --> 00:01:10,312
+69. delay(1)
+
+43
+00:01:11,315 --> 00:01:11,315
+73. click(findTestObject("OCS-DESKTOP/Product page/More items to consider section/1st Product - image - Vaporizer"))
+
